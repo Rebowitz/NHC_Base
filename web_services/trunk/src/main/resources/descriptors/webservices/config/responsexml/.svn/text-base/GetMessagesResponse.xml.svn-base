@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:SupportMessagesResponseElement xmlns:tns="http://nhcsys.com/webservices/getmessages/getmessagestypes/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nhcsys.com/webservices/getmessages/getmessagestypes/v1 GetMessagesTypes.xsd ">
+  <tns:CurrentServerTime>2001-12-31T12:00:00</tns:CurrentServerTime>
+  <tns:MessageList>
+    <tns:Message>
+      <tns:ID>tns:ID</tns:ID>
+      <tns:Type>Alert</tns:Type>
+      <tns:StartTime>2001-12-31T12:00:00</tns:StartTime>
+      <tns:EndTime>2001-12-31T12:00:00</tns:EndTime>
+      <tns:Title>tns:Title</tns:Title>
+      <tns:Content>tns:Content</tns:Content>
+      <tns:Summary>tns:Summary</tns:Summary>
+      <tns:Priority>High</tns:Priority>
+      <tns:PopupDuration>0</tns:PopupDuration>
+      <tns:ClickURL>tns:ClickURL</tns:ClickURL>
+      <tns:To>
+        <tns:Destination>Member</tns:Destination>
+        <tns:GroupName>tns:GroupName</tns:GroupName>
+      </tns:To>
+    </tns:Message>
+  </tns:MessageList>
+</tns:SupportMessagesResponseElement>

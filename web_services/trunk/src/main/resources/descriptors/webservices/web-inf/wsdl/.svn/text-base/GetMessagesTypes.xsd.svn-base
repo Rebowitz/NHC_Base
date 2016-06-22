@@ -1,0 +1,111 @@
+<xs:schema targetNamespace="http://nhcsys.com/webservices/getmessages/getmessagestypes/v1"
+        xmlns:tns="http://nhcsys.com/webservices/getmessages/getmessagestypes/v1"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+       <xs:element name="SupportMessagesRequestElement">
+        <xs:complexType  >
+            <xs:sequence>
+                        <xs:element name="SessionID" type="xs:string"></xs:element>
+                        <xs:element name="MessageID" type="xs:long"></xs:element>
+                        <xs:element name="RetrieveAfterTime" type="xs:dateTime"></xs:element>
+            </xs:sequence>
+        </xs:complexType>        
+        </xs:element>
+        
+     <xs:element name="SupportMessagesResponseElement">
+         <xs:complexType>
+            <xs:sequence>
+                  <xs:element name="CurrentServerTime" type="xs:dateTime"></xs:element>
+                  <xs:element name="MessageList" type="tns:MessageListType">
+                  </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>  
+    
+    
+	<xs:complexType name="MessageType">
+		<xs:sequence>
+            <xs:element name="MessageID" type="xs:long"></xs:element>
+			<xs:element name="Type" type="tns:SupportMessageType"></xs:element>
+ 			<xs:element name="StartTime" type="xs:dateTime"></xs:element>
+			<xs:element name="EndTime" type="xs:dateTime"></xs:element>                        
+            <xs:element name="Title" type="xs:string"></xs:element>
+            <xs:element name="Content" type="xs:string"></xs:element>
+           	<xs:element name="Summary" type="xs:string"></xs:element>
+            <xs:element name="Priority" type="tns:PriorityType"></xs:element>
+            <xs:element name="PopupDuration" type="xs:int"></xs:element>
+            <xs:element name="ClickURL" type="xs:string"></xs:element> 
+            <xs:element name="To" type="tns:MessageDestinationType"></xs:element>                       
+        </xs:sequence>
+	</xs:complexType>
+
+      <xs:complexType name="MessageListType">
+            <xs:sequence>
+                  <xs:element name="Message" type="tns:MessageType"
+                        maxOccurs="unbounded" minOccurs="0">
+                  </xs:element>
+            </xs:sequence>
+      </xs:complexType>
+
+    
+      <xs:simpleType name="SupportMessageType">
+          <xs:restriction base="xs:string">
+                  <xs:enumeration value="Alert"/>
+                  <xs:enumeration value="News"/>
+                  <xs:enumeration value="Dunning"/>
+                  <xs:enumeration value="Terminate"/>
+                  <xs:enumeration value="Private"/>
+                  <xs:enumeration value="PrivateAlert"/>
+                  <xs:enumeration value="Stolen"/>
+                  <xs:enumeration value="Backup"/>
+                  <xs:enumeration value="AV"/>
+                  <xs:enumeration value="Software"/>
+                  <xs:enumeration value="DriveConnection"/>
+                  <xs:enumeration value="Hardware"/>
+                  <xs:enumeration value="General"/>
+                  <xs:enumeration value="Partner"/>
+                  <xs:enumeration value="Marketing"/>
+                  <xs:enumeration value="Advertising"/>
+                  <xs:enumeration value="Other"/>
+                  <xs:enumeration value="Test"/>                  
+          </xs:restriction>        
+      </xs:simpleType>
+
+        <xs:simpleType name="PriorityType">
+          <xs:restriction base="xs:string">
+                  <xs:enumeration value="High"/>
+                  <xs:enumeration value="Normal"/>
+          </xs:restriction>        
+        </xs:simpleType>
+       
+        
+         <xs:complexType  name="MessageDestinationType">
+            <xs:sequence>
+                        <xs:element name="Destination" type="tns:DestinationType"></xs:element>
+                        <xs:element name="GroupName" type="xs:string" nillable="true"></xs:element>
+            </xs:sequence>
+         </xs:complexType>             
+        
+        
+         <xs:simpleType name="DestinationType">
+          <xs:restriction base="xs:string">
+                  <xs:enumeration value="Member"/>
+                  <xs:enumeration value="Group"/>
+                  <xs:enumeration value="All"/>
+          </xs:restriction>        
+        </xs:simpleType>       
+
+   		<xs:element name="FaultTypeElement">
+        	<xs:complexType>
+            	<xs:sequence>
+                	<xs:element name="description" type="xs:string"/>
+	                <xs:element name="code" type="xs:long"/>
+    	            <xs:element name="cause" type="xs:string"/>
+        	    </xs:sequence>
+	        </xs:complexType>
+    	</xs:element>
+        
+</xs:schema>
+
+    

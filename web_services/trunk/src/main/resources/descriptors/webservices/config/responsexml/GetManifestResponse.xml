@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:GetManifestResponseElement xmlns:tns="http://nhcsys.com/webservices/getmanifest/getmanifesttypes/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nhcsys.com/webservices/getmanifest/getmanifesttypes/v1 GetManifestTypes.xsd ">
+  <tns:ManifestResponse>UEQ5NGJXd2dkbVZ5YzJsdmJqMGlNUzR3SWlCbGJtTnZaR2x1WnowaWRYUm1MVGdpSUQ4K0RRbzhUV0Z1YVdabGMzUWdlRzFzYm5NOUltaDBkSEE2THk5MFpXMXdkWEpwTG05eVp5OVlUVXhUWTJobGJXRXhMbmh6WkNJK0RRb2dJRHhHYVd4bFJHVnpZM0pwY0hSdmNqNE5DaUFnSUNBOFRtRnRaVDVMWTNOVFpYUjFjQzVsZUdVOEwwNWhiV1UrRFFvZ0lDQWdQRlpsY25OcGIyNCtOQzQzTGpBdU1Ed3ZWbVZ5YzJsdmJqNE5DaUFnUEM5R2FXeGxSR1Z6WTNKcGNIUnZjajROQ2p3dlRXRnVhV1psYzNRK0RRbz0=</tns:ManifestResponse>
+</tns:GetManifestResponseElement>

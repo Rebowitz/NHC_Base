@@ -1,0 +1,52 @@
+<definitions   targetNamespace="http://nhcsys.com/webservices/getorderinfo/v1"
+               xmlns:tns="http://nhcsys.com/webservices/getorderinfo/v1"
+               xmlns:nhcsu="http://nhcsys.com/webservices/getorderinfo/getorderinfotypes/v1"
+               xmlns="http://schemas.xmlsoap.org/wsdl/" 
+               xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+               xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+    <types>
+        <xs:schema targetNamespace="http://nhcsys.com/webservices/getorderinfo/getorderinfotypes/v1">
+            <xs:include schemaLocation="GetOrderInfoTypes.xsd"/>
+        </xs:schema>
+    </types>    
+	<message name="GetOrderInfoRequest">
+		<part name="updaterequest" element="nhcsu:GetOrderInfoRequestElement"/>
+	</message>   
+
+	<message name="GetOrderInfoResponse">
+	        <part name="updateresponse" element="nhcsu:GetOrderInfoResponseElement"/>
+	</message>
+
+  <message name="GetOrderInfoFailure">
+    <part name="FaultPart" element="nhcsu:FaultTypeElement"/>
+  </message>
+
+	<portType name="GetOrderInfoPort">
+            <operation name="GetOrderInfo">                                                          
+                <input message="tns:GetOrderInfoRequest"/>
+                <output message="tns:GetOrderInfoResponse"/>                
+                <fault name="GetOrderInfoFault" message="tns:GetOrderInfoFailure"/>                
+            </operation>
+        </portType>
+    
+	<binding name="GetOrderInfoSoapHttp" type="tns:GetOrderInfoPort">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="GetOrderInfo">
+            <soap:operation soapAction=""/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+            <fault name="GetOrderInfoFault">
+                <soap:fault name="GetOrderInfoFault" use="literal"/>
+            </fault>
+        </operation>
+    </binding>
+<service name="GetOrderInfoService">
+<port name="GetOrderInfoPort" binding="tns:GetOrderInfoSoapHttp">
+<soap:address location="http://localhost:8080/GetOrderInfoService"/>
+</port>
+</service>
+</definitions>

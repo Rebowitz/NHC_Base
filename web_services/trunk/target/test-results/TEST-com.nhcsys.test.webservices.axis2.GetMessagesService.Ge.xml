@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" name="com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest" tests="5" time="6.938">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc."></property>
+    <property name="lib.dir" value="C:\WORK\backbone\web_services\trunk/lib"></property>
+    <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+    <property name="env.PROMPT" value="$P$G"></property>
+    <property name="os.name" value="Windows XP"></property>
+    <property name="env.FP_NO_HOST_CHECK" value="NO"></property>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.5.0_12\jre\lib\rt.jar;C:\Java\jdk1.5.0_12\jre\lib\i18n.jar;C:\Java\jdk1.5.0_12\jre\lib\sunrsasign.jar;C:\Java\jdk1.5.0_12\jre\lib\jsse.jar;C:\Java\jdk1.5.0_12\jre\lib\jce.jar;C:\Java\jdk1.5.0_12\jre\lib\charsets.jar;C:\Java\jdk1.5.0_12\jre\classes"></property>
+    <property name="env.COMPUTERNAME" value="NHC-DEV06"></property>
+    <property name="env.ALLUSERSPROFILE" value="C:\Documents and Settings\All Users"></property>
+    <property name="updatestatus" value="updatestatus"></property>
+    <property name="sun.desktop" value="windows"></property>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."></property>
+    <property name="jboss.deploy.dir" value="C:/WORK/jboss/trunk/jboss-4.2.0.GA/server/default/deploy"></property>
+    <property name="ant.home" value="C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5"></property>
+    <property name="xbeans.packaged.jar.name" value="XBeans-packaged.jar"></property>
+    <property name="resource.dir" value="C:\WORK\backbone\web_services\trunk/src/main/resources"></property>
+    <property name="java.runtime.version" value="1.5.0_12-b04"></property>
+    <property name="env.HOMEPATH" value="\"></property>
+    <property name="test.classpath" value="C:\WORK\backbone\web_services\trunk\target\build;C:\WORK\backbone\web_services\trunk\src\test\resources\config;C:\WORK\backbone\web_services\trunk\lib\XmlSchema-1.3.2.jar;C:\WORK\backbone\web_services\trunk\lib\activation-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\activation.jar;C:\WORK\backbone\web_services\trunk\lib\annogen-0.1.0.jar;C:\WORK\backbone\web_services\trunk\lib\axiom-api-1.2.5.jar;C:\WORK\backbone\web_services\trunk\lib\axiom-dom-1.2.5.jar;C:\WORK\backbone\web_services\trunk\lib\axiom-impl-1.2.5.jar;C:\WORK\backbone\web_services\trunk\lib\axis-ant.jar;C:\WORK\backbone\web_services\trunk\lib\axis.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-adb-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-adb-codegen-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-ant-plugin-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-clustering-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-codegen-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-fastinfoset-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-java2wsdl-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jaxbri-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jaxws-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jaxws-api-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jibx-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-json-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jws-api-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-kernel-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-metadata-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-mtompolicy-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-saaj-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-saaj-api-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-spring-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-xmlbeans-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\backport-util-concurrent-2.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-chain-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-codec-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\commons-collections-3.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-configuration-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\commons-digester-1.8.jar;C:\WORK\backbone\web_services\trunk\lib\commons-discovery-0.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-fileupload-1.1.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-httpclient-3.0.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-io-1.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-lang-2.3.jar;C:\WORK\backbone\web_services\trunk\lib\commons-logging-1.0.4.jar;C:\WORK\backbone\web_services\trunk\lib\commons-logging-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-logging.jar;C:\WORK\backbone\web_services\trunk\lib\geronimo-annotation_1.0_spec-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\geronimo-jms_1.1_spec-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\httpcore-4.0-alpha5.jar;C:\WORK\backbone\web_services\trunk\lib\httpcore-nio-4.0-alpha5.jar;C:\WORK\backbone\web_services\trunk\lib\httpcore-niossl-4.0-alpha5.jar;C:\WORK\backbone\web_services\trunk\lib\jalopy-1.5rc3.jar;C:\WORK\backbone\web_services\trunk\lib\javax.servlet.jar;C:\WORK\backbone\web_services\trunk\lib\jaxb-api-2.0.jar;C:\WORK\backbone\web_services\trunk\lib\jaxb-impl-2.0.5.jar;C:\WORK\backbone\web_services\trunk\lib\jaxb-xjc-2.0.5.jar;C:\WORK\backbone\web_services\trunk\lib\jaxen-1.1.1.jar;C:\WORK\backbone\web_services\trunk\lib\jaxrpc.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-common.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-j2ee.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-jaxrpc.jar;C:\WORK\backbone\web_services\trunk\lib\jettison-1.0-RC1.jar;C:\WORK\backbone\web_services\trunk\lib\jibx-bind-1.1.5.jar;C:\WORK\backbone\web_services\trunk\lib\jibx-run-1.1.5.jar;C:\WORK\backbone\web_services\trunk\lib\jsr173_1.0_api.jar;C:\WORK\backbone\web_services\trunk\lib\juli-6.0.10.jar;C:\WORK\backbone\web_services\trunk\lib\junit-4.3.jar;C:\WORK\backbone\web_services\trunk\lib\log4j-1.2.14.jar;C:\WORK\backbone\web_services\trunk\lib\log4j-1.2.8.jar;C:\WORK\backbone\web_services\trunk\lib\log4j.jar;C:\WORK\backbone\web_services\trunk\lib\mail-1.4.jar;C:\WORK\backbone\web_services\trunk\lib\mail.jar;C:\WORK\backbone\web_services\trunk\lib\mex-impl-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\neethi-2.0.2.jar;C:\WORK\backbone\web_services\trunk\lib\ojdbc14.jar;C:\WORK\backbone\web_services\trunk\lib\saaj.jar;C:\WORK\backbone\web_services\trunk\lib\soapmonitor-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\stax-api-1.0.1.jar;C:\WORK\backbone\web_services\trunk\lib\struts.jar;C:\WORK\backbone\web_services\trunk\lib\tribes-6.0.10.jar;C:\WORK\backbone\web_services\trunk\lib\woden-1.0-incubating-M7b.jar;C:\WORK\backbone\web_services\trunk\lib\wsdl4j-1.5.1.jar;C:\WORK\backbone\web_services\trunk\lib\wsdl4j-1.6.2.jar;C:\WORK\backbone\web_services\trunk\lib\wstx-asl-3.2.1.jar;C:\WORK\backbone\web_services\trunk\lib\xalan-2.7.0.jar;C:\WORK\backbone\web_services\trunk\lib\xbean-2.2.0.jar;C:\WORK\backbone\web_services\trunk\lib\xbean.jar;C:\WORK\backbone\web_services\trunk\lib\xbean_xpath.jar;C:\WORK\backbone\web_services\trunk\lib\xercesImpl-2.8.1.jar;C:\WORK\backbone\web_services\trunk\lib\xercesImpl.jar;C:\WORK\backbone\web_services\trunk\lib\xml-apis-1.3.03.jar;C:\WORK\backbone\web_services\trunk\lib\xml-apis.jar;C:\WORK\backbone\web_services\trunk\${env.test.classpath};C:\WORK\backbone\web_services\trunk\target\dao.build;C:\WORK\backbone\web_services\trunk\target\lib\nhc-dao.jar"></property>
+    <property name="env.HOMESHARE" value="\\nhcdc1\user\robert.andrews"></property>
+    <property name="user.name" value="robert.andrews"></property>
+    <property name="test.java.home" value="C:/Java/jdk1.5.0_09"></property>
+    <property name="build.dir" value="C:\WORK\backbone\web_services\trunk/target/build"></property>
+    <property name="user.language" value="en"></property>
+    <property name="dao.java.src.dir" value="C:\WORK\backbone\web_services\trunk/src/main/dao/src"></property>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.5.0_12\jre\bin"></property>
+    <property name="ant.project.name" value="NHCWebServices"></property>
+    <property name="java.version" value="1.5.0_12"></property>
+    <property name="env.AXIS2_HOME" value="S:\Development\MahaFiles\AXIS2"></property>
+    <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 15 Model 6 Stepping 4, GenuineIntel"></property>
+    <property name="user.timezone" value=""></property>
+    <property name="env.TEMP" value="C:\DOCUME~1\ROBERT~1.AND\LOCALS~1\Temp"></property>
+    <property name="sun.arch.data.model" value="32"></property>
+    <property name="test.resource.dir" value="C:\WORK\backbone\web_services\trunk/src/test/resources"></property>
+    <property name="webservices.config.dir" value="C:\WORK\backbone\web_services\trunk/src/main/resources/descriptors/webservices/config"></property>
+    <property name="test.src.dir" value="C:\WORK\backbone\web_services\trunk/src/test/java"></property>
+    <property name="getfiles" value="getfiles"></property>
+    <property name="classpath" value="C:\WORK\backbone\web_services\trunk\target\build;C:\WORK\backbone\web_services\trunk\target\dao.build;C:\WORK\backbone\web_services\trunk\lib\XmlSchema-1.3.2.jar;C:\WORK\backbone\web_services\trunk\lib\activation-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\activation.jar;C:\WORK\backbone\web_services\trunk\lib\annogen-0.1.0.jar;C:\WORK\backbone\web_services\trunk\lib\axiom-api-1.2.5.jar;C:\WORK\backbone\web_services\trunk\lib\axiom-dom-1.2.5.jar;C:\WORK\backbone\web_services\trunk\lib\axiom-impl-1.2.5.jar;C:\WORK\backbone\web_services\trunk\lib\axis-ant.jar;C:\WORK\backbone\web_services\trunk\lib\axis.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-adb-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-adb-codegen-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-ant-plugin-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-clustering-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-codegen-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-fastinfoset-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-java2wsdl-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jaxbri-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jaxws-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jaxws-api-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jibx-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-json-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jws-api-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-kernel-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-metadata-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-mtompolicy-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-saaj-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-saaj-api-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-spring-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-xmlbeans-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\backport-util-concurrent-2.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-chain-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-codec-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\commons-collections-3.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-configuration-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\commons-digester-1.8.jar;C:\WORK\backbone\web_services\trunk\lib\commons-discovery-0.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-fileupload-1.1.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-httpclient-3.0.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-io-1.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-lang-2.3.jar;C:\WORK\backbone\web_services\trunk\lib\commons-logging-1.0.4.jar;C:\WORK\backbone\web_services\trunk\lib\commons-logging-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-logging.jar;C:\WORK\backbone\web_services\trunk\lib\geronimo-annotation_1.0_spec-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\geronimo-jms_1.1_spec-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\httpcore-4.0-alpha5.jar;C:\WORK\backbone\web_services\trunk\lib\httpcore-nio-4.0-alpha5.jar;C:\WORK\backbone\web_services\trunk\lib\httpcore-niossl-4.0-alpha5.jar;C:\WORK\backbone\web_services\trunk\lib\jalopy-1.5rc3.jar;C:\WORK\backbone\web_services\trunk\lib\javax.servlet.jar;C:\WORK\backbone\web_services\trunk\lib\jaxb-api-2.0.jar;C:\WORK\backbone\web_services\trunk\lib\jaxb-impl-2.0.5.jar;C:\WORK\backbone\web_services\trunk\lib\jaxb-xjc-2.0.5.jar;C:\WORK\backbone\web_services\trunk\lib\jaxen-1.1.1.jar;C:\WORK\backbone\web_services\trunk\lib\jaxrpc.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-common.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-j2ee.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-jaxrpc.jar;C:\WORK\backbone\web_services\trunk\lib\jettison-1.0-RC1.jar;C:\WORK\backbone\web_services\trunk\lib\jibx-bind-1.1.5.jar;C:\WORK\backbone\web_services\trunk\lib\jibx-run-1.1.5.jar;C:\WORK\backbone\web_services\trunk\lib\jsr173_1.0_api.jar;C:\WORK\backbone\web_services\trunk\lib\juli-6.0.10.jar;C:\WORK\backbone\web_services\trunk\lib\junit-4.3.jar;C:\WORK\backbone\web_services\trunk\lib\log4j-1.2.14.jar;C:\WORK\backbone\web_services\trunk\lib\log4j-1.2.8.jar;C:\WORK\backbone\web_services\trunk\lib\log4j.jar;C:\WORK\backbone\web_services\trunk\lib\mail-1.4.jar;C:\WORK\backbone\web_services\trunk\lib\mail.jar;C:\WORK\backbone\web_services\trunk\lib\mex-impl-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\neethi-2.0.2.jar;C:\WORK\backbone\web_services\trunk\lib\ojdbc14.jar;C:\WORK\backbone\web_services\trunk\lib\saaj.jar;C:\WORK\backbone\web_services\trunk\lib\soapmonitor-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\stax-api-1.0.1.jar;C:\WORK\backbone\web_services\trunk\lib\struts.jar;C:\WORK\backbone\web_services\trunk\lib\tribes-6.0.10.jar;C:\WORK\backbone\web_services\trunk\lib\woden-1.0-incubating-M7b.jar;C:\WORK\backbone\web_services\trunk\lib\wsdl4j-1.5.1.jar;C:\WORK\backbone\web_services\trunk\lib\wsdl4j-1.6.2.jar;C:\WORK\backbone\web_services\trunk\lib\wstx-asl-3.2.1.jar;C:\WORK\backbone\web_services\trunk\lib\xalan-2.7.0.jar;C:\WORK\backbone\web_services\trunk\lib\xbean-2.2.0.jar;C:\WORK\backbone\web_services\trunk\lib\xbean.jar;C:\WORK\backbone\web_services\trunk\lib\xbean_xpath.jar;C:\WORK\backbone\web_services\trunk\lib\xercesImpl-2.8.1.jar;C:\WORK\backbone\web_services\trunk\lib\xercesImpl.jar;C:\WORK\backbone\web_services\trunk\lib\xml-apis-1.3.03.jar;C:\WORK\backbone\web_services\trunk\lib\xml-apis.jar;C:\Java\jdk1.5.0_12\lib\tools.jar;C:\Jboss_4.1.2.GA\bin\run.jar;C:\jboss_eclipse\eclipse\plugins\com.eviware.soapui.jbosside.wstools_0.4.1\lib\jbossws-client.jar;C:\Java\lib\jaxrpc-impl.jar;C:\Java\libjaxrpc0spi.jar;C:\junit4.4\junit-4.4.jar"></property>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.5.0_12\jre\lib\endorsed"></property>
+    <property name="env._JAVACMD" value="C:\Java\jdk1.5.0_12\bin\java.exe"></property>
+    <property name="sun.cpu.isalist" value=""></property>
+    <property name="env.HOMEDRIVE" value="H:"></property>
+    <property name="sun.jnu.encoding" value="Cp1252"></property>
+    <property name="file.encoding.pkg" value="sun.io"></property>
+    <property name="file.separator" value="\"></property>
+    <property name="java.specification.name" value="Java Platform API Specification"></property>
+    <property name="jboss.lib.dir" value="C:/WORK/jboss/trunk/jboss-4.2.0.GA/lib"></property>
+    <property name="java.class.version" value="49.0"></property>
+    <property name="user.country" value="US"></property>
+    <property name="descriptors.dir" value="C:\WORK\backbone\web_services\trunk/src/main/resources/descriptors"></property>
+    <property name="java.home" value="C:\Java\jdk1.5.0_12\jre"></property>
+    <property name="dist.dir" value="C:\WORK\backbone\web_services\trunk/target/dist"></property>
+    <property name="env.APPDATA" value="C:\Documents and Settings\robert.andrews\Application Data"></property>
+    <property name="java.vm.info" value="mixed mode"></property>
+    <property name="admin.war" value="C:\WORK\backbone\web_services\trunk/target/lib/admin.war"></property>
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe"></property>
+    <property name="env.OS" value="Windows_NT"></property>
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files"></property>
+    <property name="ant.file" value="C:\WORK\backbone\web_services\trunk\build.xml"></property>
+    <property name="os.version" value="5.1"></property>
+    <property name="env._USE_CLASSPATH" value="yes"></property>
+    <property name="path.separator" value=";"></property>
+    <property name="test.results.dir" value="C:\WORK\backbone\web_services\trunk/target/test-results"></property>
+    <property name="java.vm.version" value="1.5.0_12-b04"></property>
+    <property name="webservices.javapackage.home" value="com.nhcsys.webservices"></property>
+    <property name="env.USERPROFILE" value="C:\Documents and Settings\robert.andrews"></property>
+    <property name="user.variant" value=""></property>
+    <property name="ant.library.dir" value="C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib"></property>
+    <property name="env.JAVA_HOME" value="C:\Java\jdk1.5.0_12"></property>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+    <property name="env.TMP" value="C:\DOCUME~1\ROBERT~1.AND\LOCALS~1\Temp"></property>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+    <property name="updatestatus-services.aar" value="C:\WORK\backbone\web_services\trunk/target/lib/updatestatus-services.aar"></property>
+    <property name="loginservice" value="loginservice"></property>
+    <property name="user.home" value="C:\Documents and Settings\robert.andrews"></property>
+    <property name="env.SESSIONNAME" value="Console"></property>
+    <property name="env.CLASSPATH" value="C:\Java\jdk1.5.0_12\lib\tools.jar;c:\Jboss_4.1.2.GA\bin\run.jar;c:\jboss_eclipse\eclipse\plugins\com.eviware.soapui.jbosside.wstools_0.4.1\lib\jbossws-client.jar;C:\Java\lib\jaxrpc-impl.jar;C:\Java\libjaxrpc0spi.jar;C:\junit4.4\junit-4.4.jar"></property>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."></property>
+    <property name="ant.file.WebServices-Filesets" value="C:\WORK\backbone\web_services\trunk\filesets.xml"></property>
+    <property name="ant.file.NHCWebServices" value="C:\WORK\backbone\web_services\trunk\build.xml"></property>
+    <property name="java.vendor.url" value="http://java.sun.com/"></property>
+    <property name="java.library.path" value="C:\Java\jdk1.5.0_12\bin;.;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ATI Technologies\ATI Control Panel;C:\Program Files\Intel\DMIX;C:\Program Files\HPQ\IAM\bin;c:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\EZSwitchSetup;C:\Program Files\OpenVPN\bin;C:\jboss-4.2.0.GA\bin;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\bin"></property>
+    <property name="env.NUMBER_OF_PROCESSORS" value="2"></property>
+    <property name="jboss.home" value="C:/WORK/jboss/trunk/jboss-4.2.0.GA"></property>
+    <property name="env.USERDNSDOMAIN" value="NHCSYS.LOCAL"></property>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."></property>
+    <property name="java.runtime.name" value="Java(TM) 2 Runtime Environment, Standard Edition"></property>
+    <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+    <property name="java.class.path" value="C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-launcher.jar;C:\Java\jdk1.5.0_12\lib\tools.jar;c:\Jboss_4.1.2.GA\bin\run.jar;c:\jboss_eclipse\eclipse\plugins\com.eviware.soapui.jbosside.wstools_0.4.1\lib\jbossws-client.jar;C:\Java\lib\jaxrpc-impl.jar;C:\Java\libjaxrpc0spi.jar;C:\junit4.4\junit-4.4.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-antlr.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-apache-bcel.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-apache-bsf.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-apache-log4j.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-apache-oro.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-apache-regexp.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-apache-resolver.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-commons-logging.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-commons-net.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-icontract.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-jai.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-javamail.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-jdepend.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-jmf.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-jsch.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-junit.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-launcher.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-netrexx.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-nodeps.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-starteam.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-stylebook.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-swing.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-trax.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-vaj.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-weblogic.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-xalan1.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant-xslp.jar;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\lib\ant.jar;C:\Java\jdk1.5.0_12\lib\tools.jar"></property>
+    <property name="getmanifest" value="getmanifest"></property>
+    <property name="env.JBOSS_HOME" value="c:\Jboss_4.0.5"></property>
+    <property name="jboss.axis.deploy.dir" value="C:/WORK/jboss/trunk/jboss-4.2.0.GA/server/default/deploy/axis2.war/WEB-INF/services"></property>
+    <property name="webservices.responsexml.dir" value="C:\WORK\backbone\web_services\trunk/src/main/resources/descriptors/webservices/config/responsexml"></property>
+    <property name="jboss.client.dir" value="C:/WORK/jboss/trunk/jboss-4.2.0.GA/client"></property>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+    <property name="env.windir" value="C:\WINDOWS"></property>
+    <property name="env.LOGONSERVER" value="\\NHCDC2"></property>
+    <property name="getorderinfo" value="getorderinfo"></property>
+    <property name="nhc-dao.jar" value="C:\WORK\backbone\web_services\trunk/target/lib/nhc-dao.jar"></property>
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86"></property>
+    <property name="java.vm.specification.version" value="1.0"></property>
+    <property name="sun.cpu.endian" value="little"></property>
+    <property name="sun.os.patch.level" value="Service Pack 2"></property>
+    <property name="env.ANT_HOME" value="C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5"></property>
+    <property name="axis2resources.dir" value="C:\WORK\backbone\web_services\trunk/src/main/resources/axis2resources"></property>
+    <property name="env.ProgramFiles" value="C:\Program Files"></property>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\ROBERT~1.AND\LOCALS~1\Temp\"></property>
+    <property name="env.PROCESSOR_REVISION" value="0604"></property>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"></property>
+    <property name="env.SystemRoot" value="C:\WINDOWS"></property>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+    <property name="env.ANT_CMD_LINE_ARGS" value="test.get.messages"></property>
+    <property name="os.arch" value="x86"></property>
+    <property name="dao.dir" value="C:\WORK\backbone\web_services\trunk/src/main/dao"></property>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.5.0_12\jre\lib\ext"></property>
+    <property name="user.dir" value="C:\WORK\backbone\web_services\trunk"></property>
+    <property name="env.JAXRPC_HOME" value="C:\Java"></property>
+    <property name="target.lib.dir" value="C:\WORK\backbone\web_services\trunk/target/lib"></property>
+    <property name="line.separator" value="
+"></property>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+    <property name="getmembernetworkinfo" value="getmembernetworkinfo"></property>
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"></property>
+    <property name="env.Path" value="C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ATI Technologies\ATI Control Panel;C:\Program Files\Intel\DMIX;C:\Program Files\HPQ\IAM\bin;c:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\EZSwitchSetup;C:\Program Files\OpenVPN\bin;C:\jboss-4.2.0.GA\bin;C:\Eclipse_3.2.2\eclipse\plugins\org.apache.ant_1.6.5\bin"></property>
+    <property name="storeinstalledsoftware" value="storeinstalledsoftware"></property>
+    <property name="basedir" value="C:\WORK\backbone\web_services\trunk"></property>
+    <property name="updatenetworkenvironment" value="updatenetworkenvironment"></property>
+    <property name="getmessages" value="getmessages"></property>
+    <property name="ant.java.version" value="1.5"></property>
+    <property name="javac.executable" value="javac"></property>
+    <property name="env.USERNAME" value="robert.andrews"></property>
+    <property name="env.SystemDrive" value="C:"></property>
+    <property name="file.encoding" value="Cp1252"></property>
+    <property name="target.dir" value="C:\WORK\backbone\web_services\trunk/target"></property>
+    <property name="dao.build.dir" value="C:\WORK\backbone\web_services\trunk/target/dao.build"></property>
+    <property name="dao.classpath" value="C:\WORK\backbone\web_services\trunk\target\dao.build;C:\WORK\backbone\web_services\trunk\lib\javax.servlet.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-j2ee.jar;C:\WORK\backbone\web_services\trunk\lib\log4j.jar;C:\WORK\backbone\web_services\trunk\lib\ojdbc14.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-beanutils.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-collections.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-digester.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-fileupload.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-lang.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-logging.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-validator.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\jakarta-oro.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\struts.jar;C:\Java\jdk1.5.0_12\lib\tools.jar;C:\Jboss_4.1.2.GA\bin\run.jar;C:\jboss_eclipse\eclipse\plugins\com.eviware.soapui.jbosside.wstools_0.4.1\lib\jbossws-client.jar;C:\Java\lib\jaxrpc-impl.jar;C:\Java\libjaxrpc0spi.jar;C:\junit4.4\junit-4.4.jar"></property>
+    <property name="env.USERDOMAIN" value="NHCSYS"></property>
+    <property name="admin.ear" value="C:\WORK\backbone\web_services\trunk/target/lib/admin.ear"></property>
+    <property name="java.specification.version" value="1.5"></property>
+    <property name="java.src.dir" value="C:\WORK\backbone\web_services\trunk/src/main/java"></property>
+    <property name="src.dir" value="C:\WORK\backbone\web_services\trunk/src"></property>
+    <property name="env.PROCESSOR_LEVEL" value="15"></property>
+  </properties>
+  <testcase classname="com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest" name="testGetMessages" time="5.875"></testcase>
+  <testcase classname="com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest" name="testBadSessionID" time="0.218"></testcase>
+  <testcase classname="com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest" name="testIgnoreExpiredMessages" time="0.125"></testcase>
+  <testcase classname="com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest" name="testGetModifiedMessages" time="0.485"></testcase>
+  <testcase classname="com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest" name="testGetCurrentMessages" time="0.203"></testcase>
+  <system-out><![CDATA[14:48:43,968 ERROR [TestBase] entered clearDatabase method
+14:48:43,968 ERROR [TestBase] Select all from messages
+Deleting messageId
+Deleting messageId
+Deleting messageId
+Deleting messageId
+Deleting messageId
+Deleting messageId
+Deleting messageId
+Deleting messageId
+URL to query is: http://devweb1.nhcsys.local:8080/axis2/services/GetMessagesService
+14:48:45,031 ERROR [TestBase] url = http://devweb1.nhcsys.local:8080/axis2/services/GetMessagesService
+MessageID is 4
+SessionID is MzAxOTMz_a215a4bf-3588-4c87-b84a-3470f7ebca15
+Retrieve After time is java.util.GregorianCalendar[time=1195588125031,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/New_York",offset=-18000000,dstSavings=3600000,useDaylight=true,transitions=235,lastRule=java.util.SimpleTimeZone[id=America/New_York,offset=-18000000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2007,MONTH=10,WEEK_OF_YEAR=47,WEEK_OF_MONTH=4,DAY_OF_MONTH=20,DAY_OF_YEAR=324,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=2,HOUR_OF_DAY=14,MINUTE=48,SECOND=45,MILLISECOND=31,ZONE_OFFSET=-18000000,DST_OFFSET=0]
+Assert test now
+Cleared Assert test
+Messages sent back is: 4
+14:48:49,812 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@77eb97
+14:48:49,812 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@10c3a08
+14:48:49,812 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@cb42cf
+14:48:49,812 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@8f2ca6
+14:48:49,828 ERROR [TestBase] url = http://devweb1.nhcsys.local:8080/axis2/services/GetMessagesService
+14:48:49,953 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest::GetMessages() -- Caught an exception 
+org.apache.axis2.AxisFault: SessionID MzAxOTMz_a215a4bf-3588-4c87-b84a-3470f7ebca15-xx either has no records or more than one record in the database
+	at org.apache.axis2.util.Utils.getInboundFaultFromMessageContext(Utils.java:486)
+	at org.apache.axis2.description.OutInAxisOperationClient.handleResponse(OutInAxisOperation.java:343)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:389)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:211)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:163)
+	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub.GetMessages(GetMessagesServiceStub.java:173)
+	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.testBadSessionID(GetMessagesServiceTest.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1072)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:682)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1434)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:632)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:64)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.taskdefs.MacroInstance.execute(MacroInstance.java:378)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+14:48:50,000 ERROR [TestBase] Exception caught : 
+java.lang.ExceptionInInitializerError
+	at com.nhcsys.common.WebServicesFaultTypesEnum.getDescription(WebServicesFaultTypesEnum.java:55)
+	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.getErrorMessageDescription(GetMessagesServiceTest.java:700)
+	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.testBadSessionID(GetMessagesServiceTest.java:214)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1072)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:682)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1434)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:632)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:64)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.taskdefs.MacroInstance.execute(MacroInstance.java:378)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+Caused by: java.util.MissingResourceException: Can't find bundle for base name webservicesfaultcodedescriptions, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:836)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:805)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:549)
+	at com.nhcsys.common.WebServicesFaultResourceBundle.<clinit>(WebServicesFaultResourceBundle.java:11)
+	... 38 more
+14:48:50,046 ERROR [TestBase] entered clearDatabase method
+14:48:50,046 ERROR [TestBase] Select all from messages
+Deleting messageId
+Deleting messageId
+Deleting messageId
+Deleting messageId
+Deleting messageId
+Deleting messageId
+Deleting messageId
+Deleting messageId
+14:48:50,078 ERROR [TestBase] url = http://devweb1.nhcsys.local:8080/axis2/services/GetMessagesService
+14:48:50,171 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@9260ee
+14:48:50,171 ERROR [TestBase] entered clearDatabase method
+14:48:50,171 ERROR [TestBase] Select all from messages
+Deleting messageId
+Deleting messageId
+Deleting messageId
+14:48:50,562 ERROR [TestBase] url = http://devweb1.nhcsys.local:8080/axis2/services/GetMessagesService
+14:48:50,656 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@9b688e
+14:48:50,656 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@ed5d9d
+14:48:50,656 ERROR [TestBase] entered clearDatabase method
+14:48:50,656 ERROR [TestBase] Select all from messages
+Deleting messageId
+Deleting messageId
+14:48:50,765 ERROR [TestBase] url = http://devweb1.nhcsys.local:8080/axis2/services/GetMessagesService
+14:48:50,859 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@bb2bc3
+14:48:50,859 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@363068
+]]></system-out>
+  <system-err><![CDATA[java.lang.ExceptionInInitializerError
+	at com.nhcsys.common.WebServicesFaultTypesEnum.getDescription(WebServicesFaultTypesEnum.java:55)
+	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.getErrorMessageDescription(GetMessagesServiceTest.java:700)
+	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.testBadSessionID(GetMessagesServiceTest.java:214)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1072)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:682)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1434)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:632)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:64)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.taskdefs.MacroInstance.execute(MacroInstance.java:378)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+Caused by: java.util.MissingResourceException: Can't find bundle for base name webservicesfaultcodedescriptions, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:836)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:805)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:549)
+	at com.nhcsys.common.WebServicesFaultResourceBundle.<clinit>(WebServicesFaultResourceBundle.java:11)
+	... 38 more
+]]></system-err>
+</testsuite>

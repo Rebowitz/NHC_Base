@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/java/com/nhcsys/webservices/login/logintypes/v1/impl
+END
+LoginCredentialsElementDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/java/com/nhcsys/webservices/login/logintypes/v1/impl/LoginCredentialsElementDocumentImpl.java
+END
+LoginResponseElementDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/java/com/nhcsys/webservices/login/logintypes/v1/impl/LoginResponseElementDocumentImpl.java
+END
+FaultTypeElementDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/java/com/nhcsys/webservices/login/logintypes/v1/impl/FaultTypeElementDocumentImpl.java
+END
+GetTokenElementDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/java/com/nhcsys/webservices/login/logintypes/v1/impl/GetTokenElementDocumentImpl.java
+END

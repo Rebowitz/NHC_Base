@@ -1,0 +1,40 @@
+8
+
+dir
+29
+http://nhc-cm/svn/jboss/trunk/jboss-4.2.0.GA/server/all/farm/axis2.war/META-INF
+http://nhc-cm/svn/jboss
+
+
+
+2007-10-08T14:15:08.050855Z
+29
+mahadevan.raju
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1b1167fc-cbcf-8442-bab7-2a1ad7075520
+
+MANIFEST.MF
+file
+
+
+
+
+2007-10-08T19:12:55.718750Z
+94dabc924d40dc45ae4c520073959438
+2007-10-08T14:15:08.050855Z
+29
+mahadevan.raju
+

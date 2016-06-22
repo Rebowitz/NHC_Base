@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/getfilestypes/v1
+END
+FileDescriptorType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/getfilestypes/v1/FileDescriptorType.java
+END
+FileResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/getfilestypes/v1/FileResponseType.java
+END
+GetFilesRequestElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/getfilestypes/v1/GetFilesRequestElementDocument.java
+END
+FaultTypeElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/getfilestypes/v1/FaultTypeElementDocument.java
+END
+GetFilesResponseElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/getfilestypes/v1/GetFilesResponseElementDocument.java
+END
+FileDescriptorListType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/getfilestypes/v1/FileDescriptorListType.java
+END

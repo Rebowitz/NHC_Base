@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory
+END
+NetworkinfoDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/NetworkinfoDaoFactory.java
+END
+UpdateStatusDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/UpdateStatusDaoFactory.java
+END
+MachinesDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/MachinesDaoFactory.java
+END
+MessagesDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/MessagesDaoFactory.java
+END
+WmiqinfoDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/WmiqinfoDaoFactory.java
+END
+InstalledSoftwareDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/InstalledSoftwareDaoFactory.java
+END
+SnmpqinfoDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/SnmpqinfoDaoFactory.java
+END
+ClqinfoDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/ClqinfoDaoFactory.java
+END
+ServerRuntimeConfigDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/ServerRuntimeConfigDaoFactory.java
+END
+WsSessionsDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/WsSessionsDaoFactory.java
+END
+WnqinfoDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/WnqinfoDaoFactory.java
+END

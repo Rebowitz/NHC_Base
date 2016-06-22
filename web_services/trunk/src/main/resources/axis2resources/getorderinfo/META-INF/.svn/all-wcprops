@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/resources/axis2resources/getorderinfo/META-INF
+END
+GetOrderInfoService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/resources/axis2resources/getorderinfo/META-INF/GetOrderInfoService.wsdl
+END
+services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/resources/axis2resources/getorderinfo/META-INF/services.xml
+END
+xsd0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/resources/axis2resources/getorderinfo/META-INF/xsd0.xsd
+END

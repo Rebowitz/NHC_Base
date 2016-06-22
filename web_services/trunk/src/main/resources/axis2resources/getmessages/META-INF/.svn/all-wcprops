@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/backbone/!svn/ver/644/web_services/trunk/src/main/resources/axis2resources/getmessages/META-INF
+END
+GetMessagesService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/644/web_services/trunk/src/main/resources/axis2resources/getmessages/META-INF/GetMessagesService.wsdl
+END
+services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/644/web_services/trunk/src/main/resources/axis2resources/getmessages/META-INF/services.xml
+END
+xsd0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/backbone/!svn/ver/644/web_services/trunk/src/main/resources/axis2resources/getmessages/META-INF/xsd0.xsd
+END

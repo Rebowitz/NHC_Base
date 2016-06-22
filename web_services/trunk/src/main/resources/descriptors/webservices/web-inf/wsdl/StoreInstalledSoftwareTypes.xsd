@@ -1,0 +1,51 @@
+<xs:schema targetNamespace="http://nhcsys.com/webservices/storeinstalledsoftware/storeinstalledsoftwaretypes/v1"
+        xmlns:tns="http://nhcsys.com/webservices/storeinstalledsoftware/storeinstalledsoftwaretypes/v1"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+  	<xs:complexType name="StoreInstalledSoftwareType">
+		<xs:sequence>
+			<xs:element name="ProductKey" type="xs:string"></xs:element>
+ 			<xs:element name="ProductName" type="xs:string"></xs:element>
+			<xs:element name="CompanyName" type="xs:string"></xs:element>
+                        <xs:element name="ProductVersion" type="xs:string"></xs:element>                        
+                </xs:sequence>
+	</xs:complexType>
+
+       
+      <xs:complexType name="StoreInstalledSoftwareListType">
+            <xs:sequence>
+                  <xs:element name="StoreInstalledSoftwareElement" type="tns:StoreInstalledSoftwareType"
+                       minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+      </xs:complexType>
+
+     <xs:element name="StoreInstalledSoftwareRequestElement">     
+     <xs:complexType>
+            <xs:sequence>
+                  <xs:element name="SessionID" type="xs:string"></xs:element>
+                  <xs:element name="StoreInstalledSoftwareListElement" type="tns:StoreInstalledSoftwareListType">
+                  </xs:element>
+            </xs:sequence>
+      </xs:complexType>
+    </xs:element> 
+
+       <xs:element name="StoreInstalledSoftwareResponseElement">
+        <xs:complexType>
+            <xs:sequence>
+                        <xs:element name="Acknowledge" type="xs:boolean"></xs:element>
+            </xs:sequence>
+        </xs:complexType>       
+        </xs:element>
+	
+	<xs:element name="FaultTypeElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="description" type="xs:string"/>
+                <xs:element name="code" type="xs:long"/>
+                <xs:element name="cause" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+       
+</xs:schema>    

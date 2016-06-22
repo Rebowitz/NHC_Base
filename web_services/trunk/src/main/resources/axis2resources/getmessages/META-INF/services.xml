@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.3  Built on : Aug 10, 2007 (04:45:47 LKT) -->
+<serviceGroup>
+    <service name="GetMessagesService">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="com.nhcsys.webservices.getmessages.GetMessagesServiceMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">com.nhcsys.webservices.getmessages.GetMessagesServiceSkeleton</parameter>
+
+        <operation name="GetMessages" mep="http://www.w3.org/ns/wsdl/in-out">
+            <actionMapping>\"\"</actionMapping>
+            <outputActionMapping>http://nhcsys.com/webservices/getmessages/v1/GetMessagesPort/GetMessagesResponse</outputActionMapping>
+            <faultActionMapping faultName="GetMessagesFailure">urn:GetMessagesGetMessagesFailure</faultActionMapping>
+            <faultActionMapping faultName="GetMessagesFault">http://nhcsys.com/webservices/getmessages/v1/GetMessagesPort/GetMessages/Fault/GetMessagesFault</faultActionMapping>
+        </operation>
+    </service>
+</serviceGroup>

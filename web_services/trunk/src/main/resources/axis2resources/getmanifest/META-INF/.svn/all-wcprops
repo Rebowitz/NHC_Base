@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/backbone/!svn/ver/580/web_services/trunk/src/main/resources/axis2resources/getmanifest/META-INF
+END
+GetManifestService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/580/web_services/trunk/src/main/resources/axis2resources/getmanifest/META-INF/GetManifestService.wsdl
+END
+services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/580/web_services/trunk/src/main/resources/axis2resources/getmanifest/META-INF/services.xml
+END
+xsd0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/backbone/!svn/ver/580/web_services/trunk/src/main/resources/axis2resources/getmanifest/META-INF/xsd0.xsd
+END

@@ -1,0 +1,66 @@
+<xs:schema targetNamespace="http://nhcsys.com/webservices/networkenvironment/networkenvironmenttypes/v1"
+        xmlns:tns="http://nhcsys.com/webservices/networkenvironment/networkenvironmenttypes/v1"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+
+         <xs:element name="GetMemberNetworkInputElement">
+	<xs:complexType>
+		<xs:sequence>
+                        <xs:element name="SessionID" type="xs:string"></xs:element>                 
+                </xs:sequence>
+	</xs:complexType>
+        </xs:element>
+        
+         <xs:element name="GetMemberNetworkInfoElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="WirelessNetworkInfo" type="tns:WirelessNetworkInfoType"/>
+		<xs:element name="SSIDPassphrase" type="tns:SSIDandPassphraseType"></xs:element>
+            </xs:sequence>
+        </xs:complexType>        
+        </xs:element>
+        
+        <xs:element name="UpdateNetworkEnvironmentRequestElement">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="SessionID" type="xs:string"></xs:element>
+                    <xs:element name="UpdateNetworkEnvironmentMessage" type="tns:UpdateNetworkEnvironmentMessageType"></xs:element>
+                </xs:sequence>
+            </xs:complexType>    
+        </xs:element>
+
+       <xs:element name="UpdateNetworkEnvironmentResponseElement">
+        <xs:complexType>
+            <xs:sequence>
+                        <xs:element name="Acknowledge" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>        
+        </xs:element>
+       
+	<xs:complexType name="UpdateNetworkEnvironmentMessageType">
+		<xs:sequence>
+			<xs:element name="WirelessNetworkInfo" type="tns:WirelessNetworkInfoType"></xs:element>
+ 			<xs:element name="SSIDandPassphrase" type="tns:SSIDandPassphraseType"></xs:element>
+                        <xs:element name="EnvironmentDescription-xml" type="xs:string"></xs:element>                        
+                </xs:sequence>
+	</xs:complexType>
+        
+        <xs:simpleType name="WirelessNetworkInfoType">
+          <xs:restriction base="xs:string">
+                  <xs:enumeration value="HasSSID"/>
+                  <xs:enumeration value="HasSSID+Passphrase"/>
+                  <xs:enumeration value="NoInfo"/>
+                  <xs:enumeration value="NoWirelessNetwork"/>                  
+          </xs:restriction>        
+        </xs:simpleType>
+        
+         
+        <xs:complexType name="SSIDandPassphraseType">
+            <xs:sequence>
+		<xs:element name="SSID" type="xs:string"></xs:element>
+		<xs:element name="Passphrase" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>        
+        
+</xs:schema>

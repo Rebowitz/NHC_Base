@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc
+END
+WmiqinfoDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/WmiqinfoDaoImpl.java
+END
+InstalledSoftwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/InstalledSoftwareDaoImpl.java
+END
+ClqinfoDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/ClqinfoDaoImpl.java
+END
+TelesalesCallSourceDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/TelesalesCallSourceDaoImpl.java
+END
+ServerRuntimeConfigDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/ServerRuntimeConfigDaoImpl.java
+END
+NetworkinfoDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/NetworkinfoDaoImpl.java
+END
+MessagesDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/MessagesDaoImpl.java
+END
+ModifiedDataDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/ModifiedDataDaoImpl.java
+END
+SnmpqinfoDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/SnmpqinfoDaoImpl.java
+END
+TelesalesRepsDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/TelesalesRepsDaoImpl.java
+END
+ResourceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/ResourceManager.java
+END
+TelesalesOrgsDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/TelesalesOrgsDaoImpl.java
+END
+WsSessionsDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/WsSessionsDaoImpl.java
+END
+AbstractDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/AbstractDAO.java
+END
+WnqinfoDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/WnqinfoDaoImpl.java
+END
+UpdateStatusDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/UpdateStatusDaoImpl.java
+END
+MachinesDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/jdbc/MachinesDaoImpl.java
+END

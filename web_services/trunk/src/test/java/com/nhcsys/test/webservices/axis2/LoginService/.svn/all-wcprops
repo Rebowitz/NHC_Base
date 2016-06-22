@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/backbone/!svn/ver/599/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/LoginService
+END
+LoginFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/448/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/LoginService/LoginFailure.java
+END
+LoginServiceStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/backbone/!svn/ver/599/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/LoginService/LoginServiceStub.java
+END
+LoginServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/backbone/!svn/ver/599/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/LoginService/LoginServiceTest.java
+END

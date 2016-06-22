@@ -1,0 +1,52 @@
+<definitions   targetNamespace="http://nhcsys.com/webservices/updatenetworkenvironment/v1"
+               xmlns:tns="http://nhcsys.com/webservices/updatenetworkenvironment/v1"
+               xmlns:nhcne="http://nhcsys.com/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1"
+               xmlns="http://schemas.xmlsoap.org/wsdl/" 
+               xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+               xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+       <types>
+        <xs:schema targetNamespace="http://nhcsys.com/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1">
+            <xs:include schemaLocation="UpdateNetworkEnvironmentTypes.xsd"/>
+        </xs:schema>
+    </types>    
+	<message name="UpdateNetworkEnvironmentRequest">            
+		<part name="environmentrequest" element="nhcne:UpdateNetworkEnvironmentRequestElement" xs:minOccurs="1" xs:maxOccurs="unbounded"/>
+	</message>   
+
+	<message name="UpdateNetworkEnvironmentResponse">
+	        <part name="environmentresponse" element="nhcne:UpdateNetworkEnvironmentResponseElement"/>
+	</message>
+
+	<message name="UpdateNetworkEnvironmentFailure">
+	        <part name="FaultPart" element="nhcne:FaultTypeElement"/>
+	</message>
+
+	<portType name="UpdateNetworkEnvironmentPort">
+            <operation name="UpdateNetworkEnvironment">
+                <input message="tns:UpdateNetworkEnvironmentRequest"/>
+                <output message="tns:UpdateNetworkEnvironmentResponse"/>                
+                <fault name="UpdateNetworkEnvironmentFault" message="tns:UpdateNetworkEnvironmentFailure"/>                
+            </operation>
+        </portType>
+    
+	<binding name="UpdateNetworkEnvironmentSoapHttp" type="tns:UpdateNetworkEnvironmentPort">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="UpdateNetworkEnvironment">
+            <soap:operation soapAction=""/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+            <fault name="UpdateNetworkEnvironmentFault">
+                <soap:fault name="UpdateNetworkEnvironmentFault" use="literal"/>
+            </fault>
+        </operation>
+    </binding>
+<service name="UpdateNetworkEnvironmentService">
+<port name="UpdateNetworkEnvironmentPort" binding="tns:UpdateNetworkEnvironmentSoapHttp">
+<soap:address location="http://localhost:8080/UpdateNetworkEnvironmentService"/>
+</port>
+</service>
+</definitions>

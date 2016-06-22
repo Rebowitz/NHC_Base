@@ -1,0 +1,671 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms
+END
+MachinesFindWhereStolenFlagEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MachinesFindWhereStolenFlagEqualsForm.java
+END
+UpdateStatusFindAllForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/UpdateStatusFindAllForm.java
+END
+MessagesFindByPrimaryKeyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindByPrimaryKeyForm.java
+END
+MessagesFindWherePriorityEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWherePriorityEqualsForm.java
+END
+WmiqinfoFindAllForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WmiqinfoFindAllForm.java
+END
+MessagesFindWhereEndTimeEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWhereEndTimeEqualsForm.java
+END
+MessagesFindWhereViveIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWhereViveIdEqualsForm.java
+END
+WmiqinfoFindWhereWmiqinfoIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WmiqinfoFindWhereWmiqinfoIdEqualsForm.java
+END
+MachinesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MachinesForm.java
+END
+WsSessionsFindWhereAppNameEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WsSessionsFindWhereAppNameEqualsForm.java
+END
+WmiqinfoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WmiqinfoForm.java
+END
+InstalledSoftwareForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/InstalledSoftwareForm.java
+END
+ClqinfoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ClqinfoForm.java
+END
+MessagesFindWhereModTimeEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWhereModTimeEqualsForm.java
+END
+ClqinfoFindWhereCmdlineEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ClqinfoFindWhereCmdlineEqualsForm.java
+END
+NetworkinfoFindAllForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/NetworkinfoFindAllForm.java
+END
+ServerRuntimeConfigForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ServerRuntimeConfigForm.java
+END
+MachinesFindWhereTerminateFlagEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MachinesFindWhereTerminateFlagEqualsForm.java
+END
+MessagesFindAllForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindAllForm.java
+END
+WnqinfoFindWhereWnqcommentEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindWhereWnqcommentEqualsForm.java
+END
+MachinesFindWhereCpuSerialNoEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MachinesFindWhereCpuSerialNoEqualsForm.java
+END
+WnqinfoFindWhereProviderEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindWhereProviderEqualsForm.java
+END
+NetworkinfoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/NetworkinfoForm.java
+END
+NetworkinfoFindWhereWirelessinfotypeEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/NetworkinfoFindWhereWirelessinfotypeEqualsForm.java
+END
+MessagesFindWhereClickDestinationUrlEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWhereClickDestinationUrlEqualsForm.java
+END
+SnmpqinfoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/SnmpqinfoForm.java
+END
+MessagesFindWhereStartTimeEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWhereStartTimeEqualsForm.java
+END
+UpdateStatusFindWhereProductIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/UpdateStatusFindWhereProductIdEqualsForm.java
+END
+WnqinfoFindAllForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindAllForm.java
+END
+WnqinfoFindWhereDisplaytypeEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindWhereDisplaytypeEqualsForm.java
+END
+WsSessionsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WsSessionsForm.java
+END
+WnqinfoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoForm.java
+END
+WsSessionsFindWhereWsSessionIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WsSessionsFindWhereWsSessionIdEqualsForm.java
+END
+SnmpqinfoFindWhereNameEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/SnmpqinfoFindWhereNameEqualsForm.java
+END
+InstalledSoftwareFindWhereSessionIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/InstalledSoftwareFindWhereSessionIdEqualsForm.java
+END
+WmiqinfoFindWhereQueryEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WmiqinfoFindWhereQueryEqualsForm.java
+END
+UpdateStatusForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/UpdateStatusForm.java
+END
+UpdateStatusFindWhereReportEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/UpdateStatusFindWhereReportEqualsForm.java
+END
+SnmpqinfoFindWhereSnmpqinfoIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/SnmpqinfoFindWhereSnmpqinfoIdEqualsForm.java
+END
+ServerRuntimeConfigFindAllForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ServerRuntimeConfigFindAllForm.java
+END
+ServerRuntimeConfigFindWhereConfigValueEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ServerRuntimeConfigFindWhereConfigValueEqualsForm.java
+END
+MessagesFindWhereSummaryEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWhereSummaryEqualsForm.java
+END
+MachinesFindByPrimaryKeyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MachinesFindByPrimaryKeyForm.java
+END
+WmiqinfoFindWhereNameEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WmiqinfoFindWhereNameEqualsForm.java
+END
+ClqinfoFindWhereResultEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ClqinfoFindWhereResultEqualsForm.java
+END
+WmiqinfoFindByPrimaryKeyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WmiqinfoFindByPrimaryKeyForm.java
+END
+WnqinfoFindWhereWnqusageEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindWhereWnqusageEqualsForm.java
+END
+InstalledSoftwareFindByPrimaryKeyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/InstalledSoftwareFindByPrimaryKeyForm.java
+END
+WnqinfoFindWhereLocalnameEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindWhereLocalnameEqualsForm.java
+END
+ClqinfoFindByPrimaryKeyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ClqinfoFindByPrimaryKeyForm.java
+END
+WnqinfoFindWhereRemotenameEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindWhereRemotenameEqualsForm.java
+END
+MachinesFindWhereViveIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MachinesFindWhereViveIdEqualsForm.java
+END
+WsSessionsFindWhereSessionIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WsSessionsFindWhereSessionIdEqualsForm.java
+END
+WnqinfoFindWhereWnqscopeEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindWhereWnqscopeEqualsForm.java
+END
+MessagesFindWherePopupDurationEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWherePopupDurationEqualsForm.java
+END
+ServerRuntimeConfigFindByPrimaryKeyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ServerRuntimeConfigFindByPrimaryKeyForm.java
+END
+WsSessionsFindAllForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WsSessionsFindAllForm.java
+END
+WsSessionsFindWhereTimeStampEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WsSessionsFindWhereTimeStampEqualsForm.java
+END
+InstalledSoftwareFindWhereProductKeyEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/InstalledSoftwareFindWhereProductKeyEqualsForm.java
+END
+NetworkinfoFindWhereCustomerIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/NetworkinfoFindWhereCustomerIdEqualsForm.java
+END
+UpdateStatusFindWhereSessionIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/UpdateStatusFindWhereSessionIdEqualsForm.java
+END
+NetworkinfoFindByPrimaryKeyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/NetworkinfoFindByPrimaryKeyForm.java
+END
+WnqinfoFindWhereWnqtypeEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindWhereWnqtypeEqualsForm.java
+END
+MessagesFindWhereDestinationEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWhereDestinationEqualsForm.java
+END
+MachinesFindAllForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MachinesFindAllForm.java
+END
+SnmpqinfoFindByPrimaryKeyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/SnmpqinfoFindByPrimaryKeyForm.java
+END
+ClqinfoFindAllForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ClqinfoFindAllForm.java
+END
+InstalledSoftwareFindWhereCompanyNameEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/InstalledSoftwareFindWhereCompanyNameEqualsForm.java
+END
+WsSessionsFindByPrimaryKeyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WsSessionsFindByPrimaryKeyForm.java
+END
+WnqinfoFindByPrimaryKeyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindByPrimaryKeyForm.java
+END
+ClqinfoFindWhereClqinfoIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ClqinfoFindWhereClqinfoIdEqualsForm.java
+END
+MachinesFindWhereKeyTimestampEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MachinesFindWhereKeyTimestampEqualsForm.java
+END
+MessagesFindWhereGroupNameEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWhereGroupNameEqualsForm.java
+END
+MessagesFindWhereContentsEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWhereContentsEqualsForm.java
+END
+UpdateStatusFindByPrimaryKeyForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/UpdateStatusFindByPrimaryKeyForm.java
+END
+NetworkinfoFindWhereTimestampEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/NetworkinfoFindWhereTimestampEqualsForm.java
+END
+InstalledSoftwareFindWhereCustomerIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/InstalledSoftwareFindWhereCustomerIdEqualsForm.java
+END
+MachinesFindWhereMachineIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MachinesFindWhereMachineIdEqualsForm.java
+END
+MachinesFindWhereKeyDataEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MachinesFindWhereKeyDataEqualsForm.java
+END
+SnmpqinfoFindWhereTreeEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/SnmpqinfoFindWhereTreeEqualsForm.java
+END
+UpdateStatusFindWhereDescriptionEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/UpdateStatusFindWhereDescriptionEqualsForm.java
+END
+UpdateStatusFindWhereStatusEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/UpdateStatusFindWhereStatusEqualsForm.java
+END
+InstalledSoftwareFindWhereProductNameEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/InstalledSoftwareFindWhereProductNameEqualsForm.java
+END
+InstalledSoftwareFindWhereMachineIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/InstalledSoftwareFindWhereMachineIdEqualsForm.java
+END
+WmiqinfoFindWhereNetworkinfoIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WmiqinfoFindWhereNetworkinfoIdEqualsForm.java
+END
+ClqinfoFindWhereNetworkinfoIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ClqinfoFindWhereNetworkinfoIdEqualsForm.java
+END
+NetworkinfoFindWherePassphraseEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/NetworkinfoFindWherePassphraseEqualsForm.java
+END
+MachinesFindWhereRegisteredFlagEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MachinesFindWhereRegisteredFlagEqualsForm.java
+END
+MessagesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesForm.java
+END
+InstalledSoftwareFindWhereProductVersionEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/InstalledSoftwareFindWhereProductVersionEqualsForm.java
+END
+ServerRuntimeConfigFindWhereConfigIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ServerRuntimeConfigFindWhereConfigIdEqualsForm.java
+END
+NetworkinfoFindWhereMachineIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/NetworkinfoFindWhereMachineIdEqualsForm.java
+END
+NetworkinfoFindWhereNetworkinfoIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/NetworkinfoFindWhereNetworkinfoIdEqualsForm.java
+END
+MessagesFindWhereTypeEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWhereTypeEqualsForm.java
+END
+MessagesFindWhereTitleEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWhereTitleEqualsForm.java
+END
+UpdateStatusFindWhereUpdateStatusIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/UpdateStatusFindWhereUpdateStatusIdEqualsForm.java
+END
+InstalledSoftwareFindAllForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/InstalledSoftwareFindAllForm.java
+END
+SnmpqinfoFindWhereNetworkinfoIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/SnmpqinfoFindWhereNetworkinfoIdEqualsForm.java
+END
+WnqinfoFindWhereIpaddressEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindWhereIpaddressEqualsForm.java
+END
+InstalledSoftwareFindWhereSoftwareIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/InstalledSoftwareFindWhereSoftwareIdEqualsForm.java
+END
+WsSessionsFindWhereMachineIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WsSessionsFindWhereMachineIdEqualsForm.java
+END
+WnqinfoFindWhereNetworkinfoIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindWhereNetworkinfoIdEqualsForm.java
+END
+MachinesFindWhereCustomerIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MachinesFindWhereCustomerIdEqualsForm.java
+END
+NetworkinfoFindWhereSsidEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/NetworkinfoFindWhereSsidEqualsForm.java
+END
+UpdateStatusFindWhereMachineIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/UpdateStatusFindWhereMachineIdEqualsForm.java
+END
+WmiqinfoFindWhereResultEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WmiqinfoFindWhereResultEqualsForm.java
+END
+MessagesFindWhereMessageIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/MessagesFindWhereMessageIdEqualsForm.java
+END
+ClqinfoFindWhereNameEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ClqinfoFindWhereNameEqualsForm.java
+END
+SnmpqinfoFindAllForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/SnmpqinfoFindAllForm.java
+END
+ServerRuntimeConfigFindWhereConfigKeyEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/ServerRuntimeConfigFindWhereConfigKeyEqualsForm.java
+END
+WnqinfoFindWhereWnqinfoIdEqualsForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/forms/WnqinfoFindWhereWnqinfoIdEqualsForm.java
+END

@@ -1,0 +1,61 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from NHCLoginService WSDL service -->
+
+  <service name="NHCLoginPortType" provider="java:RPC" style="document" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://www.nhcsys.com/webservices/login/v1"/>
+      <parameter name="wsdlServiceElement" value="NHCLoginService"/>
+      <parameter name="schemaUnqualified" value="http://www.nhcsys.com/webservices/faulttypes/v1,http://www.nhcsys.com/webservices/login/logintypes/v1"/>
+      <parameter name="wsdlServicePort" value="NHCLoginPortType"/>
+      <parameter name="className" value="com.nhcsys.www.webservices.login.v1.NHCLoginRequestImpl"/>
+      <parameter name="wsdlPortType" value="NHCLoginPortType"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="NHCLogin" qname="NHCLogin" returnQName="retNS:NHCLoginResponseType" xmlns:retNS="http://www.nhcsys.com/webservices/login/logintypes/v1" returnType="rtns:>NHCLoginResponseType" xmlns:rtns="http://www.nhcsys.com/webservices/login/logintypes/v1" soapAction="http://devweb1.nhcsys.local/login" >
+        <parameter qname="pns:NHCLoginInputType" xmlns:pns="http://www.nhcsys.com/webservices/login/logintypes/v1" type="tns:>NHCLoginInputType" xmlns:tns="http://www.nhcsys.com/webservices/login/logintypes/v1"/>
+      </operation>
+      <parameter name="allowedMethods" value="NHCLogin"/>
+
+      <typeMapping
+        xmlns:ns="http://www.nhcsys.com/webservices/login/logintypes/v1"
+        qname="ns:>NHCLoginInputType"
+        type="java:com.nhcsys.www.webservices.login.logintypes.v1.NHCLoginInputType"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.nhcsys.com/webservices/login/logintypes/v1"
+        qname="ns:>NHCLoginResponseType"
+        type="java:com.nhcsys.www.webservices.login.logintypes.v1.NHCLoginResponseType"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.nhcsys.com/webservices/login/logintypes/v1"
+        qname="ns:>>NHCLoginInputType>uid"
+        type="java:com.nhcsys.www.webservices.login.logintypes.v1.NHCLoginInputTypeUid"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.nhcsys.com/webservices/faulttypes/v1"
+        qname="ns:FaultType"
+        type="java:com.nhcsys.www.webservices.faulttypes.v1.FaultType"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+  </service>
+</deployment>

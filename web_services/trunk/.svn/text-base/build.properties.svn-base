@@ -1,0 +1,13 @@
+##
+## build.properties file
+## Created by: Mahadevan Raju
+## September 20th, 2007
+##
+
+java.home=C:/Java/jdk1.5.0_09
+test.java.home=C:/Java/jdk1.5.0_09
+
+jboss.home=C:/WORK/jboss/trunk/jboss-4.2.0.GA
+jboss.deploy.dir=${jboss.home}/server/default/deploy
+jboss.axis.deploy.dir=${jboss.home}/server/default/deploy/axis2.war/WEB-INF/services
+

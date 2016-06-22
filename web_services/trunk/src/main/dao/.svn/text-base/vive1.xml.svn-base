@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<firestorm-project version="3.2">
+  <name>vive1</name>
+  <description />
+  <dbimport-config>
+    <jdbc-datasource>MySQL Datasource</jdbc-datasource>
+    <jdbc-catalog>nhc_db</jdbc-catalog>
+    <jdbc-schema />
+    <sql-import-file />
+    <sql-vendor />
+    <import-tables>true</import-tables>
+    <import-views>true</import-views>
+    <import-procedures>true</import-procedures>
+    <prefer-objects>false</prefer-objects>
+    <sync-new>true</sync-new>
+    <sync-existing>true</sync-existing>
+    <sync-deleted>true</sync-deleted>
+    <map-large-integer-to-bigdecimal>false</map-large-integer-to-bigdecimal>
+    <verbose-logging>false</verbose-logging>
+    <filter-list>
+      <filter>machines</filter>
+      <filter>messages</filter>
+      <filter>ws_sessions</filter>
+      <filter>zen_customers</filter>
+    </filter-list>
+  </dbimport-config>
+  <database>
+    <platform>MySQL</platform>
+    <catalog-name>nhc_db</catalog-name>
+    <schema-name />
+    <table-list>
+      <table>
+        <sql-name>zen_customers</sql-name>
+        <java-name>ZenCustomers</java-name>
+        <primary-key>
+          <column-list>
+            <column>customers_id</column>
+          </column-list>
+        </primary-key>
+        <column-list>
+          <column>
+            <java-name>customersId</java-name>
+            <java-type>int</java-type>
+            <java-default-value />
+            <sql-name>customers_id</sql-name>
+            <sql-type>int</sql-type>
+            <jdbc-type>INTEGER</jdbc-type>
+            <jdbc-precision>11</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>true</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersGender</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customers_gender</sql-name>
+            <sql-type>char</sql-type>
+            <jdbc-type>CHAR</jdbc-type>
+            <jdbc-precision>1</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersFirstname</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customers_firstname</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>32</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersLastname</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customers_lastname</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>32</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersDob</java-name>
+            <java-type>java.util.Date</java-type>
+            <java-default-value />
+            <sql-name>customers_dob</sql-name>
+            <sql-type>datetime</sql-type>
+            <jdbc-type>TIMESTAMP</jdbc-type>
+            <jdbc-precision>19</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersEmailAddress</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customers_email_address</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>96</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersNick</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customers_nick</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>96</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersDefaultAddressId</java-name>
+            <java-type>int</java-type>
+            <java-default-value />
+            <sql-name>customers_default_address_id</sql-name>
+            <sql-type>int</sql-type>
+            <jdbc-type>INTEGER</jdbc-type>
+            <jdbc-precision>11</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersTelephone</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customers_telephone</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>32</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersFax</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customers_fax</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>32</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>true</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersPassword</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customers_password</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>40</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersNewsletter</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customers_newsletter</sql-name>
+            <sql-type>char</sql-type>
+            <jdbc-type>CHAR</jdbc-type>
+            <jdbc-precision>1</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>true</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersGroupPricing</java-name>
+            <java-type>int</java-type>
+            <java-default-value />
+            <sql-name>customers_group_pricing</sql-name>
+            <sql-type>int</sql-type>
+            <jdbc-type>INTEGER</jdbc-type>
+            <jdbc-precision>11</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersEmailFormat</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customers_email_format</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>4</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersAuthorization</java-name>
+            <java-type>int</java-type>
+            <java-default-value />
+            <sql-name>customers_authorization</sql-name>
+            <sql-type>int</sql-type>
+            <jdbc-type>INTEGER</jdbc-type>
+            <jdbc-precision>1</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersReferral</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customers_referral</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>32</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersPaypalPayerid</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customers_paypal_payerid</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>20</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customersPaypalEc</java-name>
+            <java-type>short</java-type>
+            <java-default-value />
+            <sql-name>customers_paypal_ec</sql-name>
+            <sql-type>BIT</sql-type>
+            <jdbc-type>BIT</jdbc-type>
+            <jdbc-precision>1</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+        </column-list>
+        <finder-list>
+          <finder>
+            <name>findAll</name>
+            <multi-finder>true</multi-finder>
+            <where />
+            <order-by>customers_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list />
+          </finder>
+          <finder>
+            <name>findWhereCustomersIdEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_id = :customersId</where>
+            <order-by>customers_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersId</java-name>
+                <java-type>int</java-type>
+                <jdbc-type>INTEGER</jdbc-type>
+                <jdbc-precision>11</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersGenderEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_gender = :customersGender</where>
+            <order-by>customers_gender</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersGender</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>CHAR</jdbc-type>
+                <jdbc-precision>1</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersFirstnameEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_firstname = :customersFirstname</where>
+            <order-by>customers_firstname</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersFirstname</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>32</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersLastnameEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_lastname = :customersLastname</where>
+            <order-by>customers_lastname</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersLastname</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>32</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersDobEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_dob = :customersDob</where>
+            <order-by>customers_dob</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersDob</java-name>
+                <java-type>java.util.Date</java-type>
+                <jdbc-type>TIMESTAMP</jdbc-type>
+                <jdbc-precision>19</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersEmailAddressEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_email_address = :customersEmailAddress</where>
+            <order-by>customers_email_address</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersEmailAddress</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>96</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersNickEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_nick = :customersNick</where>
+            <order-by>customers_nick</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersNick</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>96</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersDefaultAddressIdEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_default_address_id = :customersDefaultAddressId</where>
+            <order-by>customers_default_address_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersDefaultAddressId</java-name>
+                <java-type>int</java-type>
+                <jdbc-type>INTEGER</jdbc-type>
+                <jdbc-precision>11</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersTelephoneEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_telephone = :customersTelephone</where>
+            <order-by>customers_telephone</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersTelephone</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>32</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersFaxEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_fax = :customersFax</where>
+            <order-by>customers_fax</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersFax</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>32</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersPasswordEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_password = :customersPassword</where>
+            <order-by>customers_password</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersPassword</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>40</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersNewsletterEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_newsletter = :customersNewsletter</where>
+            <order-by>customers_newsletter</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersNewsletter</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>CHAR</jdbc-type>
+                <jdbc-precision>1</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersGroupPricingEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_group_pricing = :customersGroupPricing</where>
+            <order-by>customers_group_pricing</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersGroupPricing</java-name>
+                <java-type>int</java-type>
+                <jdbc-type>INTEGER</jdbc-type>
+                <jdbc-precision>11</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersEmailFormatEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_email_format = :customersEmailFormat</where>
+            <order-by>customers_email_format</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersEmailFormat</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>4</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersAuthorizationEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_authorization = :customersAuthorization</where>
+            <order-by>customers_authorization</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersAuthorization</java-name>
+                <java-type>int</java-type>
+                <jdbc-type>INTEGER</jdbc-type>
+                <jdbc-precision>1</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersReferralEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_referral = :customersReferral</where>
+            <order-by>customers_referral</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersReferral</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>32</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersPaypalPayeridEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_paypal_payerid = :customersPaypalPayerid</where>
+            <order-by>customers_paypal_payerid</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersPaypalPayerid</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>20</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomersPaypalEcEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customers_paypal_ec = :customersPaypalEc</where>
+            <order-by>customers_paypal_ec</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersPaypalEc</java-name>
+                <java-type>short</java-type>
+                <jdbc-type>BIT</jdbc-type>
+                <jdbc-precision>1</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findByPrimaryKey</name>
+            <multi-finder>false</multi-finder>
+            <where>customers_id = :customersId</where>
+            <order-by />
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customersId</java-name>
+                <java-type>int</java-type>
+                <jdbc-type>INTEGER</jdbc-type>
+                <jdbc-precision>11</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+        </finder-list>
+      </table>
+      <table>
+        <sql-name>machines</sql-name>
+        <java-name>Machines</java-name>
+        <primary-key>
+          <column-list>
+            <column>machine_id</column>
+          </column-list>
+        </primary-key>
+        <column-list>
+          <column>
+            <java-name>machineId</java-name>
+            <java-type>long</java-type>
+            <java-default-value />
+            <sql-name>machine_id</sql-name>
+            <sql-type>bigint</sql-type>
+            <jdbc-type>BIGINT</jdbc-type>
+            <jdbc-precision>20</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>true</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customerId</java-name>
+            <java-type>long</java-type>
+            <java-default-value />
+            <sql-name>customer_id</sql-name>
+            <sql-type>bigint</sql-type>
+            <jdbc-type>BIGINT</jdbc-type>
+            <jdbc-precision>20</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>cpuSerialNo</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>cpu_serial_no</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>40</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>key</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>key</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>32</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>keyTimestamp</java-name>
+            <java-type>java.util.Date</java-type>
+            <java-default-value />
+            <sql-name>key_timestamp</sql-name>
+            <sql-type>datetime</sql-type>
+            <jdbc-type>TIMESTAMP</jdbc-type>
+            <jdbc-precision>19</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>stolenFlag</java-name>
+            <java-type>short</java-type>
+            <java-default-value />
+            <sql-name>stolen_flag</sql-name>
+            <sql-type>tinyint</sql-type>
+            <jdbc-type>TINYINT</jdbc-type>
+            <jdbc-precision>4</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>true</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>terminateFlag</java-name>
+            <java-type>short</java-type>
+            <java-default-value />
+            <sql-name>terminate_flag</sql-name>
+            <sql-type>tinyint</sql-type>
+            <jdbc-type>TINYINT</jdbc-type>
+            <jdbc-precision>4</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>true</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>registeredFlag</java-name>
+            <java-type>short</java-type>
+            <java-default-value />
+            <sql-name>registered_flag</sql-name>
+            <sql-type>tinyint</sql-type>
+            <jdbc-type>TINYINT</jdbc-type>
+            <jdbc-precision>4</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>true</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+        </column-list>
+        <finder-list>
+          <finder>
+            <name>findByPrimaryKey</name>
+            <multi-finder>false</multi-finder>
+            <where>machine_id = :machineId</where>
+            <order-by />
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>machineId</java-name>
+                <java-type>long</java-type>
+                <jdbc-type>BIGINT</jdbc-type>
+                <jdbc-precision>20</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findAll</name>
+            <multi-finder>true</multi-finder>
+            <where />
+            <order-by>machine_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list />
+          </finder>
+          <finder>
+            <name>findWhereMachineIdEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>machine_id = :machineId</where>
+            <order-by>machine_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>machineId</java-name>
+                <java-type>long</java-type>
+                <jdbc-type>BIGINT</jdbc-type>
+                <jdbc-precision>20</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomerIdEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customer_id = :customerId</where>
+            <order-by>customer_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customerId</java-name>
+                <java-type>long</java-type>
+                <jdbc-type>BIGINT</jdbc-type>
+                <jdbc-precision>20</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCpuSerialNoEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>cpu_serial_no = :cpuSerialNo</where>
+            <order-by>cpu_serial_no</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>cpuSerialNo</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>40</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereKeyEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>key = :key</where>
+            <order-by>key</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>key</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>32</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereKeyTimestampEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>key_timestamp = :keyTimestamp</where>
+            <order-by>key_timestamp</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>keyTimestamp</java-name>
+                <java-type>java.util.Date</java-type>
+                <jdbc-type>TIMESTAMP</jdbc-type>
+                <jdbc-precision>19</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereStolenFlagEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>stolen_flag = :stolenFlag</where>
+            <order-by>stolen_flag</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>stolenFlag</java-name>
+                <java-type>short</java-type>
+                <jdbc-type>TINYINT</jdbc-type>
+                <jdbc-precision>4</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereTerminateFlagEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>terminate_flag = :terminateFlag</where>
+            <order-by>terminate_flag</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>terminateFlag</java-name>
+                <java-type>short</java-type>
+                <jdbc-type>TINYINT</jdbc-type>
+                <jdbc-precision>4</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereRegisteredFlagEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>registered_flag = :registeredFlag</where>
+            <order-by>registered_flag</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>registeredFlag</java-name>
+                <java-type>short</java-type>
+                <jdbc-type>TINYINT</jdbc-type>
+                <jdbc-precision>4</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+        </finder-list>
+      </table>
+      <table>
+        <sql-name>messages</sql-name>
+        <java-name>Messages</java-name>
+        <primary-key>
+          <column-list>
+            <column>message_id</column>
+          </column-list>
+        </primary-key>
+        <column-list>
+          <column>
+            <java-name>messageId</java-name>
+            <java-type>long</java-type>
+            <java-default-value />
+            <sql-name>message_id</sql-name>
+            <sql-type>bigint</sql-type>
+            <jdbc-type>BIGINT</jdbc-type>
+            <jdbc-precision>20</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>true</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>type</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>Type</sql-name>
+            <sql-type>enum</sql-type>
+            <jdbc-type>CHAR</jdbc-type>
+            <jdbc-precision>12</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>startTime</java-name>
+            <java-type>java.util.Date</java-type>
+            <java-default-value />
+            <sql-name>start_time</sql-name>
+            <sql-type>datetime</sql-type>
+            <jdbc-type>TIMESTAMP</jdbc-type>
+            <jdbc-precision>19</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>endTime</java-name>
+            <java-type>java.util.Date</java-type>
+            <java-default-value />
+            <sql-name>end_time</sql-name>
+            <sql-type>datetime</sql-type>
+            <jdbc-type>TIMESTAMP</jdbc-type>
+            <jdbc-precision>19</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>modTime</java-name>
+            <java-type>java.util.Date</java-type>
+            <java-default-value />
+            <sql-name>mod_time</sql-name>
+            <sql-type>datetime</sql-type>
+            <jdbc-type>TIMESTAMP</jdbc-type>
+            <jdbc-precision>19</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>title</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>title</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>64</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>content</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>content</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>255</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>summary</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>summary</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>255</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>priority</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>priority</sql-name>
+            <sql-type>enum</sql-type>
+            <jdbc-type>CHAR</jdbc-type>
+            <jdbc-precision>6</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>popupDuration</java-name>
+            <java-type>int</java-type>
+            <java-default-value />
+            <sql-name>popup_duration</sql-name>
+            <sql-type>int</sql-type>
+            <jdbc-type>INTEGER</jdbc-type>
+            <jdbc-precision>11</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>clickDestinationUrl</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>click_destination_url</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>255</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>destination</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>destination</sql-name>
+            <sql-type>enum</sql-type>
+            <jdbc-type>CHAR</jdbc-type>
+            <jdbc-precision>7</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customerId</java-name>
+            <java-type>long</java-type>
+            <java-default-value />
+            <sql-name>customer_id</sql-name>
+            <sql-type>bigint</sql-type>
+            <jdbc-type>BIGINT</jdbc-type>
+            <jdbc-precision>20</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>customerName</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>customer_name</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>40</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>cpuSerialNo</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>cpu_serial_no</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>40</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>groupName</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>group_name</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>255</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>true</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+        </column-list>
+        <finder-list>
+          <finder>
+            <name>findByPrimaryKey</name>
+            <multi-finder>false</multi-finder>
+            <where>message_id = :messageId</where>
+            <order-by />
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>messageId</java-name>
+                <java-type>long</java-type>
+                <jdbc-type>BIGINT</jdbc-type>
+                <jdbc-precision>20</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findAll</name>
+            <multi-finder>true</multi-finder>
+            <where />
+            <order-by>message_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list />
+          </finder>
+          <finder>
+            <name>findWhereMessageIdEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>message_id = :messageId</where>
+            <order-by>message_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>messageId</java-name>
+                <java-type>long</java-type>
+                <jdbc-type>BIGINT</jdbc-type>
+                <jdbc-precision>20</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereTypeEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>Type = :type</where>
+            <order-by>Type</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>type</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>CHAR</jdbc-type>
+                <jdbc-precision>12</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereStartTimeEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>start_time = :startTime</where>
+            <order-by>start_time</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>startTime</java-name>
+                <java-type>java.util.Date</java-type>
+                <jdbc-type>TIMESTAMP</jdbc-type>
+                <jdbc-precision>19</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereEndTimeEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>end_time = :endTime</where>
+            <order-by>end_time</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>endTime</java-name>
+                <java-type>java.util.Date</java-type>
+                <jdbc-type>TIMESTAMP</jdbc-type>
+                <jdbc-precision>19</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereModTimeEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>mod_time = :modTime</where>
+            <order-by>mod_time</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>modTime</java-name>
+                <java-type>java.util.Date</java-type>
+                <jdbc-type>TIMESTAMP</jdbc-type>
+                <jdbc-precision>19</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereTitleEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>title = :title</where>
+            <order-by>title</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>title</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>64</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereContentEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>content = :content</where>
+            <order-by>content</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>content</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>255</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereSummaryEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>summary = :summary</where>
+            <order-by>summary</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>summary</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>255</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWherePriorityEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>priority = :priority</where>
+            <order-by>priority</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>priority</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>CHAR</jdbc-type>
+                <jdbc-precision>6</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWherePopupDurationEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>popup_duration = :popupDuration</where>
+            <order-by>popup_duration</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>popupDuration</java-name>
+                <java-type>int</java-type>
+                <jdbc-type>INTEGER</jdbc-type>
+                <jdbc-precision>11</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereClickDestinationUrlEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>click_destination_url = :clickDestinationUrl</where>
+            <order-by>click_destination_url</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>clickDestinationUrl</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>255</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereDestinationEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>destination = :destination</where>
+            <order-by>destination</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>destination</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>CHAR</jdbc-type>
+                <jdbc-precision>7</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomerIdEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customer_id = :customerId</where>
+            <order-by>customer_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customerId</java-name>
+                <java-type>long</java-type>
+                <jdbc-type>BIGINT</jdbc-type>
+                <jdbc-precision>20</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCustomerNameEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>customer_name = :customerName</where>
+            <order-by>customer_name</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>customerName</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>40</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereCpuSerialNoEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>cpu_serial_no = :cpuSerialNo</where>
+            <order-by>cpu_serial_no</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>cpuSerialNo</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>40</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereGroupNameEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>group_name = :groupName</where>
+            <order-by>group_name</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>groupName</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>255</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+        </finder-list>
+      </table>
+      <table>
+        <sql-name>ws_sessions</sql-name>
+        <java-name>WsSessions</java-name>
+        <primary-key>
+          <column-list>
+            <column>ws_session_id</column>
+          </column-list>
+        </primary-key>
+        <column-list>
+          <column>
+            <java-name>wsSessionId</java-name>
+            <java-type>long</java-type>
+            <java-default-value />
+            <sql-name>ws_session_id</sql-name>
+            <sql-type>bigint</sql-type>
+            <jdbc-type>BIGINT</jdbc-type>
+            <jdbc-precision>20</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>true</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>sessionId</java-name>
+            <java-type>java.lang.String</java-type>
+            <java-default-value />
+            <sql-name>session_id</sql-name>
+            <sql-type>varchar</sql-type>
+            <jdbc-type>VARCHAR</jdbc-type>
+            <jdbc-precision>255</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>machineId</java-name>
+            <java-type>long</java-type>
+            <java-default-value />
+            <sql-name>machine_id</sql-name>
+            <sql-type>bigint</sql-type>
+            <jdbc-type>BIGINT</jdbc-type>
+            <jdbc-precision>20</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+          <column>
+            <java-name>timeStamp</java-name>
+            <java-type>java.util.Date</java-type>
+            <java-default-value />
+            <sql-name>time_stamp</sql-name>
+            <sql-type>datetime</sql-type>
+            <jdbc-type>TIMESTAMP</jdbc-type>
+            <jdbc-precision>19</jdbc-precision>
+            <jdbc-scale>0</jdbc-scale>
+            <nullable>false</nullable>
+            <unique>false</unique>
+            <auto-increment>false</auto-increment>
+            <sequence-name />
+          </column>
+        </column-list>
+        <finder-list>
+          <finder>
+            <name>findByPrimaryKey</name>
+            <multi-finder>false</multi-finder>
+            <where>ws_session_id = :wsSessionId</where>
+            <order-by />
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>wsSessionId</java-name>
+                <java-type>long</java-type>
+                <jdbc-type>BIGINT</jdbc-type>
+                <jdbc-precision>20</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findAll</name>
+            <multi-finder>true</multi-finder>
+            <where />
+            <order-by>ws_session_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list />
+          </finder>
+          <finder>
+            <name>findWhereWsSessionIdEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>ws_session_id = :wsSessionId</where>
+            <order-by>ws_session_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>wsSessionId</java-name>
+                <java-type>long</java-type>
+                <jdbc-type>BIGINT</jdbc-type>
+                <jdbc-precision>20</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereSessionIdEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>session_id = :sessionId</where>
+            <order-by>session_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>sessionId</java-name>
+                <java-type>java.lang.String</java-type>
+                <jdbc-type>VARCHAR</jdbc-type>
+                <jdbc-precision>255</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereMachineIdEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>machine_id = :machineId</where>
+            <order-by>machine_id</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>machineId</java-name>
+                <java-type>long</java-type>
+                <jdbc-type>BIGINT</jdbc-type>
+                <jdbc-precision>20</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+          <finder>
+            <name>findWhereTimeStampEquals</name>
+            <multi-finder>true</multi-finder>
+            <where>time_stamp = :timeStamp</where>
+            <order-by>time_stamp</order-by>
+            <query-type>WHERE</query-type>
+            <parameter-list>
+              <parameter>
+                <java-name>timeStamp</java-name>
+                <java-type>java.util.Date</java-type>
+                <jdbc-type>TIMESTAMP</jdbc-type>
+                <jdbc-precision>19</jdbc-precision>
+                <jdbc-scale>0</jdbc-scale>
+              </parameter>
+            </parameter-list>
+          </finder>
+        </finder-list>
+      </table>
+    </table-list>
+    <view-list />
+    <procedure-list />
+    <custom-sql-list />
+  </database>
+  <provider-options>
+    <default-codegen-provider>j2ee</default-codegen-provider>
+    <provider name="j2ee">
+      <property key="app-name" value="admin" />
+      <property key="dao-strategy" value="jdbc" />
+      <property key="datasource-name" value="jdbc/NHC_DS" />
+      <property key="delete-files" value="true" />
+      <property key="dto-fields-public" value="false" />
+      <property key="generate-dynamic-inserts" value="false" />
+      <property key="generate-dynamic-updates" value="false" />
+      <property key="generate-session-beans" value="true" />
+      <property key="jdbc-driver" value="MySQL" />
+      <property key="jdbc-pwd" value="mysql" />
+      <property key="jdbc-url" value="jdbc:mysql://localhost/nhc_db" />
+      <property key="jdbc-user" value="root" />
+      <property key="logging" value="log4j" />
+      <property key="output-dir" value="C:\FireStormDAO-3.2\gen-j2ee" />
+      <property key="overwrite-resource-manager" value="true" />
+      <property key="package-name" value="com.nhcsys.dataaccess" />
+      <property key="prefix-schema-name" value="true" />
+      <property key="target-platform" value="JBoss 4.0.x" />
+      <property key="use-jndi" value="true" />
+      <property key="web-app-strategy" value="struts" />
+      <property key="web-service-strategy" value="none" />
+      <property key="weblogic-oracle-clob-support" value="false" />
+    </provider>
+  </provider-options>
+</firestorm-project>
+

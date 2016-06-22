@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.3  Built on : Aug 10, 2007 (04:45:47 LKT) -->
+<serviceGroup>
+    <service name="StoreInstalledSoftwareService">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="com.nhcsys.webservices.storeinstalledsoftware.StoreInstalledSoftwareServiceMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">com.nhcsys.webservices.storeinstalledsoftware.StoreInstalledSoftwareServiceSkeleton</parameter>
+        <operation name="StoreInstalledSoftware" mep="http://www.w3.org/ns/wsdl/in-out">
+            <actionMapping>\"\"</actionMapping>
+            <outputActionMapping>http://nhcsys.com/webservices/storeinstalledsoftware/v1/StoreInstalledSoftwarePort/StoreInstalledSoftwareResponse</outputActionMapping>
+            <faultActionMapping faultName="StoreInstalledSoftwareFault">http://nhcsys.com/webservices/storeinstalledsoftware/v1/StoreInstalledSoftwarePort/StoreInstalledSoftware/Fault/StoreInstalledSoftwareFault</faultActionMapping>
+            <faultActionMapping faultName="StoreInstalledSoftwareFailure">urn:StoreInstalledSoftwareStoreInstalledSoftwareFailure</faultActionMapping>
+        </operation>
+    </service>
+</serviceGroup>

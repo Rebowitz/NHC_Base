@@ -1,0 +1,55 @@
+8
+
+dir
+718
+http://nhc-cm/svn/backbone/web_services/trunk/src/main/resources/descriptors/webservices/config
+http://nhc-cm/svn/backbone
+
+
+
+2007-11-14T16:28:43.696648Z
+658
+robert.andrews
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+79667155-c31b-2b4d-a52a-7940208c3f8b
+
+responsexml
+dir
+
+webservicesfaultcodedescriptions.properties
+file
+
+
+
+
+2007-11-14T17:50:01.017500Z
+90f909187055cf71f720c0a0549541a0
+2007-11-14T16:28:43.696648Z
+658
+robert.andrews
+
+webservicesresponses.properties
+file
+
+
+
+
+2007-11-14T17:50:01.033125Z
+7e962d13be7802484f6f524f926615c1
+2007-11-14T15:23:31.265359Z
+651
+mouad.zouitni
+

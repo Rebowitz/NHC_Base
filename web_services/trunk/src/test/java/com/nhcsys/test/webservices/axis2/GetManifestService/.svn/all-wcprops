@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/621/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetManifestService
+END
+GetManifestServiceStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/582/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetManifestService/GetManifestServiceStub.java
+END
+GetManifestServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/621/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetManifestService/GetManifestServiceTest.java
+END
+UnknownFault.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetManifestService/UnknownFault.java
+END
+GetManifestFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetManifestService/GetManifestFailure.java
+END

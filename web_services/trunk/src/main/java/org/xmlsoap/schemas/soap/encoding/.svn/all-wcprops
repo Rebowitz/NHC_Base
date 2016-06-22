@@ -1,0 +1,599 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding
+END
+UnsignedByte.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/UnsignedByte.java
+END
+ArrayTypeAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/ArrayTypeAttribute.java
+END
+String.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/String.java
+END
+RootAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/RootAttribute.java
+END
+ENTITYDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/ENTITYDocument.java
+END
+Date.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Date.java
+END
+GYearMonth.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/GYearMonth.java
+END
+NegativeIntegerDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NegativeIntegerDocument.java
+END
+Boolean.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Boolean.java
+END
+StructDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/StructDocument.java
+END
+ArrayCoordinate.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/ArrayCoordinate.java
+END
+NonNegativeIntegerDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NonNegativeIntegerDocument.java
+END
+Int.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Int.java
+END
+UnsignedLongDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/UnsignedLongDocument.java
+END
+GMonthDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/GMonthDocument.java
+END
+NOTATION.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NOTATION.java
+END
+UnsignedShort.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/UnsignedShort.java
+END
+NMTOKENSDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NMTOKENSDocument.java
+END
+DecimalDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/DecimalDocument.java
+END
+Long.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Long.java
+END
+Short.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Short.java
+END
+UnsignedByteDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/UnsignedByteDocument.java
+END
+Byte.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Byte.java
+END
+Float.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Float.java
+END
+StringDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/StringDocument.java
+END
+GYear.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/GYear.java
+END
+AnyURI.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/AnyURI.java
+END
+Double.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Double.java
+END
+OffsetAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/OffsetAttribute.java
+END
+GYearMonthDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/GYearMonthDocument.java
+END
+DateDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/DateDocument.java
+END
+BooleanDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/BooleanDocument.java
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Token.java
+END
+Language.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Language.java
+END
+Duration.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Duration.java
+END
+Base64Binary.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Base64Binary.java
+END
+HexBinary.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/HexBinary.java
+END
+IntDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/IntDocument.java
+END
+NOTATIONDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NOTATIONDocument.java
+END
+UnsignedShortDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/UnsignedShortDocument.java
+END
+ShortDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/ShortDocument.java
+END
+LongDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/LongDocument.java
+END
+QName.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/QName.java
+END
+NCName.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NCName.java
+END
+ByteDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/ByteDocument.java
+END
+FloatDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/FloatDocument.java
+END
+AnyURIDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/AnyURIDocument.java
+END
+GYearDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/GYearDocument.java
+END
+DoubleDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/DoubleDocument.java
+END
+NMTOKEN.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NMTOKEN.java
+END
+IDREFS.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/IDREFS.java
+END
+Array.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Array.java
+END
+TokenDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/TokenDocument.java
+END
+PositiveInteger.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/PositiveInteger.java
+END
+Name.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Name.java
+END
+LanguageDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/LanguageDocument.java
+END
+GDay.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/GDay.java
+END
+ENTITIES.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/ENTITIES.java
+END
+DurationDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/DurationDocument.java
+END
+UnsignedInt.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/UnsignedInt.java
+END
+PositionAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/PositionAttribute.java
+END
+Base64BinaryDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Base64BinaryDocument.java
+END
+HexBinaryDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/HexBinaryDocument.java
+END
+IDREF.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/IDREF.java
+END
+GMonthDay.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/GMonthDay.java
+END
+NonPositiveInteger.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NonPositiveInteger.java
+END
+NormalizedString.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NormalizedString.java
+END
+ID.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/ID.java
+END
+DateTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/DateTime.java
+END
+Integer.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Integer.java
+END
+Time.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Time.java
+END
+NCNameDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NCNameDocument.java
+END
+QNameDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/QNameDocument.java
+END
+NMTOKENDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NMTOKENDocument.java
+END
+IDREFSDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/IDREFSDocument.java
+END
+ENTITY.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/ENTITY.java
+END
+ArrayDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/ArrayDocument.java
+END
+NameDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NameDocument.java
+END
+PositiveIntegerDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/PositiveIntegerDocument.java
+END
+NegativeInteger.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NegativeInteger.java
+END
+ENTITIESDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/ENTITIESDocument.java
+END
+GDayDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/GDayDocument.java
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Base64.java
+END
+Struct.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Struct.java
+END
+UnsignedIntDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/UnsignedIntDocument.java
+END
+IDREFDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/IDREFDocument.java
+END
+AnyTypeDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/AnyTypeDocument.java
+END
+GMonthDayDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/GMonthDayDocument.java
+END
+NonPositiveIntegerDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NonPositiveIntegerDocument.java
+END
+NormalizedStringDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NormalizedStringDocument.java
+END
+IDDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/IDDocument.java
+END
+DateTimeDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/DateTimeDocument.java
+END
+NonNegativeInteger.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NonNegativeInteger.java
+END
+IntegerDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/IntegerDocument.java
+END
+GMonth.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/GMonth.java
+END
+UnsignedLong.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/UnsignedLong.java
+END
+TimeDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/TimeDocument.java
+END
+NMTOKENS.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/NMTOKENS.java
+END
+Decimal.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/Decimal.java
+END

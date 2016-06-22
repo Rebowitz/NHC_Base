@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/backbone/!svn/ver/584/web_services/trunk/src/main/java/com/nhcsys/webservices/getmanifest
+END
+GetManifestServiceMessageReceiverInOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/566/web_services/trunk/src/main/java/com/nhcsys/webservices/getmanifest/GetManifestServiceMessageReceiverInOut.java
+END
+GetManifestHandlerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/584/web_services/trunk/src/main/java/com/nhcsys/webservices/getmanifest/GetManifestHandlerService.java
+END
+ResponseXMLHandlerGetManifestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/566/web_services/trunk/src/main/java/com/nhcsys/webservices/getmanifest/ResponseXMLHandlerGetManifestService.java
+END
+GetManifestServiceSkeleton.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/566/web_services/trunk/src/main/java/com/nhcsys/webservices/getmanifest/GetManifestServiceSkeleton.java
+END
+GetManifestServiceSkeletonInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/566/web_services/trunk/src/main/java/com/nhcsys/webservices/getmanifest/GetManifestServiceSkeletonInterface.java
+END
+GetManifestFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/566/web_services/trunk/src/main/java/com/nhcsys/webservices/getmanifest/GetManifestFailure.java
+END

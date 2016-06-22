@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/resources/axis2resources/login/META-INF
+END
+LoginService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/resources/axis2resources/login/META-INF/LoginService.wsdl
+END
+services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/resources/axis2resources/login/META-INF/services.xml
+END
+xsd0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/resources/axis2resources/login/META-INF/xsd0.xsd
+END

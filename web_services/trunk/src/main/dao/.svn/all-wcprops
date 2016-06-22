@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao
+END
+application.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/backbone/!svn/ver/348/web_services/trunk/src/main/dao/application.xml
+END
+vive1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/backbone/!svn/ver/355/web_services/trunk/src/main/dao/vive1.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/build.xml
+END

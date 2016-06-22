@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/backbone/!svn/ver/621/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetFilesService
+END
+GetFilesServiceStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/591/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetFilesService/GetFilesServiceStub.java
+END
+GetFilesServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/621/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetFilesService/GetFilesServiceTest.java
+END
+GetFilesFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetFilesService/GetFilesFailure.java
+END
+UnknownFault.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetFilesService/UnknownFault.java
+END

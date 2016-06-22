@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/conf
+END
+jbosscmp-jdbc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/conf/jbosscmp-jdbc.xml
+END
+ejb-jar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/conf/ejb-jar.xml
+END

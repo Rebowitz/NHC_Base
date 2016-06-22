@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/566/web_services/trunk/src/main/java/com/nhcsys/webservices/getmanifest/getmanifesttypes/v1/impl
+END
+GetManifestResponseElementDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/backbone/!svn/ver/566/web_services/trunk/src/main/java/com/nhcsys/webservices/getmanifest/getmanifesttypes/v1/impl/GetManifestResponseElementDocumentImpl.java
+END
+GetManifestInputElementDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/backbone/!svn/ver/566/web_services/trunk/src/main/java/com/nhcsys/webservices/getmanifest/getmanifesttypes/v1/impl/GetManifestInputElementDocumentImpl.java
+END
+FaultTypeElementDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/backbone/!svn/ver/566/web_services/trunk/src/main/java/com/nhcsys/webservices/getmanifest/getmanifesttypes/v1/impl/FaultTypeElementDocumentImpl.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/backbone/!svn/ver/649/web_services/trunk/src/main/resources/axis2resources/updatestatus/META-INF
+END
+UpdateStatusService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/649/web_services/trunk/src/main/resources/axis2resources/updatestatus/META-INF/UpdateStatusService.wsdl
+END
+services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/649/web_services/trunk/src/main/resources/axis2resources/updatestatus/META-INF/services.xml
+END
+xsd0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/backbone/!svn/ver/649/web_services/trunk/src/main/resources/axis2resources/updatestatus/META-INF/xsd0.xsd
+END

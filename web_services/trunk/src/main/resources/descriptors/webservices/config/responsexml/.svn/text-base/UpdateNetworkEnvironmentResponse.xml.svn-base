@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:UpdateNetworkEnvironmentResponseElement xmlns:tns="http://nhcsys.com/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nhcsys.com/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1 UpdateNetworkEnvironmentTypes.xsd ">
+  <tns:Acknowledge>tns:Acknowledge</tns:Acknowledge>
+</tns:UpdateNetworkEnvironmentResponseElement>

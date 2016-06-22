@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/619/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware/storeinstalledsoftwaretypes/v1
+END
+StoreInstalledSoftwareResponseElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/backbone/!svn/ver/619/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware/storeinstalledsoftwaretypes/v1/StoreInstalledSoftwareResponseElementDocument.java
+END
+StoreInstalledSoftwareListType.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/backbone/!svn/ver/619/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware/storeinstalledsoftwaretypes/v1/StoreInstalledSoftwareListType.java
+END
+FaultTypeElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/backbone/!svn/ver/619/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware/storeinstalledsoftwaretypes/v1/FaultTypeElementDocument.java
+END
+StoreInstalledSoftwareRequestElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/backbone/!svn/ver/619/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware/storeinstalledsoftwaretypes/v1/StoreInstalledSoftwareRequestElementDocument.java
+END
+StoreInstalledSoftwareType.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/backbone/!svn/ver/619/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware/storeinstalledsoftwaretypes/v1/StoreInstalledSoftwareType.java
+END

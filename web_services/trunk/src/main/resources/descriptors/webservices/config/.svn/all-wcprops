@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/backbone/!svn/ver/658/web_services/trunk/src/main/resources/descriptors/webservices/config
+END
+webservicesfaultcodedescriptions.properties
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/658/web_services/trunk/src/main/resources/descriptors/webservices/config/webservicesfaultcodedescriptions.properties
+END
+webservicesresponses.properties
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/651/web_services/trunk/src/main/resources/descriptors/webservices/config/webservicesresponses.properties
+END

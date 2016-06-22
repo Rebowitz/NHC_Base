@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/backbone/!svn/ver/685/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware
+END
+StoreInstalledSoftwareFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/619/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware/StoreInstalledSoftwareFailure.java
+END
+StoreInstalledSoftwareServiceMessageReceiverInOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/backbone/!svn/ver/619/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware/StoreInstalledSoftwareServiceMessageReceiverInOut.java
+END
+StoreInstalledSoftwareHandlerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/backbone/!svn/ver/685/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware/StoreInstalledSoftwareHandlerService.java
+END
+ResponseXMLStoreInstalledSoftwareService.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/backbone/!svn/ver/619/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware/ResponseXMLStoreInstalledSoftwareService.java
+END
+StoreInstalledSoftwareServiceSkeleton.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/backbone/!svn/ver/619/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware/StoreInstalledSoftwareServiceSkeleton.java
+END
+StoreInstalledSoftwareServiceSkeletonInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/backbone/!svn/ver/619/web_services/trunk/src/main/java/com/nhcsys/webservices/storeinstalledsoftware/StoreInstalledSoftwareServiceSkeletonInterface.java
+END

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://nhcsys.com/webservices/updatestatus/updatestatustypes/v1" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://nhcsys.com/webservices/updatestatus/updatestatustypes/v1">
+    <xs:element name="UpdateStatusElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="SessionID" type="xs:string"/>
+                <xs:element maxOccurs="unbounded" name="TaskList" type="tns:UpdateStatusType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="UpdateStatusType">
+        <xs:sequence>
+            <xs:element name="ProductID" type="xs:string"/>
+            <xs:element name="Description" type="xs:string"/>
+            <xs:element name="Report" type="xs:string"/>
+            <xs:element name="Status" type="tns:TaskExecutationStatusType"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="TaskExecutationStatusType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Success"/>
+            <xs:enumeration value="Fail"/>
+            <xs:enumeration value="Unknown"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="ProcessCompletedStatusElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="processcompleted" type="xs:boolean"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FaultTypeElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="description" type="xs:string"/>
+                <xs:element name="code" type="xs:long"/>
+                <xs:element name="cause" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

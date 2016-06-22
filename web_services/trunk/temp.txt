@@ -1,0 +1,356 @@
+Buildfile: build.xml
+
+test.init:
+
+classpath:
+     [echo] Setting Classpath to : C:\WORK\backbone\web_services\trunk\target\build;C:\WORK\backbone\web_services\trunk\target\dao.build;C:\WORK\backbone\web_services\trunk\lib\XmlSchema-1.3.2.jar;C:\WORK\backbone\web_services\trunk\lib\activation-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\activation.jar;C:\WORK\backbone\web_services\trunk\lib\annogen-0.1.0.jar;C:\WORK\backbone\web_services\trunk\lib\axiom-api-1.2.5.jar;C:\WORK\backbone\web_services\trunk\lib\axiom-dom-1.2.5.jar;C:\WORK\backbone\web_services\trunk\lib\axiom-impl-1.2.5.jar;C:\WORK\backbone\web_services\trunk\lib\axis-ant.jar;C:\WORK\backbone\web_services\trunk\lib\axis.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-adb-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-adb-codegen-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-ant-plugin-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-clustering-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-codegen-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-fastinfoset-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-java2wsdl-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jaxbri-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jaxws-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jaxws-api-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jibx-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-json-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jws-api-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-kernel-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-metadata-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-mtompolicy-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-saaj-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-saaj-api-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-spring-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-xmlbeans-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\backport-util-concurrent-2.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-chain-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-codec-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\commons-collections-3.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-configuration-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\commons-digester-1.8.jar;C:\WORK\backbone\web_services\trunk\lib\commons-discovery-0.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-fileupload-1.1.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-httpclient-3.0.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-io-1.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-lang-2.3.jar;C:\WORK\backbone\web_services\trunk\lib\commons-logging-1.0.4.jar;C:\WORK\backbone\web_services\trunk\lib\commons-logging-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-logging.jar;C:\WORK\backbone\web_services\trunk\lib\geronimo-annotation_1.0_spec-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\geronimo-jms_1.1_spec-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\httpcore-4.0-alpha5.jar;C:\WORK\backbone\web_services\trunk\lib\httpcore-nio-4.0-alpha5.jar;C:\WORK\backbone\web_services\trunk\lib\httpcore-niossl-4.0-alpha5.jar;C:\WORK\backbone\web_services\trunk\lib\jalopy-1.5rc3.jar;C:\WORK\backbone\web_services\trunk\lib\javax.servlet.jar;C:\WORK\backbone\web_services\trunk\lib\jaxb-api-2.0.jar;C:\WORK\backbone\web_services\trunk\lib\jaxb-impl-2.0.5.jar;C:\WORK\backbone\web_services\trunk\lib\jaxb-xjc-2.0.5.jar;C:\WORK\backbone\web_services\trunk\lib\jaxen-1.1.1.jar;C:\WORK\backbone\web_services\trunk\lib\jaxrpc.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-common.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-j2ee.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-jaxrpc.jar;C:\WORK\backbone\web_services\trunk\lib\jettison-1.0-RC1.jar;C:\WORK\backbone\web_services\trunk\lib\jibx-bind-1.1.5.jar;C:\WORK\backbone\web_services\trunk\lib\jibx-run-1.1.5.jar;C:\WORK\backbone\web_services\trunk\lib\jsr173_1.0_api.jar;C:\WORK\backbone\web_services\trunk\lib\juli-6.0.10.jar;C:\WORK\backbone\web_services\trunk\lib\junit-4.3.jar;C:\WORK\backbone\web_services\trunk\lib\log4j-1.2.14.jar;C:\WORK\backbone\web_services\trunk\lib\log4j-1.2.8.jar;C:\WORK\backbone\web_services\trunk\lib\log4j.jar;C:\WORK\backbone\web_services\trunk\lib\mail-1.4.jar;C:\WORK\backbone\web_services\trunk\lib\mail.jar;C:\WORK\backbone\web_services\trunk\lib\mex-impl-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\neethi-2.0.2.jar;C:\WORK\backbone\web_services\trunk\lib\ojdbc14.jar;C:\WORK\backbone\web_services\trunk\lib\saaj.jar;C:\WORK\backbone\web_services\trunk\lib\soapmonitor-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\stax-api-1.0.1.jar;C:\WORK\backbone\web_services\trunk\lib\struts.jar;C:\WORK\backbone\web_services\trunk\lib\tribes-6.0.10.jar;C:\WORK\backbone\web_services\trunk\lib\woden-1.0-incubating-M7b.jar;C:\WORK\backbone\web_services\trunk\lib\wsdl4j-1.5.1.jar;C:\WORK\backbone\web_services\trunk\lib\wsdl4j-1.6.2.jar;C:\WORK\backbone\web_services\trunk\lib\wstx-asl-3.2.1.jar;C:\WORK\backbone\web_services\trunk\lib\xalan-2.7.0.jar;C:\WORK\backbone\web_services\trunk\lib\xbean-2.2.0.jar;C:\WORK\backbone\web_services\trunk\lib\xbean.jar;C:\WORK\backbone\web_services\trunk\lib\xbean_xpath.jar;C:\WORK\backbone\web_services\trunk\lib\xercesImpl-2.8.1.jar;C:\WORK\backbone\web_services\trunk\lib\xercesImpl.jar;C:\WORK\backbone\web_services\trunk\lib\xml-apis-1.3.03.jar;C:\WORK\backbone\web_services\trunk\lib\xml-apis.jar;C:\Java\jdk1.5.0_12\lib\tools.jar;C:\Jboss_4.1.2.GA\bin\run.jar;C:\jboss_eclipse\eclipse\plugins\com.eviware.soapui.jbosside.wstools_0.4.1\lib\jbossws-client.jar;C:\Java\lib\jaxrpc-impl.jar;C:\Java\libjaxrpc0spi.jar;C:\junit4.4\junit-4.4.jar
+
+check.env:
+
+init:
+
+dao.classpath:
+     [echo] Setting Classpath to : C:\WORK\backbone\web_services\trunk\target\dao.build;C:\WORK\backbone\web_services\trunk\lib\javax.servlet.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-j2ee.jar;C:\WORK\backbone\web_services\trunk\lib\log4j.jar;C:\WORK\backbone\web_services\trunk\lib\ojdbc14.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-beanutils.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-collections.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-digester.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-fileupload.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-lang.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-logging.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\commons-validator.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\jakarta-oro.jar;C:\WORK\backbone\web_services\trunk\src\main\dao\webapp\WEB-INF\lib\struts.jar;C:\Java\jdk1.5.0_12\lib\tools.jar;C:\Jboss_4.1.2.GA\bin\run.jar;C:\jboss_eclipse\eclipse\plugins\com.eviware.soapui.jbosside.wstools_0.4.1\lib\jbossws-client.jar;C:\Java\lib\jaxrpc-impl.jar;C:\Java\libjaxrpc0spi.jar;C:\junit4.4\junit-4.4.jar
+
+dao.check.env:
+
+dao.init:
+
+dao.compile:
+
+compile:
+
+test.compile:
+
+test.get.messages:
+     [echo] testclass : Classpath : C:\WORK\backbone\web_services\trunk\target\build;C:\WORK\backbone\web_services\trunk\src\test\resources\config;C:\WORK\backbone\web_services\trunk\lib\XmlSchema-1.3.2.jar;C:\WORK\backbone\web_services\trunk\lib\activation-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\activation.jar;C:\WORK\backbone\web_services\trunk\lib\annogen-0.1.0.jar;C:\WORK\backbone\web_services\trunk\lib\axiom-api-1.2.5.jar;C:\WORK\backbone\web_services\trunk\lib\axiom-dom-1.2.5.jar;C:\WORK\backbone\web_services\trunk\lib\axiom-impl-1.2.5.jar;C:\WORK\backbone\web_services\trunk\lib\axis-ant.jar;C:\WORK\backbone\web_services\trunk\lib\axis.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-adb-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-adb-codegen-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-ant-plugin-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-clustering-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-codegen-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-fastinfoset-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-java2wsdl-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jaxbri-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jaxws-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jaxws-api-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jibx-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-json-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-jws-api-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-kernel-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-metadata-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-mtompolicy-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-saaj-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-saaj-api-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-spring-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\axis2-xmlbeans-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\backport-util-concurrent-2.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-chain-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-codec-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\commons-collections-3.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-configuration-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\commons-digester-1.8.jar;C:\WORK\backbone\web_services\trunk\lib\commons-discovery-0.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-fileupload-1.1.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-httpclient-3.0.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-io-1.2.jar;C:\WORK\backbone\web_services\trunk\lib\commons-lang-2.3.jar;C:\WORK\backbone\web_services\trunk\lib\commons-logging-1.0.4.jar;C:\WORK\backbone\web_services\trunk\lib\commons-logging-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\commons-logging.jar;C:\WORK\backbone\web_services\trunk\lib\geronimo-annotation_1.0_spec-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\geronimo-jms_1.1_spec-1.1.jar;C:\WORK\backbone\web_services\trunk\lib\httpcore-4.0-alpha5.jar;C:\WORK\backbone\web_services\trunk\lib\httpcore-nio-4.0-alpha5.jar;C:\WORK\backbone\web_services\trunk\lib\httpcore-niossl-4.0-alpha5.jar;C:\WORK\backbone\web_services\trunk\lib\jalopy-1.5rc3.jar;C:\WORK\backbone\web_services\trunk\lib\javax.servlet.jar;C:\WORK\backbone\web_services\trunk\lib\jaxb-api-2.0.jar;C:\WORK\backbone\web_services\trunk\lib\jaxb-impl-2.0.5.jar;C:\WORK\backbone\web_services\trunk\lib\jaxb-xjc-2.0.5.jar;C:\WORK\backbone\web_services\trunk\lib\jaxen-1.1.1.jar;C:\WORK\backbone\web_services\trunk\lib\jaxrpc.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-common.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-j2ee.jar;C:\WORK\backbone\web_services\trunk\lib\jboss-jaxrpc.jar;C:\WORK\backbone\web_services\trunk\lib\jettison-1.0-RC1.jar;C:\WORK\backbone\web_services\trunk\lib\jibx-bind-1.1.5.jar;C:\WORK\backbone\web_services\trunk\lib\jibx-run-1.1.5.jar;C:\WORK\backbone\web_services\trunk\lib\jsr173_1.0_api.jar;C:\WORK\backbone\web_services\trunk\lib\juli-6.0.10.jar;C:\WORK\backbone\web_services\trunk\lib\junit-4.3.jar;C:\WORK\backbone\web_services\trunk\lib\log4j-1.2.14.jar;C:\WORK\backbone\web_services\trunk\lib\log4j-1.2.8.jar;C:\WORK\backbone\web_services\trunk\lib\log4j.jar;C:\WORK\backbone\web_services\trunk\lib\mail-1.4.jar;C:\WORK\backbone\web_services\trunk\lib\mail.jar;C:\WORK\backbone\web_services\trunk\lib\mex-impl-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\neethi-2.0.2.jar;C:\WORK\backbone\web_services\trunk\lib\ojdbc14.jar;C:\WORK\backbone\web_services\trunk\lib\saaj.jar;C:\WORK\backbone\web_services\trunk\lib\soapmonitor-1.3.jar;C:\WORK\backbone\web_services\trunk\lib\stax-api-1.0.1.jar;C:\WORK\backbone\web_services\trunk\lib\struts.jar;C:\WORK\backbone\web_services\trunk\lib\tribes-6.0.10.jar;C:\WORK\backbone\web_services\trunk\lib\woden-1.0-incubating-M7b.jar;C:\WORK\backbone\web_services\trunk\lib\wsdl4j-1.5.1.jar;C:\WORK\backbone\web_services\trunk\lib\wsdl4j-1.6.2.jar;C:\WORK\backbone\web_services\trunk\lib\wstx-asl-3.2.1.jar;C:\WORK\backbone\web_services\trunk\lib\xalan-2.7.0.jar;C:\WORK\backbone\web_services\trunk\lib\xbean-2.2.0.jar;C:\WORK\backbone\web_services\trunk\lib\xbean.jar;C:\WORK\backbone\web_services\trunk\lib\xbean_xpath.jar;C:\WORK\backbone\web_services\trunk\lib\xercesImpl-2.8.1.jar;C:\WORK\backbone\web_services\trunk\lib\xercesImpl.jar;C:\WORK\backbone\web_services\trunk\lib\xml-apis-1.3.03.jar;C:\WORK\backbone\web_services\trunk\lib\xml-apis.jar;C:\WORK\backbone\web_services\trunk\${env.test.classpath};C:\WORK\backbone\web_services\trunk\target\dao.build;C:\WORK\backbone\web_services\trunk\target\lib\nhc-dao.jar
+    [junit] Running com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest
+    [junit] 14:46:12,187 ERROR [TestBase] entered clearDatabase method
+    [junit] 14:46:12,187 ERROR [TestBase] Select all from messages
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] URL to query is: http://devweb1.nhcsys.local:8080/axis2/services/GetMessagesService
+    [junit] 14:46:13,234 ERROR [TestBase] url = http://devweb1.nhcsys.local:8080/axis2/services/GetMessagesService
+    [junit] MessageID is 4
+    [junit] SessionID is MzAxOTMz_a215a4bf-3588-4c87-b84a-3470f7ebca15
+    [junit] Retrieve After time is java.util.GregorianCalendar[time=1195587973234,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/New_York",offset=-18000000,dstSavings=3600000,useDaylight=true,transitions=235,lastRule=java.util.SimpleTimeZone[id=America/New_York,offset=-18000000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2007,MONTH=10,WEEK_OF_YEAR=47,WEEK_OF_MONTH=4,DAY_OF_MONTH=20,DAY_OF_YEAR=324,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=2,HOUR_OF_DAY=14,MINUTE=46,SECOND=13,MILLISECOND=234,ZONE_OFFSET=-18000000,DST_OFFSET=0]
+    [junit] Assert test now
+    [junit] Cleared Assert test
+    [junit] Messages sent back is: 4
+    [junit] 14:46:19,031 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@134263a
+    [junit] 14:46:19,031 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@b9b8d0
+    [junit] 14:46:19,046 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@6a63d3
+    [junit] 14:46:19,046 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@bfed5a
+    [junit] 14:46:19,046 ERROR [TestBase] url = http://devweb1.nhcsys.local:8080/axis2/services/GetMessagesService
+    [junit] 14:46:19,218 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest::GetMessages() -- Caught an exception 
+    [junit] org.apache.axis2.AxisFault: SessionID MzAxOTMz_a215a4bf-3588-4c87-b84a-3470f7ebca15-xx either has no records or more than one record in the database
+    [junit] 	at org.apache.axis2.util.Utils.getInboundFaultFromMessageContext(Utils.java:486)
+    [junit] 	at org.apache.axis2.description.OutInAxisOperationClient.handleResponse(OutInAxisOperation.java:343)
+    [junit] 	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:389)
+    [junit] 	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:211)
+    [junit] 	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:163)
+    [junit] 	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub.GetMessages(GetMessagesServiceStub.java:173)
+    [junit] 	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.testBadSessionID(GetMessagesServiceTest.java:207)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:585)
+    [junit] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+    [junit] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+    [junit] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+    [junit] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+    [junit] 	at junit.framework.TestResult.run(TestResult.java:113)
+    [junit] 	at junit.framework.TestCase.run(TestCase.java:124)
+    [junit] 	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+    [junit] 	at junit.framework.TestSuite.run(TestSuite.java:227)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1072)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:682)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1434)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:632)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:64)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.taskdefs.MacroInstance.execute(MacroInstance.java:378)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.Target.execute(Target.java:341)
+    [junit] 	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+    [junit] 	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+    [junit] 	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+    [junit] 	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+    [junit] 	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+    [junit] 	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+    [junit] 	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+    [junit] 	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+    [junit] 	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+    [junit] 14:46:19,265 ERROR [TestBase] Exception caught : 
+    [junit] java.lang.ExceptionInInitializerError
+    [junit] 	at com.nhcsys.common.WebServicesFaultTypesEnum.getDescription(WebServicesFaultTypesEnum.java:55)
+    [junit] 	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.getErrorMessageDescription(GetMessagesServiceTest.java:699)
+    [junit] 	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.testBadSessionID(GetMessagesServiceTest.java:213)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:585)
+    [junit] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+    [junit] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+    [junit] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+    [junit] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+    [junit] 	at junit.framework.TestResult.run(TestResult.java:113)
+    [junit] 	at junit.framework.TestCase.run(TestCase.java:124)
+    [junit] 	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+    [junit] 	at junit.framework.TestSuite.run(TestSuite.java:227)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1072)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:682)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1434)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:632)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:64)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.taskdefs.MacroInstance.execute(MacroInstance.java:378)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.Target.execute(Target.java:341)
+    [junit] 	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+    [junit] 	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+    [junit] 	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+    [junit] 	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+    [junit] 	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+    [junit] 	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+    [junit] 	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+    [junit] 	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+    [junit] 	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+    [junit] Caused by: java.util.MissingResourceException: Can't find bundle for base name webservicesfaultcodedescriptions, locale en_US
+    [junit] 	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:836)
+    [junit] 	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:805)
+    [junit] 	at java.util.ResourceBundle.getBundle(ResourceBundle.java:549)
+    [junit] 	at com.nhcsys.common.WebServicesFaultResourceBundle.<clinit>(WebServicesFaultResourceBundle.java:11)
+    [junit] 	... 38 more
+    [junit] java.lang.ExceptionInInitializerError
+    [junit] 	at com.nhcsys.common.WebServicesFaultTypesEnum.getDescription(WebServicesFaultTypesEnum.java:55)
+    [junit] 	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.getErrorMessageDescription(GetMessagesServiceTest.java:699)
+    [junit] 	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.testBadSessionID(GetMessagesServiceTest.java:213)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:585)
+    [junit] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+    [junit] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+    [junit] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+    [junit] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+    [junit] 	at junit.framework.TestResult.run(TestResult.java:113)
+    [junit] 	at junit.framework.TestCase.run(TestCase.java:124)
+    [junit] 	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+    [junit] 	at junit.framework.TestSuite.run(TestSuite.java:227)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1072)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:682)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1434)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:632)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:64)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.taskdefs.MacroInstance.execute(MacroInstance.java:378)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.Target.execute(Target.java:341)
+    [junit] 	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+    [junit] 	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+    [junit] 	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+    [junit] 	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+    [junit] 	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+    [junit] 	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+    [junit] 	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+    [junit] 	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+    [junit] 	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+    [junit] Caused by: java.util.MissingResourceException: Can't find bundle for base name webservicesfaultcodedescriptions, locale en_US
+    [junit] 	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:836)
+    [junit] 	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:805)
+    [junit] 	at java.util.ResourceBundle.getBundle(ResourceBundle.java:549)
+    [junit] 	at com.nhcsys.common.WebServicesFaultResourceBundle.<clinit>(WebServicesFaultResourceBundle.java:11)
+    [junit] 	... 38 more
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 7.141 sec
+    [junit] Testsuite: com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 7.141 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] 14:46:12,187 ERROR [TestBase] entered clearDatabase method
+    [junit] 14:46:12,187 ERROR [TestBase] Select all from messages
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] Deleting messageId
+    [junit] URL to query is: http://devweb1.nhcsys.local:8080/axis2/services/GetMessagesService
+    [junit] 14:46:13,234 ERROR [TestBase] url = http://devweb1.nhcsys.local:8080/axis2/services/GetMessagesService
+    [junit] MessageID is 4
+    [junit] SessionID is MzAxOTMz_a215a4bf-3588-4c87-b84a-3470f7ebca15
+    [junit] Retrieve After time is java.util.GregorianCalendar[time=1195587973234,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/New_York",offset=-18000000,dstSavings=3600000,useDaylight=true,transitions=235,lastRule=java.util.SimpleTimeZone[id=America/New_York,offset=-18000000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2007,MONTH=10,WEEK_OF_YEAR=47,WEEK_OF_MONTH=4,DAY_OF_MONTH=20,DAY_OF_YEAR=324,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=2,HOUR_OF_DAY=14,MINUTE=46,SECOND=13,MILLISECOND=234,ZONE_OFFSET=-18000000,DST_OFFSET=0]
+    [junit] Assert test now
+    [junit] Cleared Assert test
+    [junit] Messages sent back is: 4
+    [junit] 14:46:19,031 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@134263a
+    [junit] 14:46:19,031 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@b9b8d0
+    [junit] 14:46:19,046 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@6a63d3
+    [junit] 14:46:19,046 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub$MessageType@bfed5a
+    [junit] 14:46:19,046 ERROR [TestBase] url = http://devweb1.nhcsys.local:8080/axis2/services/GetMessagesService
+    [junit] 14:46:19,218 ERROR [TestBase] com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest::GetMessages() -- Caught an exception 
+    [junit] org.apache.axis2.AxisFault: SessionID MzAxOTMz_a215a4bf-3588-4c87-b84a-3470f7ebca15-xx either has no records or more than one record in the database
+    [junit] 	at org.apache.axis2.util.Utils.getInboundFaultFromMessageContext(Utils.java:486)
+    [junit] 	at org.apache.axis2.description.OutInAxisOperationClient.handleResponse(OutInAxisOperation.java:343)
+    [junit] 	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:389)
+    [junit] 	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:211)
+    [junit] 	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:163)
+    [junit] 	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceStub.GetMessages(GetMessagesServiceStub.java:173)
+    [junit] 	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.testBadSessionID(GetMessagesServiceTest.java:207)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:585)
+    [junit] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+    [junit] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+    [junit] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+    [junit] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+    [junit] 	at junit.framework.TestResult.run(TestResult.java:113)
+    [junit] 	at junit.framework.TestCase.run(TestCase.java:124)
+    [junit] 	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+    [junit] 	at junit.framework.TestSuite.run(TestSuite.java:227)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1072)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:682)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1434)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:632)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:64)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.taskdefs.MacroInstance.execute(MacroInstance.java:378)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.Target.execute(Target.java:341)
+    [junit] 	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+    [junit] 	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+    [junit] 	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+    [junit] 	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+    [junit] 	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+    [junit] 	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+    [junit] 	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+    [junit] 	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+    [junit] 	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+    [junit] 14:46:19,265 ERROR [TestBase] Exception caught : 
+    [junit] java.lang.ExceptionInInitializerError
+    [junit] 	at com.nhcsys.common.WebServicesFaultTypesEnum.getDescription(WebServicesFaultTypesEnum.java:55)
+    [junit] 	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.getErrorMessageDescription(GetMessagesServiceTest.java:699)
+    [junit] 	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.testBadSessionID(GetMessagesServiceTest.java:213)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:585)
+    [junit] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+    [junit] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+    [junit] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+    [junit] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+    [junit] 	at junit.framework.TestResult.run(TestResult.java:113)
+    [junit] 	at junit.framework.TestCase.run(TestCase.java:124)
+    [junit] 	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+    [junit] 	at junit.framework.TestSuite.run(TestSuite.java:227)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1072)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:682)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1434)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:632)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:64)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.taskdefs.MacroInstance.execute(MacroInstance.java:378)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.Target.execute(Target.java:341)
+    [junit] 	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+    [junit] 	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+    [junit] 	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+    [junit] 	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+    [junit] 	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+    [junit] 	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+    [junit] 	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+    [junit] 	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+    [junit] 	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+    [junit] Caused by: java.util.MissingResourceException: Can't find bundle for base name webservicesfaultcodedescriptions, locale en_US
+    [junit] 	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:836)
+    [junit] 	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:805)
+    [junit] 	at java.util.ResourceBundle.getBundle(ResourceBundle.java:549)
+    [junit] 	at com.nhcsys.common.WebServicesFaultResourceBundle.<clinit>(WebServicesFaultResourceBundle.java:11)
+    [junit] 	... 38 more
+    [junit] ------------- ---------------- ---------------
+    [junit] ------------- Standard Error -----------------
+    [junit] java.lang.ExceptionInInitializerError
+    [junit] 	at com.nhcsys.common.WebServicesFaultTypesEnum.getDescription(WebServicesFaultTypesEnum.java:55)
+    [junit] 	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.getErrorMessageDescription(GetMessagesServiceTest.java:699)
+    [junit] 	at com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest.testBadSessionID(GetMessagesServiceTest.java:213)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:585)
+    [junit] 	at junit.framework.TestCase.runTest(TestCase.java:168)
+    [junit] 	at junit.framework.TestCase.runBare(TestCase.java:134)
+    [junit] 	at junit.framework.TestResult$1.protect(TestResult.java:110)
+    [junit] 	at junit.framework.TestResult.runProtected(TestResult.java:128)
+    [junit] 	at junit.framework.TestResult.run(TestResult.java:113)
+    [junit] 	at junit.framework.TestCase.run(TestCase.java:124)
+    [junit] 	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+    [junit] 	at junit.framework.TestSuite.run(TestSuite.java:227)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1072)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:682)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1434)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:632)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:64)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.taskdefs.MacroInstance.execute(MacroInstance.java:378)
+    [junit] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+    [junit] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+    [junit] 	at org.apache.tools.ant.Target.execute(Target.java:341)
+    [junit] 	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+    [junit] 	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+    [junit] 	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+    [junit] 	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+    [junit] 	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+    [junit] 	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+    [junit] 	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+    [junit] 	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+    [junit] 	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+    [junit] Caused by: java.util.MissingResourceException: Can't find bundle for base name webservicesfaultcodedescriptions, locale en_US
+    [junit] 	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:836)
+    [junit] 	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:805)
+    [junit] 	at java.util.ResourceBundle.getBundle(ResourceBundle.java:549)
+    [junit] 	at com.nhcsys.common.WebServicesFaultResourceBundle.<clinit>(WebServicesFaultResourceBundle.java:11)
+    [junit] 	... 38 more
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: testGetMessages took 6.89 sec
+    [junit] Testcase: testBadSessionID took 0.235 sec
+
+BUILD SUCCESSFUL
+Total time: 14 seconds

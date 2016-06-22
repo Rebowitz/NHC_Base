@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions targetNamespace="http://nhcsys.com/webservices/getmessages/v1" xmlns:tns="http://nhcsys.com/webservices/getmessages/v1" xmlns:nhcgm="http://nhcsys.com/webservices/getmessages/getmessagestypes/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://nhcsys.com/webservices/getmessages/getmessagestypes/v1">
+            <xs:include schemaLocation="xsd0.xsd"/>
+        </xs:schema>
+  </types>
+  <message name="GetMessagesRequest">
+    <part name="messagesrequest" element="nhcgm:SupportMessagesRequestElement"/>
+  </message>
+  <message name="GetMessagesResponse">
+    <part name="messagesresponse" element="nhcgm:SupportMessagesResponseElement"/>
+  </message>
+  <message name="GetMessagesFailure">
+<documentation>The service implementation has determined that no other declared fault is appropriate for a failure condition.</documentation>
+    <part name="FaultPart" element="nhcgm:FaultTypeElement"/>
+  </message>
+  <portType name="GetMessagesPort">
+    <operation name="GetMessages">
+      <input message="tns:GetMessagesRequest"/>
+      <output message="tns:GetMessagesResponse"/>
+      <fault name="GetMessagesFault" message="tns:GetMessagesFailure"/>
+    </operation>
+  </portType>
+  <binding name="GetMessagesSoapHttp" type="tns:GetMessagesPort">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="GetMessages">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+      <fault name="GetMessagesFault">
+        <soap:fault name="GetMessagesFault" use="literal"/>
+      </fault>
+    </operation>
+  </binding>
+  <service name="GetMessagesService">
+    <port name="GetMessagesPort" binding="tns:GetMessagesSoapHttp">
+      <soap:address location="http://RobsComputer:8080/GetMessagesService"/>
+    </port>
+  </service>
+</definitions>

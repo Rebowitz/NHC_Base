@@ -1,0 +1,95 @@
+<xs:schema targetNamespace="http://nhcsys.com/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1"
+        xmlns:tns="http://nhcsys.com/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+        <xs:element name="UpdateNetworkEnvironmentRequestElement">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="SessionID" type="xs:string"></xs:element>
+                    <xs:element name="UpdateNetworkEnvironmentMessage" type="tns:UpdateNetworkEnvironmentMessageType"></xs:element>
+                </xs:sequence>
+            </xs:complexType>    
+        </xs:element>
+
+
+	<xs:complexType name="UpdateNetworkEnvironmentMessageType">
+		<xs:sequence>
+			<xs:element name="WirelessNetworkInfo" type="tns:WirelessNetworkInfoType"></xs:element>
+ 			<xs:element name="SSID" type="xs:string" />
+			<xs:element name="Passphrase" type="xs:string"/>
+            <xs:element name="CLQTypeList" type="tns:CLQType" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="WMIQTypeList" type="tns:WMIQType" minOccurs="1" maxOccurs="unbounded"/>
+   	        <xs:element name="WNQTypeList" type="tns:WNQType" minOccurs="1" maxOccurs="unbounded"/>
+           	<xs:element name="SNMPQTypeList" type="tns:SNMPQType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+	</xs:complexType>
+
+
+       <xs:element name="UpdateNetworkEnvironmentResponseElement">
+        <xs:complexType>
+            <xs:sequence>
+                        <xs:element name="Acknowledge" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>        
+        </xs:element>
+
+        <xs:complexType name="CLQType">
+            <xs:sequence>
+                        <xs:element name="Name" type="xs:string"></xs:element>
+                        <xs:element name="CmdLine" type="xs:string"></xs:element>
+                        <xs:element name="Result" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>        
+
+        <xs:complexType name="WMIQType">
+            <xs:sequence>
+                        <xs:element name="Name" type="xs:string"></xs:element>
+                        <xs:element name="Query" type="xs:string"></xs:element>
+                        <xs:element name="Result" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>        
+
+        <xs:complexType name="WNQType">
+            <xs:sequence>
+                        <xs:element name="Provider" type="xs:string"></xs:element>
+                        <xs:element name="RemoteName" type="xs:string"></xs:element>
+                        <xs:element name="LocalName" type="xs:string"></xs:element>
+                        <xs:element name="IPAddress" type="xs:string"></xs:element>
+                        <xs:element name="Comment" type="xs:string"></xs:element>
+                        <xs:element name="DisplayType" type="xs:string"></xs:element>
+                        <xs:element name="Scope" type="xs:string"></xs:element>
+                        <xs:element name="Type" type="xs:string"></xs:element>
+                        <xs:element name="Usage" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>        
+
+        <xs:complexType name="SNMPQType">
+            <xs:sequence>
+                        <xs:element name="Name" type="xs:string"></xs:element>
+                        <xs:element name="Tree" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>        
+                 
+        <xs:simpleType name="WirelessNetworkInfoType">
+          <xs:restriction base="xs:string">
+                  <xs:enumeration value="HasSSID"/>
+                  <xs:enumeration value="HasSSID+Passphrase"/>
+                  <xs:enumeration value="NoInfo"/>
+                  <xs:enumeration value="NoWirelessNetwork"/>                  
+          </xs:restriction>        
+        </xs:simpleType>
+
+    <xs:element name="FaultTypeElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="description" type="xs:string"/>
+                <xs:element name="code" type="xs:long"/>
+                <xs:element name="cause" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
+
+    

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/java/com/nhcsys/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1
+END
+WMIQType.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/java/com/nhcsys/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1/WMIQType.java
+END
+SNMPQType.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/java/com/nhcsys/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1/SNMPQType.java
+END
+CLQType.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/java/com/nhcsys/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1/CLQType.java
+END
+UpdateNetworkEnvironmentRequestElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/java/com/nhcsys/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1/UpdateNetworkEnvironmentRequestElementDocument.java
+END
+WirelessNetworkInfoType.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/java/com/nhcsys/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1/WirelessNetworkInfoType.java
+END
+FaultTypeElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/java/com/nhcsys/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1/FaultTypeElementDocument.java
+END
+WNQType.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/java/com/nhcsys/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1/WNQType.java
+END
+UpdateNetworkEnvironmentMessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/java/com/nhcsys/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1/UpdateNetworkEnvironmentMessageType.java
+END
+UpdateNetworkEnvironmentResponseElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/java/com/nhcsys/webservices/updatenetworkenvironment/updatenetworkenvironmenttypes/v1/UpdateNetworkEnvironmentResponseElementDocument.java
+END

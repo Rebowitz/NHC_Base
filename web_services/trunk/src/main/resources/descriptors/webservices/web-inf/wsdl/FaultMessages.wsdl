@@ -1,0 +1,88 @@
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+             targetNamespace="http://nhcsys.com/webservices/faultmessages/v1"
+             name="WebServicesCommonFaultMessagesVersion1"
+             xmlns:xs="http://www.w3.org/2001/XMLSchema"
+             xmlns:cft="http://nhcsys.com/webservices/faulttypes/v1"
+             xmlns:cfm="http://nhcsys.com/webservices/faultmessages/v1">
+    <types>
+        <xs:schema targetNamespace="http://nhcsys.com/webservices/faulttypes/v1">
+            <xs:include schemaLocation="FaultTypes.xsd"/>
+        </xs:schema>
+    </types>
+    <message name="LoginFailure">
+        <documentation>The service implementation has determined that the
+                       supplied business information is insufficient to satisfy
+                       a business rule.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>
+    <message name="UnknownFault">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>
+    <message name="UpdateStatusFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>
+    <message name="GetManifestFailure"> 
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>
+    <message name="GetMessagesFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>
+    <message name="CompatCheckFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>    
+    <message name="UpdateNetworkEnvironmentFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>
+    <message name="GetSoftwareUpdateFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message> 
+     <message name="GetSoftwareLicenseKeyFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>
+     <message name="GetMemberNetworkInfoFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>
+      <message name="GetFilesFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>
+
+     <message name="GetSoftwareLicenseKeysFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>
+
+  <message name="StoreInstalledSoftwareFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>
+
+  <message name="GetOrderInfoFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="cft:FaultTypeElement"/>
+    </message>
+   
+  </definitions>
+

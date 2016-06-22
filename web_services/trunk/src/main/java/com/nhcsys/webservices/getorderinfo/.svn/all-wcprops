@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/backbone/!svn/ver/708/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo
+END
+GetOrderInfoFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo/GetOrderInfoFailure.java
+END
+GetOrderInfoServiceMessageReceiverInOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo/GetOrderInfoServiceMessageReceiverInOut.java
+END
+ZenGetOrderInfoHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo/ZenGetOrderInfoHandler.java
+END
+ResponseXMLGetOrderInfoHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo/ResponseXMLGetOrderInfoHandler.java
+END
+OracleGetOrderInfoHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/708/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo/OracleGetOrderInfoHandler.java
+END
+GetOrderInfoServiceSkeleton.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo/GetOrderInfoServiceSkeleton.java
+END
+GetOrderInfoServiceSkeletonInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo/GetOrderInfoServiceSkeletonInterface.java
+END

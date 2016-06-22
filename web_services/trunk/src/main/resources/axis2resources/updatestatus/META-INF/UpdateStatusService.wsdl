@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions targetNamespace="http://nhcsys.com/webservices/updatestatus/v1" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://nhcsys.com/webservices/updatestatus/v1" xmlns:nhcus="http://nhcsys.com/webservices/updatestatus/updatestatustypes/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <types>
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://nhcsys.com/webservices/updatestatus/updatestatustypes/v1">
+        <xs:include schemaLocation="xsd0.xsd"/> 
+    </xs:schema>
+  </types>
+  <message name="UpdateStatusResponse">
+    <part name="processstatus" element="nhcus:ProcessCompletedStatusElement"/>
+  </message>
+  <message name="UpdateStatusFailure">
+<documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+    <part name="FaultPart" element="nhcus:FaultTypeElement"/>
+  </message>
+  <message name="UpdateStatusRequest">
+    <part name="tasksexeclist" element="nhcus:UpdateStatusElement"/>
+  </message>
+  <portType name="UpdateStatusPort">
+    <operation name="UpdateStatus">
+      <input message="tns:UpdateStatusRequest"/>
+      <output message="tns:UpdateStatusResponse"/>
+      <fault name="UpdateStatusFault" message="tns:UpdateStatusFailure"/>
+    </operation>
+  </portType>
+  <binding name="UpdateStatusSoapHttp" type="tns:UpdateStatusPort">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="UpdateStatus">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+      <fault name="UpdateStatusFault">
+        <soap:fault name="UpdateStatusFault" use="literal"/>
+      </fault>
+    </operation>
+  </binding>
+  <service name="UpdateStatusService">
+    <port name="UpdateStatusPort" binding="tns:UpdateStatusSoapHttp">
+      <soap:address location="http://localhost:8080/axis2/services/UpdateStatusService"/>
+    </port>
+  </service>
+</definitions>

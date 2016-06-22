@@ -1,0 +1,53 @@
+<definitions   targetNamespace="http://nhcsys.com/webservices/storeinstalledsoftware/v1"
+               xmlns:tns="http://nhcsys.com/webservices/storeinstalledsoftware/v1"
+               xmlns:nhcsc="http://nhcsys.com/webservices/storeinstalledsoftware/storeinstalledsoftwaretypes/v1"
+               xmlns="http://schemas.xmlsoap.org/wsdl/" 
+               xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+               xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"> 
+    <types>
+        <xs:schema targetNamespace="http://nhcsys.com/webservices/storeinstalledsoftware/storeinstalledsoftwaretypes/v1">
+            <xs:include schemaLocation="StoreInstalledSoftwareTypes.xsd"/>
+        </xs:schema>
+    </types>    
+	<message name="StoreInstalledSoftwareRequest">
+		<part name="installedsoftwareyrequest" element="nhcsc:StoreInstalledSoftwareRequestElement"/>
+	</message>   
+
+	<message name="StoreInstalledSoftwareResponse">
+	        <part name="installedsoftwareresponse" element="nhcsc:StoreInstalledSoftwareResponseElement"/>
+	</message>
+
+	<message name="StoreInstalledSoftwareFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="nhcsc:FaultTypeElement"/>
+    </message>
+	<portType name="StoreInstalledSoftwarePort">
+            <operation name="StoreInstalledSoftware">
+                <input message="tns:StoreInstalledSoftwareRequest"/>
+                <output message="tns:StoreInstalledSoftwareResponse"/> 
+                <fault name="StoreInstalledSoftwareFault" message="tns:StoreInstalledSoftwareFailure"/>                
+            </operation>
+        </portType>
+    
+	<binding name="StoreInstalledSoftwareSoapHttp" type="tns:StoreInstalledSoftwarePort">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="StoreInstalledSoftware">
+            <soap:operation soapAction=""/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+            <fault name="StoreInstalledSoftwareFault">
+                <soap:fault name="StoreInstalledSoftwareFault" use="literal"/>
+            </fault>
+        </operation>
+    </binding>
+<service name="StoreInstalledSoftwareService">
+<port name="StoreInstalledSoftwarePort" binding="tns:StoreInstalledSoftwareSoapHttp">
+<soap:address location="http://localhost:8080/StoreInstalledSoftwareService"/>
+</port>
+</service>
+</definitions>

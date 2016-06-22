@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions targetNamespace="http://nhcsys.com/webservices/login/v1" xmlns:tns="http://nhcsys.com/webservices/login/v1" xmlns:cfm="http://nhcsys.com/webservices/faultmessages/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:nhclt="http://nhcsys.com/webservices/login/logintypes/v1" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xs:schema targetNamespace="http://nhcsys.com/webservices/login/logintypes/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <xs:include schemaLocation="xsd0.xsd"/> 
+        </xs:schema>
+  </types>
+  <message name="LoginServiceResponse">
+    <part name="LoginResponse" element="nhclt:LoginResponseElement"/>
+  </message>
+  <message name="LoginFailure">
+    <part name="FaultPart" element="nhclt:FaultTypeElement"/>
+  </message>
+  <message name="LoginCredentialRequest">
+    <part name="LoginCredentinalInput" element="nhclt:LoginCredentialsElement"/>
+  </message>
+  <message name="GetTokenRequest">
+    <part name="GetTokenInput" element="nhclt:GetTokenElement"/>
+  </message>
+  <portType name="LoginPortType">
+    <operation name="GetToken">
+      <input message="tns:GetTokenRequest"/>
+      <output message="tns:LoginServiceResponse"/>
+      <fault name="LoginFailureFault" message="tns:LoginFailure"/>
+    </operation>
+    <operation name="LoginAuthenticate">
+      <input message="tns:LoginCredentialRequest"/>
+      <output message="tns:LoginServiceResponse"/>
+      <fault name="LoginFailureFault" message="tns:LoginFailure"/>
+    </operation>
+  </portType>
+  <binding name="LoginRequest" type="tns:LoginPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="GetToken">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+      <fault name="LoginFailureFault">
+        <soap:fault name="LoginFaultException" use="literal"/>
+      </fault>
+    </operation>
+    <operation name="LoginAuthenticate">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+      <fault name="LoginFailureFault">
+        <soap:fault name="LoginFaultException" use="literal"/>
+      </fault>
+    </operation>
+  </binding>
+  <service name="LoginService">
+    <port name="LoginPortType" binding="tns:LoginRequest">
+      <soap:address location="http://172.16.0.96:8888/NHCWebServices-NHCLoginService-context-root/NHCLoginPortType"/>
+    </port>
+  </service>
+</definitions>

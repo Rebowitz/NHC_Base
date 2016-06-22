@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:content="http://schemas.xmlsoap.org/ws/2002/04/content-type/" xmlns:dime="http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/" xmlns:ref="http://schemas.xmlsoap.org/ws/2002/04/reference/" xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://nhcsys.com/webservices/getfiles/getfilestypes/v1" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://nhcsys.com/webservices/getfiles/getfilestypes/v1">
+    <xs:element name="GetFilesRequestElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="SessionID" type="xs:string"/>
+                <xs:element name="FileDescriptorList" type="tns:FileDescriptorListType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetFilesResponseElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="FileResponse" type="tns:FileResponseType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="FileDescriptorListType">
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="FileDescriptor" type="tns:FileDescriptorType"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="FileDescriptorType">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Version" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="FileResponseType">
+        <xs:sequence>
+            <xs:element name="FileName" type="xs:string"/>
+            <xs:element name="FileSize" type="xs:string"/>
+            <xs:element name="MD5Hash" type="xs:string"/>
+            <xs:element name="FileBinary" type="xs:base64Binary"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="FaultTypeElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="description" type="xs:string"/>
+                <xs:element name="code" type="xs:long"/>
+                <xs:element name="cause" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

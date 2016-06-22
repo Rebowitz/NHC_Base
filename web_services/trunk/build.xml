@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="NHCWebServices" default="aars" basedir=".">
+    <description>build.xml file for building Web Services- NHC Systems Inc.</description>
+    <!-- General Properties -->
+    <property file="build.properties"/>
+    <property environment="env"/>
+    <import file="filesets.xml"/>
+
+    <!-- Path Properties -->
+    <property name="src.dir" value="${basedir}/src"/>
+    <property name="java.src.dir" value="${src.dir}/main/java"/>
+    <property name="test.src.dir" value="${src.dir}/test/java"/>
+    <property name="dao.dir" value="${src.dir}/main/dao"/>
+    <property name="dao.java.src.dir" value="${dao.dir}/src"/>
+
+    <!-- Path Properties included by Maha on Oct 5th 2007 for Axis2 deployment -->
+    <property name="webservices.config.dir"
+              value="${basedir}/src/main/resources/descriptors/webservices/config"/>
+
+    <property name="webservices.responsexml.dir"
+              value="${webservices.config.dir}/responsexml" />
+    <property name="webservices.javapackage.home" value="com.nhcsys.webservices"/>
+
+    <property name="loginservice" value="loginservice"/>
+    <property name="updatestatus" value="updatestatus"/>
+    <property name="getfiles" value="getfiles"/>
+    <property name="getmanifest" value="getmanifest"/>
+    <property name="getmembernetworkinfo" value="getmembernetworkinfo"/>
+    <property name="getmessages" value="getmessages"/>
+    <property name="updatenetworkenvironment" value="updatenetworkenvironment"/>
+    <property name="storeinstalledsoftware" value="storeinstalledsoftware"/>
+    <property name="getorderinfo" value="getorderinfo"/>
+
+    <property name="resource.dir" value="${src.dir}/main/resources"/>
+    <property name="descriptors.dir" value="${resource.dir}/descriptors"/>
+    <property name="lib.dir" value="${basedir}/lib"/>
+    <property name="target.dir" value="${basedir}/target"/>
+    <property name="dist.dir" value="${target.dir}/dist"/>
+    <property name="target.lib.dir" value="${target.dir}/lib"/>
+    <property name="build.dir" value="${target.dir}/build"/>
+    <property name="jboss.lib.dir" value="${jboss.home}/lib"/>
+    <property name="jboss.client.dir" value="${jboss.home}/client"/>
+    <property name="axis2resources.dir" value="${resource.dir}/axis2resources"/>
+    <property name="dao.build.dir" value="${target.dir}/dao.build"/>
+
+    <!-- File Properties -->
+    <property name="nhc-dao.jar" value="${target.lib.dir}/nhc-dao.jar"/>
+    <property name="admin.war" value="${target.lib.dir}/admin.war"/>
+    <property name="admin.ear" value="${target.lib.dir}/admin.ear"/>
+
+    <property name="updatestatus-services.aar"
+              value="${target.lib.dir}/updatestatus-services.aar"/>
+    <property name="xbeans.packaged.jar.name" value="XBeans-packaged.jar"/>
+
+    <!-- set up the classpath -->
+    <path id="classpath">
+       <pathelement path="${build.dir}"/>
+       <pathelement path="${dao.build.dir}"/>
+       <fileset dir="${basedir}/lib" includes="*.jar"/>
+       <pathelement path="${env.CLASSPATH}"/>
+    </path>
+    <property name="classpath" refid="classpath"/>
+    <target name="classpath">
+        <property name="classpath" refid="classpath"/>
+        <echo>Setting Classpath to : ${classpath}</echo>
+    </target>
+    <target name="check.env" depends="classpath">
+        <fail unless="target.dir" message="Property target.dir must be set"/>
+    </target>
+    <target name="init" depends="check.env">
+        <mkdir dir="${target.dir}/lib"/>
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${build.dir}/lib"/>
+        <mkdir dir="${dao.build.dir}"/>
+    </target>
+
+    <!-- set up the dao.classpath -->
+    <path id="dao.classpath">
+        <pathelement path="${dao.build.dir}"/>
+        <fileset dir="${lib.dir}" includes="jboss-j2ee.jar, javax.servlet.jar, log4j.jar, ojdbc14.jar"/>
+        <fileset dir="${dao.dir}/webapp/WEB-INF/lib" includes="*.jar"/>
+        <pathelement path="${env.CLASSPATH}"/>
+    </path>
+    <property name="dao.classpath" refid="dao.classpath"/>
+    <target name="dao.classpath">
+        <property name="dao.classpath" refid="dao.classpath"/>
+        <echo>Setting Classpath to : ${dao.classpath}</echo>
+    </target>
+    <target name="dao.check.env" depends="dao.classpath">
+        <fail unless="target.dir" message="Property target.dir must be set"/>
+    </target>
+    <target name="dao.init" depends="dao.check.env">
+        <mkdir dir="${target.dir}/lib"/>
+        <mkdir dir="${dao.build.dir}"/>
+    </target>
+
+
+    <target name="clean" depends="clean.partial">
+        <delete dir="${target.dir}"/>
+    </target>
+    <target name="clean.partial">
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <target name="compile" depends="init, dao.compile">
+        <property name="javac.executable" value="javac"/>
+        <javac destdir="${build.dir}" srcdir="${java.src.dir}" fork="true"
+               executable="${javac.executable}" memorymaximumsize="256m"
+               debug="on">
+        <classpath refid="classpath"/>
+        </javac>
+    </target>
+
+    <target name="dao.compile" depends="dao.init">
+        <property name="javac.executable" value="javac"/>
+        <javac destdir="${dao.build.dir}" srcdir="${dao.java.src.dir}" fork="true"
+               executable="${javac.executable}" memoryMaximumSize="256m" debug="on">
+            <classpath refid="dao.classpath"/>
+        </javac>
+    </target>
+    <target name="nhc-dao.jar" depends="dao.compile">
+        <delete file="${nhc-dao.jar}" quiet="true"/>
+        <jar destfile="${nhc-dao.jar}" basedir="${dao.build.dir}">
+            <metainf dir="${src.dir}/main/dao/conf" />
+        </jar>
+    </target>
+
+    <target name="admin.war" depends="nhc-dao.jar">
+        <delete file="${admin.war}" quiet="true"/>
+        <war destfile="${admin.war}"
+             webxml="${src.dir}/main/dao/webapp/WEB-INF/web.xml"
+            baseDir="${src.dir}/main/dao/webapp">
+            <lib file="${nhc-dao.jar}"/>
+            <webinf file="${src.dir}/main/dao/webapp/conf/jboss-web.xml"/>
+        </war>
+    </target>
+    <target name="admin.ear"
+        depends="nhc-dao.jar, admin.war">
+      <delete file="${admin.ear}" quiet="true"/>
+      <ear destfile ="${admin.ear}"
+           appxml="${src.dir}/main/dao/application.xml">
+          <fileset file="${admin.war}"/>
+          <fileset file="${nhc-dao.jar}"/>
+      </ear>
+    </target>
+
+
+<target name="${loginservice}-service.aar" depends="compile">
+        <delete file="${loginservice}-service.aar" quiet="true"/>
+        <delete file="${build.dir}/lib/${xbeans.packaged.jar.name}" quiet="true"/>
+        <delete dir="${build.dir}/META-INF" quiet="true"/>
+        <mkdir dir="${build.dir}/META-INF" />
+        <copy file="${axis2resources.dir}/login/lib/${xbeans.packaged.jar.name}" todir="${build.dir}/lib"/>
+        <copy todir="${build.dir}/META-INF" failonerror="false">
+            <fileset dir="${axis2resources.dir}/login/META-INF">
+                <include name="*"/>
+            </fileset>
+        </copy>
+        <jar destfile="${loginservice}-service.aar" basedir="${build.dir}"></jar>
+ </target>
+
+        <target name="${updatestatus}-service.aar" depends="compile">
+        <delete file="${updatestatus}-service.aar" quiet="true"/>
+        <delete file="${build.dir}/lib/${xbeans.packaged.jar.name}" quiet="true"/>
+        <delete dir="${build.dir}/META-INF" quiet="true"/>
+        <mkdir dir="${build.dir}/META-INF" />
+        <copy file="${axis2resources.dir}/updatestatus/lib/${xbeans.packaged.jar.name}" todir="${build.dir}/lib"/>
+        <copy todir="${build.dir}/META-INF" failonerror="false">
+            <fileset dir="${axis2resources.dir}/updatestatus/META-INF">
+                <include name="*"/>
+            </fileset>
+        </copy>
+        <jar destfile="${updatestatus}-service.aar" basedir="${build.dir}"></jar>
+        <delete dir="output"/> 
+        </target>
+
+<target name="${getorderinfo}-service.aar" depends="compile">
+        <delete file="${getorderinfo}-service.aar" quiet="true"/>
+        <delete file="${build.dir}/lib/${xbeans.packaged.jar.name}" quiet="true"/>
+        <delete dir="${build.dir}/META-INF" quiet="true"/>
+        <mkdir dir="${build.dir}/META-INF" />
+        <copy file="${axis2resources.dir}/getorderinfo/lib/${xbeans.packaged.jar.name}" todir="${build.dir}/lib"/>
+        <copy todir="${build.dir}/META-INF" failonerror="false">
+            <fileset dir="${axis2resources.dir}/getorderinfo/META-INF">
+                <include name="*"/>
+            </fileset>
+        </copy>
+        <jar destfile="${getorderinfo}-service.aar" basedir="${build.dir}"></jar>
+ </target>
+
+<target name="${getfiles}-service.aar" depends="compile">
+        <delete file="${getfiles}-service.aar" quiet="true"/>
+        <delete file="${build.dir}/lib/${xbeans.packaged.jar.name}" quiet="true"/>
+        <delete dir="${build.dir}/META-INF" quiet="true"/>
+        <mkdir dir="${build.dir}/META-INF" />
+        <copy file="${axis2resources.dir}/getfiles/lib/${xbeans.packaged.jar.name}" todir="${build.dir}/lib"/>
+        <copy todir="${build.dir}/META-INF" failonerror="false">
+            <fileset dir="${axis2resources.dir}/getfiles/META-INF">
+                <include name="*"/>
+            </fileset>
+        </copy>
+        <jar destfile="${getfiles}-service.aar" basedir="${build.dir}"></jar>
+        <delete dir="output" />
+    </target>
+
+
+<target name="${getmanifest}-service.aar" depends="compile">
+        <delete file="${getmanifest}-service.aar" quiet="true"/>
+        <delete file="${build.dir}/lib/${xbeans.packaged.jar.name}" quiet="true"/>
+        <delete dir="${build.dir}/META-INF" quiet="true"/>
+        <mkdir dir="${build.dir}/META-INF" />
+        <copy file="${axis2resources.dir}/getmanifest/lib/${xbeans.packaged.jar.name}" todir="${build.dir}/lib"/>
+        <copy todir="${build.dir}/META-INF" failonerror="false">
+            <fileset dir="${axis2resources.dir}/getmanifest/META-INF">
+                <include name="*"/>
+            </fileset>
+        </copy>
+        <jar destfile="${getmanifest}-service.aar" basedir="${build.dir}"></jar>
+        <delete dir="output" />
+    </target>
+
+<target name="${getmembernetworkinfo}-service.aar" depends="compile">
+        <delete file="${getmembernetworkinfo}-service.aar" quiet="true"/>
+        <delete file="${build.dir}/lib/${xbeans.packaged.jar.name}" quiet="true"/>
+        <delete dir="${build.dir}/META-INF" quiet="true"/>
+        <mkdir dir="${build.dir}/META-INF" />
+        <copy file="${axis2resources.dir}/getmembernetworkinfo/lib/${xbeans.packaged.jar.name}" todir="${build.dir}/lib"/>
+        <copy todir="${build.dir}/META-INF" failonerror="false">
+            <fileset dir="${axis2resources.dir}/getmembernetworkinfo/META-INF">
+                <include name="*"/>
+            </fileset>
+        </copy>
+        <jar destfile="${getmembernetworkinfo}-service.aar" basedir="${build.dir}"></jar>
+        <delete dir="output" />
+    </target>
+<target name="${getmessages}-service.aar" depends="compile">
+        <delete file="${getmessages}-service.aar" quiet="true"/>
+        <delete file="${build.dir}/lib/${xbeans.packaged.jar.name}" quiet="true"/>
+        <delete dir="${build.dir}/META-INF" quiet="true"/>
+        <mkdir dir="${build.dir}/META-INF" />
+        <copy file="${axis2resources.dir}/getmessages/lib/${xbeans.packaged.jar.name}" todir="${build.dir}/lib"/>
+        <copy todir="${build.dir}/META-INF" failonerror="false">
+            <fileset dir="${axis2resources.dir}/getmessages/META-INF">
+                <include name="*"/>
+            </fileset>
+        </copy>
+        <jar destfile="${getmessages}-service.aar" basedir="${build.dir}"></jar>
+        <delete dir="output" />
+    </target>
+
+<target name="${updatenetworkenvironment}-service.aar" depends="compile">
+        <delete file="${updatenetworkenvironment}-service.aar" quiet="true"/>
+       <delete file="${build.dir}/lib/${xbeans.packaged.jar.name}" quiet="true"/>
+        <delete dir="${build.dir}/META-INF" quiet="true"/>
+        <mkdir dir="${build.dir}/META-INF" />
+        <copy file="${axis2resources.dir}/updatenetworkenvironment/lib/${xbeans.packaged.jar.name}" todir="${build.dir}/lib"/>
+        <copy todir="${build.dir}/META-INF" failonerror="false">
+            <fileset dir="${axis2resources.dir}/updatenetworkenvironment/META-INF">
+                <include name="*"/>
+            </fileset>
+        </copy>
+        <jar destfile="${updatenetworkenvironment}-service.aar" basedir="${build.dir}"></jar>
+       <delete dir="output" />
+    </target>
+
+
+<target name="${storeinstalledsoftware}-service.aar" depends="compile">
+        <delete file="${storeinstalledsoftware}-service.aar" quiet="true"/>
+       <delete file="${build.dir}/lib/${xbeans.packaged.jar.name}" quiet="true"/>
+       <delete dir="${build.dir}/META-INF" quiet="true"/>
+       <mkdir dir="${build.dir}/META-INF" />
+       <copy file="${axis2resources.dir}/storeinstalledsoftware/lib/${xbeans.packaged.jar.name}" todir="${build.dir}/lib"/>
+       <copy todir="${build.dir}/META-INF" failonerror="false">
+            <fileset dir="${axis2resources.dir}/storeinstalledsoftware/META-INF">
+                <include name="*"/>
+            </fileset>
+        </copy>
+        <jar destfile="${storeinstalledsoftware}-service.aar" basedir="${build.dir}"></jar>
+       <delete dir="output" />
+    </target>
+
+<target name="logincode" depends="">
+<java classname="org.apache.axis2.wsdl.WSDL2Java" fork="true">
+          <classpath refid="classpath"/>
+          <arg value="-uri"/>
+          <arg file="src/main/resources/descriptors/webservices/web-inf/wsdl/Login.wsdl"/>
+          <arg value="-o"/>
+          <arg file="logincode"/>
+          <arg value="-p"/>
+          <arg value="${webservices.javapackage.home}.login"/>
+          <arg value="-d"/>
+          <arg value="xmlbeans"/>
+          <arg value="-t"/>
+          <arg value="-ss"/>
+          <arg value="-ssi"/>
+          <arg value="-sd"/>
+      </java>
+      <delete dir="${axis2resources.dir}/login/META-INF"/>
+      <mkdir dir="${axis2resources.dir}/login/META-INF"/>
+      <copy todir="${axis2resources.dir}/login/META-INF" failonerror="false">
+          <fileset dir="logincode/resources">
+                <include name="*.xml"/>
+                <include name="*.wsdl"/>
+                <include name="*.xsd"/>
+                <exclude name="**/schemaorg_apache_xmlbean/**"/>
+            </fileset>
+        </copy>
+        <delete dir="${axis2resources.dir}/login/lib"/>
+        <mkdir dir="${axis2resources.dir}/login/lib"/>
+        <jar basedir="logincode/resources"
+           destfile="${axis2resources.dir}/login/lib/${xbeans.packaged.jar.name}"
+             excludes="**/services.xml, **/*.xsd"/>
+</target>
+
+
+
+<target name="getorderinfocode" depends="">
+<java classname="org.apache.axis2.wsdl.WSDL2Java" fork="true">
+          <classpath refid="classpath"/>
+          <arg value="-uri"/>
+          <arg file="src/main/resources/descriptors/webservices/web-inf/wsdl/GetOrderInfo.wsdl"/>
+          <arg value="-o"/>
+          <arg file="getorderinfocode"/>
+          <arg value="-p"/>
+          <arg value="${webservices.javapackage.home}.getorderinfo"/>
+          <arg value="-d"/>
+          <arg value="xmlbeans"/>
+          <arg value="-t"/>
+          <arg value="-ss"/>
+          <arg value="-ssi"/>
+          <arg value="-sd"/>
+      </java>
+      <delete dir="${axis2resources.dir}/getorderinfo/META-INF"/>
+      <mkdir dir="${axis2resources.dir}/getorderinfo/META-INF"/>
+      <copy todir="${axis2resources.dir}/getorderinfo/META-INF" failonerror="false">
+          <fileset dir="getorderinfocode/resources">
+                <include name="*.xml"/>
+                <include name="*.wsdl"/>
+                <include name="*.xsd"/>
+                <exclude name="**/schemaorg_apache_xmlbean/**"/>
+            </fileset>
+        </copy>
+        <delete dir="${axis2resources.dir}/getorderinfo/lib"/>
+        <mkdir dir="${axis2resources.dir}/getorderinfo/lib"/>
+        <jar basedir="getorderinfocode/resources"
+           destfile="${axis2resources.dir}/getorderinfo/lib/${xbeans.packaged.jar.name}"
+             excludes="**/services.xml, **/*.xsd"/>
+</target>
+
+
+
+<target name="updatestatuscode" depends="">
+<java classname="org.apache.axis2.wsdl.WSDL2Java" fork="true">
+          <classpath refid="classpath"/>
+          <arg value="-uri"/>
+          <arg file="src/main/resources/descriptors/webservices/web-inf/wsdl/UpdateStatus.wsdl"/>
+          <arg value="-o"/>
+          <arg file="updatestatuscode"/>
+          <arg value="-p"/>
+          <arg value="${webservices.javapackage.home}.updatestatus"/>
+          <arg value="-d"/>
+          <arg value="xmlbeans"/>
+          <arg value="-t"/>
+          <arg value="-ss"/>
+          <arg value="-ssi"/>
+          <arg value="-sd"/>
+      </java>
+ <delete dir="${axis2resources.dir}/updatestatus/META-INF"/>
+      <mkdir dir="${axis2resources.dir}/updatestatus/META-INF"/>
+      <copy todir="${axis2resources.dir}/updatestatus/META-INF" failonerror="false">
+          <fileset dir="updatestatuscode/resources">
+                <include name="*.xml"/>
+                <include name="*.wsdl"/>
+                <include name="*.xsd"/>
+                <exclude name="**/schemaorg_apache_xmlbean/**"/>
+            </fileset>
+        </copy>
+        <delete dir="${axis2resources.dir}/updatestatus/lib"/>
+        <mkdir dir="${axis2resources.dir}/updatestatus/lib"/>
+        <jar basedir="updatestatuscode/resources"
+           destfile="${axis2resources.dir}/updatestatus/lib/${xbeans.packaged.jar.name}"
+             excludes="**/services.xml, **/*.xsd"/>
+</target>
+
+<target name="getfilescode" depends="">
+<java classname="org.apache.axis2.wsdl.WSDL2Java" fork="true">
+          <classpath refid="classpath"/>
+          <arg value="-uri"/>
+          <arg file="src/main/resources/descriptors/webservices/web-inf/wsdl/GetFiles.wsdl"/>
+          <arg value="-o"/>
+          <arg file="getfilescode"/>
+          <arg value="-p"/>
+          <arg value="${webservices.javapackage.home}.getfiles"/>
+          <arg value="-d"/>
+          <arg value="xmlbeans"/>
+          <arg value="-t"/>
+          <arg value="-ss"/>
+          <arg value="-ssi"/>
+          <arg value="-sd"/>
+      </java>
+      <delete dir="${axis2resources.dir}/getfiles/META-INF"/>
+      <mkdir dir="${axis2resources.dir}/getfiles/META-INF"/>
+      <copy todir="${axis2resources.dir}/getfiles/META-INF" failonerror="false">
+          <fileset dir="getfilescode/resources">
+                <include name="*.xml"/>
+                <include name="*.wsdl"/>
+                <include name="*.xsd"/>
+                <exclude name="**/schemaorg_apache_xmlbean/**"/>
+            </fileset>
+        </copy>
+        <delete dir="${axis2resources.dir}/getfiles/lib"/>
+        <mkdir dir="${axis2resources.dir}/getfiles/lib"/>
+        <jar basedir="getfilescode/resources"
+           destfile="${axis2resources.dir}/getfiles/lib/${xbeans.packaged.jar.name}"
+             excludes="**/services.xml, **/*.xsd"/>
+</target>
+
+<target name="getmanifestcode" depends="">
+<java classname="org.apache.axis2.wsdl.WSDL2Java" fork="true">
+          <classpath refid="classpath"/>
+          <arg value="-uri"/>
+          <arg file="src/main/resources/descriptors/webservices/web-inf/wsdl/GetManifest.wsdl"/>
+          <arg value="-o"/>
+          <arg file="getmanifestcode"/>
+          <arg value="-p"/>
+          <arg value="${webservices.javapackage.home}.getmanifest"/>
+          <arg value="-d"/>
+          <arg value="xmlbeans"/>
+          <arg value="-t"/>
+          <arg value="-ss"/>
+          <arg value="-ssi"/>
+          <arg value="-sd"/>
+      </java>
+  <delete dir="${axis2resources.dir}/getmanifest/META-INF"/>
+      <mkdir dir="${axis2resources.dir}/getmanifest/META-INF"/>
+      <copy todir="${axis2resources.dir}/getmanifest/META-INF" failonerror="false">
+          <fileset dir="getmanifestcode/resources">
+                <include name="*.xml"/>
+                <include name="*.wsdl"/>
+                <include name="*.xsd"/>
+                <exclude name="**/schemaorg_apache_xmlbean/**"/>
+            </fileset>
+        </copy>
+        <delete dir="${axis2resources.dir}/getmanifest/lib"/>
+        <mkdir dir="${axis2resources.dir}/getmanifest/lib"/>
+        <jar basedir="getmanifestcode/resources"
+           destfile="${axis2resources.dir}/getmanifest/lib/${xbeans.packaged.jar.name}"
+             excludes="**/services.xml, **/*.xsd"/>
+</target>
+
+<target name="getmembernetworkinfocode" depends="">
+<java classname="org.apache.axis2.wsdl.WSDL2Java" fork="true">
+          <classpath refid="classpath"/>
+          <arg value="-uri"/>
+          <arg file="src/main/resources/descriptors/webservices/web-inf/wsdl/GetMemberNetworkInfo.wsdl"/>
+          <arg value="-o"/>
+          <arg file="getmembernetworkinfocode"/>
+          <arg value="-p"/>
+          <arg value="${webservices.javapackage.home}.getmembernetworkinfo"/>
+          <arg value="-d"/>
+          <arg value="xmlbeans"/>
+          <arg value="-t"/>
+          <arg value="-ss"/>
+          <arg value="-ssi"/>
+          <arg value="-sd"/>
+      </java>
+ <delete dir="${axis2resources.dir}/getmembernetworkinfo/META-INF"/>
+      <mkdir dir="${axis2resources.dir}/getmembernetworkinfo/META-INF"/>
+      <copy todir="${axis2resources.dir}/getmembernetworkinfo/META-INF" failonerror="false">
+          <fileset dir="getmembernetworkinfocode/resources">
+                <include name="*.xml"/>
+                <include name="*.wsdl"/>
+                <include name="*.xsd"/>
+                <exclude name="**/schemaorg_apache_xmlbean/**"/>
+            </fileset>
+        </copy>
+        <delete dir="${axis2resources.dir}/getmembernetworkinfo/lib"/>
+        <mkdir dir="${axis2resources.dir}/getmembernetworkinfo/lib"/>
+        <jar basedir="getmembernetworkinfocode/resources"
+           destfile="${axis2resources.dir}/getmembernetworkinfo/lib/${xbeans.packaged.jar.name}"
+             excludes="**/services.xml, **/*.xsd"/>
+</target>
+
+<target name="getmessagescode" depends="">
+<java classname="org.apache.axis2.wsdl.WSDL2Java" fork="true">
+          <classpath refid="classpath"/>
+          <arg value="-uri"/>
+          <arg file="src/main/resources/descriptors/webservices/web-inf/wsdl/GetMessages.wsdl"/>
+          <arg value="-o"/>
+          <arg file="getmessagescode"/>
+          <arg value="-p"/>
+          <arg value="${webservices.javapackage.home}.getmessages"/>
+          <arg value="-d"/>
+          <arg value="xmlbeans"/>
+          <arg value="-t"/>
+          <arg value="-ss"/>
+          <arg value="-ssi"/>
+          <arg value="-sd"/>
+      </java>
+<delete dir="${axis2resources.dir}/getmessages/META-INF"/>
+      <mkdir dir="${axis2resources.dir}/getmessages/META-INF"/>
+      <copy todir="${axis2resources.dir}/getmessages/META-INF" failonerror="false">
+          <fileset dir="getmessagescode/resources">
+                <include name="*.xml"/>
+                <include name="*.wsdl"/>
+                <include name="*.xsd"/>
+                <exclude name="**/schemaorg_apache_xmlbean/**"/>
+            </fileset>
+        </copy>
+        <delete dir="${axis2resources.dir}/getmessages/lib"/>
+        <mkdir dir="${axis2resources.dir}/getmessages/lib"/>
+        <jar basedir="getmessagescode/resources"
+           destfile="${axis2resources.dir}/getmessages/lib/${xbeans.packaged.jar.name}"
+             excludes="**/services.xml, **/*.xsd"/>
+</target>
+
+<target name="updatenetworkenvironmentcode" depends="">
+<java classname="org.apache.axis2.wsdl.WSDL2Java" fork="true">
+          <classpath refid="classpath"/>
+          <arg value="-uri"/>
+          <arg file="src/main/resources/descriptors/webservices/web-inf/wsdl/UpdateNetworkEnvironment.wsdl"/>
+          <arg value="-o"/>
+          <arg file="updatenetworkenvironmentcode"/>
+          <arg value="-p"/>
+          <arg value="${webservices.javapackage.home}.updatenetworkenvironment"/>
+          <arg value="-d"/>
+          <arg value="xmlbeans"/>
+          <arg value="-t"/>
+          <arg value="-ss"/>
+          <arg value="-ssi"/>
+          <arg value="-sd"/>
+      </java>
+<delete dir="${axis2resources.dir}/updatenetworkenvironment/META-INF"/>
+      <mkdir dir="${axis2resources.dir}/updatenetworkenvironment/META-INF"/>
+      <copy todir="${axis2resources.dir}/updatenetworkenvironment/META-INF" failonerror="false">
+          <fileset dir="updatenetworkenvironmentcode/resources">
+                <include name="*.xml"/>
+                <include name="*.wsdl"/>
+                <include name="*.xsd"/>
+                <exclude name="**/schemaorg_apache_xmlbean/**"/>
+            </fileset>
+        </copy>
+        <delete dir="${axis2resources.dir}/updatenetworkenvironment/lib"/>
+        <mkdir dir="${axis2resources.dir}/updatenetworkenvironment/lib"/>
+        <jar basedir="updatenetworkenvironmentcode/resources"
+           destfile="${axis2resources.dir}/updatenetworkenvironment/lib/${xbeans.packaged.jar.name}"
+             excludes="**/services.xml, **/*.xsd"/>
+</target>
+
+<target name="storeinstalledsoftwarecode" depends="">
+<java classname="org.apache.axis2.wsdl.WSDL2Java" fork="true">
+          <classpath refid="classpath"/>
+          <arg value="-uri"/>
+          <arg file="src/main/resources/descriptors/webservices/web-inf/wsdl/StoreInstalledSoftware.wsdl"/>
+          <arg value="-o"/>
+          <arg file="storeinstalledsoftwarecode"/>
+          <arg value="-p"/>
+          <arg value="${webservices.javapackage.home}.storeinstalledsoftware"/>
+          <arg value="-d"/>
+          <arg value="xmlbeans"/>
+          <arg value="-t"/>
+          <arg value="-ss"/>
+          <arg value="-ssi"/>
+          <arg value="-sd"/>
+      </java>
+<delete dir="${axis2resources.dir}/storeinstalledsoftware/META-INF"/>
+      <mkdir dir="${axis2resources.dir}/storeinstalledsoftware/META-INF"/>
+      <copy todir="${axis2resources.dir}/storeinstalledsoftware/META-INF" failonerror="false">
+          <fileset dir="storeinstalledsoftwarecode/resources">
+                <include name="*.xml"/>
+                <include name="*.wsdl"/>
+                <include name="*.xsd"/>
+                <exclude name="**/schemaorg_apache_xmlbean/**"/>
+            </fileset>
+        </copy>
+        <delete dir="${axis2resources.dir}/storeinstalledsoftware/lib"/>
+        <mkdir dir="${axis2resources.dir}/storeinstalledsoftware/lib"/>
+        <jar basedir="storeinstalledsoftwarecode/resources"
+           destfile="${axis2resources.dir}/storeinstalledsoftware/lib/${xbeans.packaged.jar.name}"
+             excludes="**/services.xml, **/*.xsd"/>
+</target>
+
+
+    <target name="xml.beans" depends="init">
+        <xmlbean srcgendir="${src.dir}/main/java" srconly="true"
+                 javasource="1.4" classgendir="${build.dir}"
+                 classpathref="classpath" failonerror="true">
+            <fileset dir="${descriptors.dir}/webservices/web-inf/wsdl"
+                     includes="**/*.xsd"/>
+        </xmlbean>
+    </target>
+
+    <target name="dist" depends="">
+       <mkdir dir="${dist.dir}"/>
+       <mkdir dir="${dist.dir}/lib"/>
+       <mkdir dir="${dist.dir}/doc"/>
+       <mkdir dir="${dist.dir}/config"/>
+    	
+       <mkdir dir="${dist.dir}/database"/>
+       <mkdir dir="${dist.dir}/errorcodes"/>
+       <copy file="${updatestatus}-service.aar" todir="${dist.dir}/lib"/>
+       <copy file="${java.src.dir}/com/nhcsys/common/WebServicesFaultTypesEnum.java"  todir="${dist.dir}/errorcodes"/>
+  	   <copy file="${resource.dir}/database/nhc_db.sql"  todir="${dist.dir}/database"/>
+       <copy file="${nhc-dao.jar}" todir="${dist.dir}/lib"/>
+    	
+       <!-- The following is included by Maha -->
+       <copy file="${updatestatus}-service.aar" todir="${dist.dir}/lib"/>
+       <copy file="${loginservice}-service.aar"  todir="${dist.dir}/lib"/>
+       <copy file="${getfiles}-service.aar"  todir="${dist.dir}/lib"/>
+       <copy file="${getmanifest}-service.aar"  todir="${dist.dir}/lib"/>
+       <copy file="${getmessages}-service.aar"  todir="${dist.dir}/lib"/>
+       <copy file="${updatenetworkenvironment}-service.aar"  todir="${dist.dir}/lib"/>
+       <copy file="${storeinstalledsoftware}-service.aar"  todir="${dist.dir}/lib"/>
+       <copy file="${getorderinfo}-service.aar"  todir="${dist.dir}/lib"/>
+       <copy file="${admin.ear}"  todir="${dist.dir}/lib"/>
+
+       <copy file="WebServices-Release-Instruction.txt"  todir="${dist.dir}/doc"/>
+       <copy    todir="${dist.dir}/config">
+       <fileset dir="${webservices.config.dir}">
+       <exclude name="**/axis2resources/**"/>
+        </fileset>
+       </copy>
+
+       <delete file="${basedir}/${updatestatus}-service.aar" />
+       <delete file="${basedir}/${loginservice}-service.aar" />
+       <delete file="${basedir}/${getfiles}-service.aar"/>
+       <delete file="${basedir}/${getmanifest}-service.aar"/>
+       <delete file="${basedir}/${getmembernetworkinfo}-service.aar"/>
+       <delete file="${basedir}/${getmessages}-service.aar"/>
+       <delete file="${basedir}/${updatenetworkenvironment}-service.aar"/>
+       <delete file="${basedir}/${storeinstalledsoftware}-service.aar"/>
+       <delete file="${basedir}/${getorderinfo}-service.aar"/>
+
+    </target>
+    <target name="complete" depends="clean, admin.ear,  aars, dist"></target>
+    <target name="deploy" depends="deploy.webservices"/>
+    <target name="undeploy" depends="undeploy.webservices"/>
+    <target name="deploy.webservices">
+       <copy  todir="${jboss.axis.deploy.dir}">
+        <fileset dir="${dist.dir}/lib" includes="**/*.aar" 	/>
+       </copy>
+       <copy file="${dist.dir}/lib/admin.ear"  todir="${jboss.deploy.dir}">
+       </copy>
+    </target>
+    <target name="undeploy.webservices">
+        <delete file="${jboss.deploy.dir}/admin.ear"/>
+       <delete>
+           <fileset dir="${jboss.axis.deploy.dir}" includes="**/*.aar"/>
+       </delete>
+    </target>
+
+
+    <target name="jboss.env" depends="jboss.home.env">
+        <property name="dist.dir" value="${target.lib.dir}"/>
+        <property name="javac.executable" value="${java.home}/bin/javac"/>
+    </target>
+<target name="aars" depends="${loginservice}-service.aar, ${getorderinfo}-service.aar, ${updatestatus}-service.aar, ${getfiles}-service.aar, ${getmanifest}-service.aar, ${getmembernetworkinfo}-service.aar, ${getmessages}-service.aar, ${updatenetworkenvironment}-service.aar, ${storeinstalledsoftware}-service.aar"/>
+<target name="generateallservices" depends="logincode, getorderinfocode, updatestatuscode, getfilescode, getmanifestcode,getmembernetworkinfocode, getmessagescode, updatenetworkenvironmentcode, storeinstalledsoftwarecode"/>
+    <target name="jboss.home.env">
+        <!-- make sure we have a valid jboss.home property -->
+        <if>
+            <not>
+                <isset property="jboss.home"/>
+            </not>
+            <then>
+                <if>
+                    <not>
+                        <isset property="env.JBOSS_HOME"/>
+                    </not>
+                    <then>
+                        <fail message="-Djboss.home or $${JBOSS_HOME} not set"/>
+                    </then>
+                    <else>
+                        <!-- if jboss.home is not set, use $JBOSS_HOME -->
+                        <property name="jboss.home" value="${env.JBOSS_HOME}"/>
+                    </else>
+                </if>
+            </then>
+        </if>
+    </target>
+
+
+
+<!-- TEST TARGETS -->
+
+    <property name="test.java.home" value="${java.home}"/>
+    <property name="test.results.dir" value="${target.dir}/test-results"/>
+    <property name="test.resource.dir" value="${src.dir}/test/resources"/>
+
+    <!-- set up the test.classpath -->
+    <path id="test.classpath">
+        <pathelement path="${build.dir}"/>
+        <pathelement path="${test.resource.dir}/config"/>
+        <fileset dir="${lib.dir}" includes="*.jar"/>
+        <pathelement path="${env.test.classpath}"/>
+        <pathelement path="${build.dir}"/>
+    	<pathelement path="${dao.build.dir}"/>
+	<pathelement path="${nhc-dao.jar}"/>	
+    </path>
+    <property name="test.classpath" refid="test.classpath"/>
+    <target name="test.classpath">
+        <property name="test.classpath" refid="test.classpath"/>
+        <echo>Setting test.classpath to : ${test.classpath}</echo>
+    </target>
+
+    <target name="test.init" depends="">
+        <mkdir dir="${test.results.dir}"/>
+    </target>
+
+    <target name="test.compile" depends="init, compile">
+        <!-- If ${javac.executable} is already defined, it cannot be overridden.
+             The following is provided if the javac.executable property has not been
+             defined. In this case, the default 'javac' will be used.  -->
+        <property name="javac.executable" value="javac"/>
+        <javac destdir="${build.dir}" srcdir="${test.src.dir}" fork="true"
+               executable="${javac.executable}" memoryMaximumSize="256m" debug="on">
+            <classpath refid="test.classpath"/>
+        </javac>
+    </target>
+
+    <!--<target name="test.o.the.day" depends="test.init, test.compile">
+        <testclass class="com.nhcsys.test.GetMessagesRequestTest"/>
+        <fail message="test.o.the.day failed!" if="test.failed"/>
+    </target>-->
+
+    <target name="test.all" depends="test.login,
+    test.update.status,
+    test.get.files,
+    test.get.manifest,
+    test.get.messages,
+    test.get.membernetworkinfo,
+    test.update.networkenvironment,
+    test.store.installedsoftware,
+    test.get.orderinfo "/>
+	
+    <target name="test.get.orderinfo" depends="test.init, test.compile">
+        <testclass class="com.nhcsys.test.webservices.axis2.GetOrderInfoService.GetOrderInfoServiceTest"/>
+        <fail message="test.login failed!" if="test.failed"/>
+    </target>
+
+    <target name="test.login" depends="test.init, test.compile">
+        <testclass class="com.nhcsys.test.webservices.axis2.LoginService.LoginServiceTest"/>
+        <fail message="test.login failed!" if="test.failed"/>
+    </target>
+
+    <target name="test.update.status" depends="test.init, test.compile">
+        <testclass class="com.nhcsys.test.webservices.axis2.UpdateStatusService.UpdateStatusTest"/>
+        <fail message="test.login failed!" if="test.failed"/>
+    </target>
+
+    <target name="test.get.files" depends="test.init, test.compile">
+        <testclass class="com.nhcsys.test.webservices.axis2.GetFilesService.GetFilesServiceTest"/>
+        <fail message="test.login failed!" if="test.failed"/>
+    </target>
+
+    <target name="test.get.manifest" depends="test.init, test.compile">
+        <testclass class="com.nhcsys.test.webservices.axis2.GetManifestService.GetManifestServiceTest"/>
+        <fail message="test.login failed!" if="test.failed"/>
+    </target>
+
+    <target name="test.get.messages" depends="test.init, test.compile">
+        <testclass class="com.nhcsys.test.webservices.axis2.GetMessagesService.GetMessagesServiceTest"/>
+        <fail message="test.login failed!" if="test.failed"/>
+    </target>
+
+    <target name="test.get.membernetworkinfo" depends="test.init, test.compile">
+        <testclass class="com.nhcsys.test.webservices.axis2.GetMemberNetworkInfoService.GetMemberNetworkInfoServiceTest"/>
+        <fail message="test.login failed!" if="test.failed"/>
+    </target>
+
+    <target name="test.update.networkenvironment" depends="test.init, test.compile">
+        <testclass class="com.nhcsys.test.webservices.axis2.UpdateNetworkEnvironmentService.UpdateNetworkEnvironmentServiceTest"/>
+        <fail message="test.login failed!" if="test.failed"/>
+    </target>
+
+    <target name="test.store.installedsoftware" depends="test.init, test.compile">
+        <testclass class="com.nhcsys.test.webservices.axis2.StoreInstalledSoftwareService.StoreInstalledSoftwareServiceTest"/>
+        <fail message="test.login failed!" if="test.failed"/>
+    </target>
+
+    <macrodef name="testclass">
+        <attribute name="class"/>
+        <attribute name="classpathid" default="test.classpath"/>
+        <sequential>
+            <echo>testclass : Classpath : ${test.classpath}</echo>
+            <fail unless="test.java.home" message="test.java.home must be set"/>
+            <junit printsummary="yes" fork="off" errorProperty="test.failed"
+                   failureProperty="test.failed" showoutput="true"
+                   jvm="${test.java.home}/bin/java">
+                <classpath refid="@{classpathid}"/>
+                <formatter type="plain" usefile="false"/>
+                <formatter type="xml"/>
+                <test name="@{class}" todir="${test.results.dir}"/>
+                <sysproperty key="test.config.dir" value="${test.build.dir}"/>
+            </junit>
+        </sequential>
+    </macrodef>
+
+<!--    Commented as CompatCheck Service has been removed as per JIIRA Ticket: WS-20.
+<target name="${compatcheck}-service.aar" depends="compile">
+        <delete file="${compatcheck}-service.aar" quiet="true"/>
+        <delete file="${build.dir}/lib/${xbeans.packaged.jar.name}" quiet="true"/>
+        <delete dir="${build.dir}/META-INF" quiet="true"/>
+        <mkdir dir="${build.dir}/META-INF" />
+        <copy file="${axis2resources.dir}/compatcheck/lib/${xbeans.packaged.jar.name}" todir="${build.dir}/lib"/>
+        <copy todir="${build.dir}/META-INF" failonerror="false">
+            <fileset dir="${axis2resources.dir}/compatcheck/META-INF">
+                <include name="*"/>
+            </fileset>
+        </copy>
+        <jar destfile="${compatcheck}-service.aar" basedir="${build.dir}"></jar>
+        <delete dir="output" />
+    </target>
+<target name="compatcheckcode" depends="">
+<java classname="org.apache.axis2.wsdl.WSDL2Java" fork="true">
+          <classpath refid="classpath"/>
+          <arg value="-uri"/>
+          <arg file="src/main/resources/descriptors/webservices/web-inf/wsdl/CompatCheck.wsdl"/>
+          <arg value="-o"/>
+          <arg file="compatcheckcode"/>
+          <arg value="-p"/>
+          <arg value="${webservices.javapackage.home}.compatcheck"/>
+          <arg value="-d"/>
+          <arg value="xmlbeans"/>
+          <arg value="-t"/>
+          <arg value="-ss"/>
+          <arg value="-ssi"/>
+          <arg value="-sd"/>
+      </java>
+<delete dir="${axis2resources.dir}/compatcheck/META-INF"/>
+      <mkdir dir="${axis2resources.dir}/compatcheck/META-INF"/>
+      <copy todir="${axis2resources.dir}/compatcheck/META-INF" failonerror="false">
+          <fileset dir="compatcheckcode/resources">
+                <include name="*.xml"/>
+                <include name="*.wsdl"/>
+                <include name="*.xsd"/>
+                <exclude name="**/schemaorg_apache_xmlbean/**"/>
+            </fileset>
+        </copy>
+        <delete dir="${axis2resources.dir}/compatcheck/lib"/>
+        <mkdir dir="${axis2resources.dir}/compatcheck/lib"/>
+        <jar basedir="compatcheckcode/resources"
+           destfile="${axis2resources.dir}/compatcheck/lib/${xbeans.packaged.jar.name}"
+             excludes="**/services.xml, **/*.xsd"/>
+</target>
+-->
+
+</project>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/backbone/!svn/ver/691/web_services/trunk/src/main/java/com/nhcsys/webservices/login
+END
+LoginServiceSkeletonInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/java/com/nhcsys/webservices/login/LoginServiceSkeletonInterface.java
+END
+LoginFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/java/com/nhcsys/webservices/login/LoginFailure.java
+END
+LoginServiceMessageReceiverInOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/java/com/nhcsys/webservices/login/LoginServiceMessageReceiverInOut.java
+END
+LoginServiceBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/backbone/!svn/ver/691/web_services/trunk/src/main/java/com/nhcsys/webservices/login/LoginServiceBase.java
+END
+ZenHandlerLoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/636/web_services/trunk/src/main/java/com/nhcsys/webservices/login/ZenHandlerLoginService.java
+END
+ResponseXMLHandlerLoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/java/com/nhcsys/webservices/login/ResponseXMLHandlerLoginService.java
+END
+OracleHandlerLoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/638/web_services/trunk/src/main/java/com/nhcsys/webservices/login/OracleHandlerLoginService.java
+END
+LoginServiceSkeleton.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/java/com/nhcsys/webservices/login/LoginServiceSkeleton.java
+END

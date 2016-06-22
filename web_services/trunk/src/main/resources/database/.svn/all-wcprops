@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/backbone/!svn/ver/716/web_services/trunk/src/main/resources/database
+END
+nhc_oracle_db.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/backbone/!svn/ver/716/web_services/trunk/src/main/resources/database/nhc_oracle_db.sql
+END
+messages.sql
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/backbone/!svn/ver/433/web_services/trunk/src/main/resources/database/messages.sql
+END
+nhc_db.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/backbone/!svn/ver/577/web_services/trunk/src/main/resources/database/nhc_db.sql
+END

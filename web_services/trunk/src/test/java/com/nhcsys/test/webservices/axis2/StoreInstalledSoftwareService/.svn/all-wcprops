@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/688/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/StoreInstalledSoftwareService
+END
+StoreInstalledSoftwareFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/StoreInstalledSoftwareService/StoreInstalledSoftwareFailure.java
+END
+StoreInstalledSoftwareServiceStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/backbone/!svn/ver/621/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/StoreInstalledSoftwareService/StoreInstalledSoftwareServiceStub.java
+END
+StoreInstalledSoftwareServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/backbone/!svn/ver/688/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/StoreInstalledSoftwareService/StoreInstalledSoftwareServiceTest.java
+END

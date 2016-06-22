@@ -1,0 +1,53 @@
+8
+
+dir
+29
+http://nhc-cm/svn/jboss/trunk/jboss-4.2.0.GA/server/all/farm/axis2.war/WEB-INF/services
+http://nhc-cm/svn/jboss
+
+
+
+2007-10-08T14:15:08.050855Z
+29
+mahadevan.raju
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1b1167fc-cbcf-8442-bab7-2a1ad7075520
+
+version-1.3.aar
+file
+
+
+
+
+2007-10-08T19:12:57.875000Z
+596cf427ee3a0f58086e33d3ed8b0fc0
+2007-10-08T14:15:08.050855Z
+29
+mahadevan.raju
+has-props
+
+services.list
+file
+
+
+
+
+2007-10-08T19:12:57.890625Z
+6e21544f5b9a3dd365954966c1d3fbbe
+2007-10-08T14:15:08.050855Z
+29
+mahadevan.raju
+

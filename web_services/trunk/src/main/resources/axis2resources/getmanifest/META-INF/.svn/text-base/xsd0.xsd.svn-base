@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://nhcsys.com/webservices/getmanifest/getmanifesttypes/v1" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://nhcsys.com/webservices/getmanifest/getmanifesttypes/v1">
+    <xs:element name="GetManifestInputElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="SessionID" type="xs:string"/>
+                <xs:element name="Make" type="xs:string"/>
+                <xs:element name="Model" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetManifestResponseElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="FileName" type="xs:string"/>
+                <xs:element name="FileSize" type="xs:string"/>
+                <xs:element name="MD5Hash" type="xs:string"/>
+                <xs:element name="ManifestResponse" type="xs:base64Binary"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FaultTypeElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="description" type="xs:string"/>
+                <xs:element name="code" type="xs:long"/>
+                <xs:element name="cause" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

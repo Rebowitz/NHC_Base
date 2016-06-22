@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/backbone/!svn/ver/509/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo
+END
+ResponseXMLHanderGetMemberNetworkInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/backbone/!svn/ver/509/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/ResponseXMLHanderGetMemberNetworkInfo.java
+END
+OracleHandlerGetMemberNetworkInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/OracleHandlerGetMemberNetworkInfo.java
+END
+GetMemberNetworkInfoServiceSkeleton.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/GetMemberNetworkInfoServiceSkeleton.java
+END
+GetMemberNetworkInfoServiceSkeletonInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/GetMemberNetworkInfoServiceSkeletonInterface.java
+END
+GetMemberNetworkInfoFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/GetMemberNetworkInfoFailure.java
+END
+GetMemberNetworkInfoServiceMessageReceiverInOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/GetMemberNetworkInfoServiceMessageReceiverInOut.java
+END
+ZenHandlerGetMemberNetworkInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/ZenHandlerGetMemberNetworkInfo.java
+END

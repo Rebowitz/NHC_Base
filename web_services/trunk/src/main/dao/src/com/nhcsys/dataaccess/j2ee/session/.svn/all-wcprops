@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session
+END
+ClqinfoSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/ClqinfoSession.java
+END
+UpdateStatusSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/UpdateStatusSessionHome.java
+END
+SnmpqinfoSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/SnmpqinfoSessionBean.java
+END
+MachinesSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/MachinesSessionHome.java
+END
+ModifiedDataSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/ModifiedDataSessionBean.java
+END
+WmiqinfoSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/WmiqinfoSessionHome.java
+END
+ClqinfoSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/ClqinfoSessionHome.java
+END
+NetworkinfoSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/NetworkinfoSession.java
+END
+WsSessionsSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/WsSessionsSessionBean.java
+END
+MessagesSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/MessagesSession.java
+END
+TelesalesRepsSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/TelesalesRepsSession.java
+END
+TelesalesOrgsSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/TelesalesOrgsSession.java
+END
+UpdateStatusSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/UpdateStatusSessionBean.java
+END
+MachinesSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/MachinesSessionBean.java
+END
+NetworkinfoSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/NetworkinfoSessionHome.java
+END
+WmiqinfoSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/WmiqinfoSessionBean.java
+END
+MessagesSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/MessagesSessionHome.java
+END
+WnqinfoSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/WnqinfoSession.java
+END
+ClqinfoSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/ClqinfoSessionBean.java
+END
+TelesalesRepsSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/TelesalesRepsSessionHome.java
+END
+TelesalesOrgsSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/TelesalesOrgsSessionHome.java
+END
+WnqinfoSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/WnqinfoSessionHome.java
+END
+InstalledSoftwareSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/InstalledSoftwareSession.java
+END
+NetworkinfoSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/NetworkinfoSessionBean.java
+END
+MessagesSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/MessagesSessionBean.java
+END
+TelesalesCallSourceSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/TelesalesCallSourceSession.java
+END
+ServerRuntimeConfigSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/ServerRuntimeConfigSession.java
+END
+TelesalesRepsSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/TelesalesRepsSessionBean.java
+END
+TelesalesOrgsSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/TelesalesOrgsSessionBean.java
+END
+InstalledSoftwareSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/InstalledSoftwareSessionHome.java
+END
+WnqinfoSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/WnqinfoSessionBean.java
+END
+TelesalesCallSourceSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/TelesalesCallSourceSessionHome.java
+END
+ServerRuntimeConfigSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/ServerRuntimeConfigSessionHome.java
+END
+SnmpqinfoSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/SnmpqinfoSession.java
+END
+ModifiedDataSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/ModifiedDataSession.java
+END
+InstalledSoftwareSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/InstalledSoftwareSessionBean.java
+END
+WsSessionsSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/WsSessionsSession.java
+END
+SnmpqinfoSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/SnmpqinfoSessionHome.java
+END
+ModifiedDataSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/ModifiedDataSessionHome.java
+END
+TelesalesCallSourceSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/TelesalesCallSourceSessionBean.java
+END
+ServerRuntimeConfigSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/ServerRuntimeConfigSessionBean.java
+END
+UpdateStatusSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/UpdateStatusSession.java
+END
+MachinesSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/MachinesSession.java
+END
+WmiqinfoSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/WmiqinfoSession.java
+END
+WsSessionsSessionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/j2ee/session/WsSessionsSessionHome.java
+END

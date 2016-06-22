@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/backbone/!svn/ver/448/web_services/trunk/src/main/resources/descriptors/webservices/config/responsexml
+END
+UpdateNetworkEnvironmentResponse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/416/web_services/trunk/src/main/resources/descriptors/webservices/config/responsexml/UpdateNetworkEnvironmentResponse.xml
+END
+GetFilesResponse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/backbone/!svn/ver/443/web_services/trunk/src/main/resources/descriptors/webservices/config/responsexml/GetFilesResponse.xml
+END
+GetManifestResponse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/443/web_services/trunk/src/main/resources/descriptors/webservices/config/responsexml/GetManifestResponse.xml
+END
+UpdateStatusResponse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/backbone/!svn/ver/398/web_services/trunk/src/main/resources/descriptors/webservices/config/responsexml/UpdateStatusResponse.xml
+END
+GetMessagesResponse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/416/web_services/trunk/src/main/resources/descriptors/webservices/config/responsexml/GetMessagesResponse.xml
+END
+GetOrderInfoResponse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/backbone/!svn/ver/414/web_services/trunk/src/main/resources/descriptors/webservices/config/responsexml/GetOrderInfoResponse.xml
+END
+LoginAuthenticateResponse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/448/web_services/trunk/src/main/resources/descriptors/webservices/config/responsexml/LoginAuthenticateResponse.xml
+END
+StoreInstalledSoftware.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/416/web_services/trunk/src/main/resources/descriptors/webservices/config/responsexml/StoreInstalledSoftware.xml
+END
+LoginGetTokenResponse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/backbone/!svn/ver/448/web_services/trunk/src/main/resources/descriptors/webservices/config/responsexml/LoginGetTokenResponse.xml
+END
+GetMemberNetworkInfoResponse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/416/web_services/trunk/src/main/resources/descriptors/webservices/config/responsexml/GetMemberNetworkInfoResponse.xml
+END

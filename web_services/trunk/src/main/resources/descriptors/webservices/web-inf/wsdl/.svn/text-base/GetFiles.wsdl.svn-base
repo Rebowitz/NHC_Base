@@ -1,0 +1,52 @@
+<definitions   targetNamespace="http://nhcsys.com/webservices/getfiles/v1"
+               xmlns:tns="http://nhcsys.com/webservices/getfiles/v1"
+               xmlns:nhcgm="http://nhcsys.com/webservices/getfiles/getfilestypes/v1"
+               xmlns="http://schemas.xmlsoap.org/wsdl/" 
+               xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+               xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+                          
+    <types>
+        <xs:schema targetNamespace="http://nhcsys.com/webservices/getfiles/getfilestypes/v1">
+            <xs:include schemaLocation="GetFilesTypes.xsd"/>
+        </xs:schema>
+    </types>    
+	<message name="GetFilesRequest">
+		<part name="messagesrequest" element="nhcgm:GetFilesRequestElement"/>
+	</message>   
+	<message name="GetFilesResponse">
+	        <part name="messagesresponse" element="nhcgm:GetFilesResponseElement"/>
+	</message>
+      <message name="GetFilesFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="nhcgm:FaultTypeElement"/>
+    </message>
+	<portType name="GetFilesPort">
+            <operation name="GetFiles">
+                <input message="tns:GetFilesRequest"/>
+                <output message="tns:GetFilesResponse"/>                
+                <fault name="GetFilesFault" message="tns:GetFilesFailure"/>                
+            </operation>
+        </portType>
+    
+	<binding name="GetFilesSoapHttp" type="tns:GetFilesPort">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="GetFiles">
+            <soap:operation soapAction=""/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+            <fault name="GetFilesFault">
+                <soap:fault name="GetFilesFault" use="literal"/>
+            </fault>
+        </operation>
+    </binding>
+<service name="GetFilesService">
+<port name="GetFilesPort" binding="tns:GetFilesSoapHttp">
+<soap:address location="http://localhost:8080/GetFilesService"/>
+</port>
+</service>
+</definitions>

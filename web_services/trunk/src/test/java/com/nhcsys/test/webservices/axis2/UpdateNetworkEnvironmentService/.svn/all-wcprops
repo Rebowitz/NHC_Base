@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/443/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/UpdateNetworkEnvironmentService
+END
+UpdateNetworkEnvironmentServiceStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/UpdateNetworkEnvironmentService/UpdateNetworkEnvironmentServiceStub.java
+END
+UpdateNetworkEnvironmentServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/backbone/!svn/ver/443/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/UpdateNetworkEnvironmentService/UpdateNetworkEnvironmentServiceTest.java
+END
+UpdateNetworkEnvironmentFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/UpdateNetworkEnvironmentService/UpdateNetworkEnvironmentFailure.java
+END
+UnknownFault.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/UpdateNetworkEnvironmentService/UnknownFault.java
+END

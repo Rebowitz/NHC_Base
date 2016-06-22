@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://nhcsys.com/webservices/login/logintypes/v1" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://nhcsys.com/webservices/login/logintypes/v1">
+    <xs:element name="GetTokenElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="UserID" type="xs:string"/>
+                <xs:element name="Password" type="xs:string"/>
+                <xs:element name="CpuSerialNumber" type="xs:string"/>
+                <xs:element name="AppName" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="LoginCredentialsElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Token" type="xs:string"/>
+                <xs:element name="ViveID" type="xs:string"/>
+                <xs:element name="AppName" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="LoginResponseElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Token" type="xs:string"/>
+                <xs:element name="viveID" type="xs:string"/>
+                <xs:element name="SessionID" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FaultTypeElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="description" type="xs:string"/>
+                <xs:element name="code" type="xs:long"/>
+                <xs:element name="cause" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

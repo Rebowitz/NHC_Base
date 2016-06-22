@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/getmembernetworkinfotypes/v1
+END
+GetMemberNetworkInfoFaultElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/getmembernetworkinfotypes/v1/GetMemberNetworkInfoFaultElementDocument.java
+END
+WirelessNetworkInfoType.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/getmembernetworkinfotypes/v1/WirelessNetworkInfoType.java
+END
+GetMemberNetworkInfoElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/getmembernetworkinfotypes/v1/GetMemberNetworkInfoElementDocument.java
+END
+GetMemeberNetworkInfoFaultTypeElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/getmembernetworkinfotypes/v1/GetMemeberNetworkInfoFaultTypeElementDocument.java
+END
+GetMemberNetworkInputElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/java/com/nhcsys/webservices/getmembernetworkinfo/getmembernetworkinfotypes/v1/GetMemberNetworkInputElementDocument.java
+END

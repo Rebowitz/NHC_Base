@@ -1,0 +1,545 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/backbone/!svn/ver/632/web_services/trunk/lib
+END
+axis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis.jar
+END
+jaxb-xjc-2.0.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/jaxb-xjc-2.0.5.jar
+END
+jboss-common.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/backbone/!svn/ver/510/web_services/trunk/lib/jboss-common.jar
+END
+wsdl4j-1.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/wsdl4j-1.5.1.jar
+END
+woden-1.0-incubating-M7b.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/woden-1.0-incubating-M7b.jar
+END
+geronimo-annotation_1.0_spec-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/geronimo-annotation_1.0_spec-1.1.jar
+END
+commons-discovery-0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-discovery-0.2.jar
+END
+jettison-1.0-RC1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/jettison-1.0-RC1.jar
+END
+log4j.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/backbone/!svn/ver/6/web_services/trunk/lib/log4j.jar
+END
+axiom-api-1.2.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axiom-api-1.2.5.jar
+END
+jaxrpc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/jaxrpc.jar
+END
+commons-chain-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-chain-1.1.jar
+END
+axis2-json-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-json-1.3.jar
+END
+geronimo-jms_1.1_spec-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/geronimo-jms_1.1_spec-1.1.jar
+END
+javax.servlet.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/backbone/!svn/ver/354/web_services/trunk/lib/javax.servlet.jar
+END
+httpcore-4.0-alpha5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/httpcore-4.0-alpha5.jar
+END
+log4j-1.2.14.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/log4j-1.2.14.jar
+END
+axis2-ant-plugin-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-ant-plugin-1.3.jar
+END
+axis2-saaj-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-saaj-1.3.jar
+END
+xbean_xpath.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/backbone/!svn/ver/30/web_services/trunk/lib/xbean_xpath.jar
+END
+axis2-metadata-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-metadata-1.3.jar
+END
+jibx-bind-1.1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/jibx-bind-1.1.5.jar
+END
+axis2-saaj-api-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-saaj-api-1.3.jar
+END
+tribes-6.0.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/tribes-6.0.10.jar
+END
+soapmonitor-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/soapmonitor-1.3.jar
+END
+xml-apis-1.3.03.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/xml-apis-1.3.03.jar
+END
+axis2-adb-codegen-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-adb-codegen-1.3.jar
+END
+xercesImpl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/xercesImpl.jar
+END
+annogen-0.1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/annogen-0.1.0.jar
+END
+httpcore-nio-4.0-alpha5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/httpcore-nio-4.0-alpha5.jar
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/mail.jar
+END
+axis2-spring-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-spring-1.3.jar
+END
+axis2-codegen-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-codegen-1.3.jar
+END
+commons-collections-3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-collections-3.2.jar
+END
+xml-apis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/xml-apis.jar
+END
+xbean-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/xbean-2.2.0.jar
+END
+axiom-dom-1.2.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axiom-dom-1.2.5.jar
+END
+axis2-jws-api-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-jws-api-1.3.jar
+END
+commons-logging.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-logging.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/activation.jar
+END
+axis2-kernel-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-kernel-1.3.jar
+END
+axis2-fastinfoset-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-fastinfoset-1.3.jar
+END
+wsdl4j-1.6.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/wsdl4j-1.6.2.jar
+END
+axiom-impl-1.2.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axiom-impl-1.2.5.jar
+END
+commons-io-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-io-1.2.jar
+END
+commons-configuration-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-configuration-1.3.jar
+END
+stax-api-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/stax-api-1.0.1.jar
+END
+mail-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/mail-1.4.jar
+END
+log4j-1.2.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/log4j-1.2.8.jar
+END
+commons-digester-1.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-digester-1.8.jar
+END
+jaxb-impl-2.0.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/jaxb-impl-2.0.5.jar
+END
+axis-ant.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis-ant.jar
+END
+ojdbc14.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/backbone/!svn/ver/632/web_services/trunk/lib/ojdbc14.jar
+END
+mex-impl-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/mex-impl-1.3.jar
+END
+jaxb-api-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/jaxb-api-2.0.jar
+END
+commons-fileupload-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-fileupload-1.1.1.jar
+END
+junit-4.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/backbone/!svn/ver/6/web_services/trunk/lib/junit-4.3.jar
+END
+commons-logging-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-logging-1.1.jar
+END
+activation-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/activation-1.1.jar
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/log4j.properties
+END
+backport-util-concurrent-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/backport-util-concurrent-2.2.jar
+END
+jsr173_1.0_api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/backbone/!svn/ver/30/web_services/trunk/lib/jsr173_1.0_api.jar
+END
+jaxen-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/jaxen-1.1.1.jar
+END
+jboss-j2ee.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/backbone/!svn/ver/354/web_services/trunk/lib/jboss-j2ee.jar
+END
+httpcore-niossl-4.0-alpha5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/httpcore-niossl-4.0-alpha5.jar
+END
+struts.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/backbone/!svn/ver/349/web_services/trunk/lib/struts.jar
+END
+jboss-jaxrpc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/backbone/!svn/ver/6/web_services/trunk/lib/jboss-jaxrpc.jar
+END
+xalan-2.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/xalan-2.7.0.jar
+END
+jalopy-1.5rc3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/jalopy-1.5rc3.jar
+END
+axis2-adb-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-adb-1.3.jar
+END
+neethi-2.0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/neethi-2.0.2.jar
+END
+saaj.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/saaj.jar
+END
+axis2-jaxws-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-jaxws-1.3.jar
+END
+axis2-jibx-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-jibx-1.3.jar
+END
+axis2-mtompolicy-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-mtompolicy-1.3.jar
+END
+xercesImpl-2.8.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/xercesImpl-2.8.1.jar
+END
+axis2-java2wsdl-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-java2wsdl-1.3.jar
+END
+XmlSchema-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/XmlSchema-1.3.2.jar
+END
+wstx-asl-3.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/wstx-asl-3.2.1.jar
+END
+juli-6.0.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/juli-6.0.10.jar
+END
+commons-httpclient-3.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-httpclient-3.0.1.jar
+END
+commons-codec-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-codec-1.3.jar
+END
+axis2-jaxws-api-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-jaxws-api-1.3.jar
+END
+commons-lang-2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-lang-2.3.jar
+END
+axis2-xmlbeans-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-xmlbeans-1.3.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/commons-logging-1.0.4.jar
+END
+xbean.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/backbone/!svn/ver/30/web_services/trunk/lib/xbean.jar
+END
+jibx-run-1.1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/jibx-run-1.1.5.jar
+END
+axis2-clustering-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-clustering-1.3.jar
+END
+axis2-jaxbri-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/backbone/!svn/ver/118/web_services/trunk/lib/axis2-jaxbri-1.3.jar
+END

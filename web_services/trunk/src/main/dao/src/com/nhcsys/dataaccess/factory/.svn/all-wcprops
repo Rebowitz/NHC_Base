@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory
+END
+UpdateStatusDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/UpdateStatusDaoFactory.java
+END
+MachinesDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/MachinesDaoFactory.java
+END
+WmiqinfoDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/WmiqinfoDaoFactory.java
+END
+InstalledSoftwareDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/InstalledSoftwareDaoFactory.java
+END
+ClqinfoDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/ClqinfoDaoFactory.java
+END
+TelesalesCallSourceDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/TelesalesCallSourceDaoFactory.java
+END
+ServerRuntimeConfigDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/ServerRuntimeConfigDaoFactory.java
+END
+NetworkinfoDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/NetworkinfoDaoFactory.java
+END
+MessagesDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/MessagesDaoFactory.java
+END
+SnmpqinfoDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/SnmpqinfoDaoFactory.java
+END
+ModifiedDataDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/ModifiedDataDaoFactory.java
+END
+TelesalesRepsDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/TelesalesRepsDaoFactory.java
+END
+TelesalesOrgsDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/TelesalesOrgsDaoFactory.java
+END
+WsSessionsDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/WsSessionsDaoFactory.java
+END
+WnqinfoDaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/factory/WnqinfoDaoFactory.java
+END

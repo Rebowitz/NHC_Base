@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/backbone/!svn/ver/708/web_services/trunk/src/main/java/com/nhcsys/common
+END
+WebServicesFaultResourceBundle.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/539/web_services/trunk/src/main/java/com/nhcsys/common/WebServicesFaultResourceBundle.java
+END
+CheckSumUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/backbone/!svn/ver/575/web_services/trunk/src/main/java/com/nhcsys/common/CheckSumUtil.java
+END
+WebServicesHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/backbone/!svn/ver/677/web_services/trunk/src/main/java/com/nhcsys/common/WebServicesHelper.java
+END
+SessionHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/backbone/!svn/ver/690/web_services/trunk/src/main/java/com/nhcsys/common/SessionHelper.java
+END
+ErrorCodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/backbone/!svn/ver/124/web_services/trunk/src/main/java/com/nhcsys/common/ErrorCodes.java
+END
+WebServicesConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/backbone/!svn/ver/435/web_services/trunk/src/main/java/com/nhcsys/common/WebServicesConfig.java
+END
+WebServicesFaultTypesEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/backbone/!svn/ver/708/web_services/trunk/src/main/java/com/nhcsys/common/WebServicesFaultTypesEnum.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/backbone/!svn/ver/670/web_services/trunk/src/main/java/com/nhcsys/common/Constants.java
+END

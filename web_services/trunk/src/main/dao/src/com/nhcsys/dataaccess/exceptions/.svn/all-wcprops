@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions
+END
+TelesalesCallSourceDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/TelesalesCallSourceDaoException.java
+END
+ServerRuntimeConfigDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/ServerRuntimeConfigDaoException.java
+END
+NetworkinfoDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/NetworkinfoDaoException.java
+END
+MessagesDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/MessagesDaoException.java
+END
+ModifiedDataDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/ModifiedDataDaoException.java
+END
+SnmpqinfoDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/SnmpqinfoDaoException.java
+END
+TelesalesRepsDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/TelesalesRepsDaoException.java
+END
+TelesalesOrgsDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/TelesalesOrgsDaoException.java
+END
+DaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/DaoException.java
+END
+WsSessionsDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/WsSessionsDaoException.java
+END
+WnqinfoDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/WnqinfoDaoException.java
+END
+UpdateStatusDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/UpdateStatusDaoException.java
+END
+MachinesDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/MachinesDaoException.java
+END
+WmiqinfoDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/WmiqinfoDaoException.java
+END
+InstalledSoftwareDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/InstalledSoftwareDaoException.java
+END
+ClqinfoDaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/722/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/exceptions/ClqinfoDaoException.java
+END

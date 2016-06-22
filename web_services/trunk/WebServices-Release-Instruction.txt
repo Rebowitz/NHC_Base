@@ -1,0 +1,139 @@
+NHC Systems Web Services installation instructions
+__________________________________________________
+Author: Mahadevan Raju, 
+mahadevan_raju@nhcsys.com, 703-270-3038
+Date Created: October 8th 2007
+----------------------------------------------------------------------
+
+Purpose: Contains installation instruction Web Services deployment.
+--Please follow section 1 if we deploy AXIS2 web services on JBoss Application
+Server container.
+--Please follow section 2 if we deploy AXIS2 Web Services on Oracle Application 
+Server (OC4J) container.
+--Databse installation 
+Prerequisites: JBOSS Application Server should have been installed
+from Subversion. AXIS2 server installed on JBOSS automatically when
+you install JBOSS, as Subversion copy has got axis2.war.
+
+--------------------------------------------------------------------
+Version of this document:
+--updated on November 8th, 2007 by Mahadevan Raju
+
+########################################################################
+## Section 1 - Installation instruction for AXIS2 Web Services on 
+## JBoss Application Server 
+########################################################################
+
+
+Step a)Down the lunt build from luntbuild machine to local PC.
+--------------------------------------------------------------
+
+1) create folder called c:\luntbuilds
+
+2) On the browser, go to: http://nhc-cm/
+
+3) Under "Latest build" column, of the page, you will the builds with numbers. click "cm-build-webservices-..number"
+you want to install. 
+Example: I would click link cm-build-webservices-1.0.0.251 if i want to install this build.
+
+
+4) This will take you to a page where you will see, Filename, size and Last modified.
+Now, we have to get the cm-build-webservices-..number-distribution.zip into local PC.
+
+5) Create a folder c:\luntbuilds\cm-build-webservices-..number
+example : c:\luntbuilds\cm-build-webservices-1.0.0.251
+
+6) Click the zip link of the build and store it in the folder that you created in step 5.
+
+7) Unzip the file.
+
+8) now, you will see folder with cm-build-webservices-number and the contents of this are:
+config
+database
+doc
+errorcodes
+lib
+build_manifest.txt
+
+Step b) Stop the JBoss Application Server.
+-----------------------------------------
+
+1) Stop the JBoss Application Server.
+Login using your userID on unix box.
+execute: /etc/init.d/jboss stop
+
+If you do not have permission to stop the jBoss, please talk to Tim Rea.
+
+Step c) Database Installation. 
+------------------------------
+
+1) Execute the database/nhc_db.sql on the Database.  This will create database tables, constraints and data.
+
+
+Step d) Web Service archieve deployment on the application Server.
+------------------------------------------------------------------
+1) Copy the webservicesresponses.properties and webservicesfaultcodedescriptions.properties 
+file from target/dist/config to $JBOSS_HOME/server/all/conf
+
+2) copy target/dist/lib/nhc-dao.jar to $JBOSS_HOME/server/all/farm/axis2.war/WEB-INF/lib
+
+3) cd $JBOSS_HOME/server/all/conf
+
+4) vi webservicesresponses.properties
+
+5) Change the following properties in webservicesresponses.properties file should be replaced with
+appropriate folder/file names:
+
+<TAG_FOR_RESPONSE_FILE_FOLDER>
+<GET_MANIFEST_SERVICE_XML_FILE_WITH_PATH>
+<GET_FILES_SERVICE_DIR>
+
+If you are not sure about which folders, please contact Tim Rea.
+
+6) Change the right handlers. For example Zen to OracleHandler.
+
+6) Copy the XML files from the subversion folder : target/dist/config/responsexml
+to  the folder where you plan to store the response xml files. 
+Example: you may copy the response xml files from the subversion folder to /opt/webservices/responsexml folder.
+
+7) Copy the .aar files from $JBOSS_HOME/server/all/farm/axis2.war/WEB-INF/services . 
+
+8) Copy the build_manifest.txt to $JBOSS_HOME/server/all/farm/axis2.war/WEB-INF/services and
+appropriate folder where responseXML files exist.
+
+Step e) Start the Application Server
+------------------------------------
+1) Start the JBoss Application Server.
+Login using your userID on unix box.
+execute: /etc/init.d/jboss start
+
+Step f) Smoke Test on deployment.
+---------------------------------
+1) On local PC, Run the JUnit test cases against deployment.
+
+Step g) Email to PC Team so that they can test from PC client.
+--------------------------------------------------------------
+
+########################################################################
+## Section 2 - Installation instruction for AXIS2 Web Services on 
+## Oracle Application Server (OC4J) Container
+########################################################################
+
+
+Team Contacts:
+
+Tim Rea - WebServices Team Lead
+
+Mahadevan Raju - WebServices Team
+
+Robert Andrews	- Web Services Team
+
+Mouad Zouitni - Web Services Team
+
+Anthony Ologeh - Oracle DBA
+
+Eric Jenkins - PC Team Lead
+
+
+
+

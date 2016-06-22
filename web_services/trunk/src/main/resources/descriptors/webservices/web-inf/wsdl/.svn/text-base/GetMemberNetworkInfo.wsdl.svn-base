@@ -1,0 +1,53 @@
+<definitions   targetNamespace="http://nhcsys.com/webservices/getmembernetworkinfo/v1"
+               xmlns:tns="http://nhcsys.com/webservices/getmembernetworkinfo/v1"
+               xmlns:nhcus="http://nhcsys.com/webservices/getmembernetworkinfo/getmembernetworkinfotypes/v1"
+               xmlns="http://schemas.xmlsoap.org/wsdl/" 
+               xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+               xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+
+    <types>
+        <xs:schema targetNamespace="http://nhcsys.com/webservices/getmembernetworkinfo/getmembernetworkinfotypes/v1">
+            <xs:include schemaLocation="GetMemberNetworkInfoTypes.xsd"/>
+        </xs:schema>
+    </types>    
+	<message name="GetMemberNetworkInfoRequest">
+		<part name="inforequest" element="nhcus:GetMemberNetworkInputElement"/>
+	</message>   
+
+	<message name="GetMemberNetworkInfoResponse">
+	        <part name="networkinfo" element="nhcus:GetMemberNetworkInfoElement"/>
+	</message>
+	<message name="GetMemberNetworkInfoFailure">
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="nhcus:GetMemberNetworkInfoFaultElement"/>
+    </message>
+	<portType name="GetMemberNetworkInfoPort">
+            <operation name="GetMemberNetworkInfo">
+                <input message="tns:GetMemberNetworkInfoRequest"/>
+                <output message="tns:GetMemberNetworkInfoResponse"/>                
+                <fault name="GetMemberNetworkInfoFault" message="tns:GetMemberNetworkInfoFailure"/>                
+            </operation>
+        </portType>
+    
+	<binding name="GetMemberNetworkInfoSoapHttp" type="tns:GetMemberNetworkInfoPort">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="GetMemberNetworkInfo">
+            <soap:operation soapAction=""/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+            <fault name="GetMemberNetworkInfoFault">
+                <soap:fault name="GetMemberNetworkInfoFault" use="literal"/>
+            </fault>
+        </operation>
+    </binding>
+<service name="GetMemberNetworkInfoService">
+<port name="GetMemberNetworkInfoPort" binding="tns:GetMemberNetworkInfoSoapHttp">
+<soap:address location="http://localhost:8080/GetMemberNetworkInfoService"/>
+</port>
+</service>
+</definitions>

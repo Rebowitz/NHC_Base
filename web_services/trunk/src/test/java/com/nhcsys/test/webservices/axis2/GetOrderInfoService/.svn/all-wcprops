@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/708/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetOrderInfoService
+END
+GetOrderInfoFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/708/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetOrderInfoService/GetOrderInfoFailure.java
+END
+GetOrderInfoServiceStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/708/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetOrderInfoService/GetOrderInfoServiceStub.java
+END
+GetOrderInfoServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/708/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetOrderInfoService/GetOrderInfoServiceTest.java
+END

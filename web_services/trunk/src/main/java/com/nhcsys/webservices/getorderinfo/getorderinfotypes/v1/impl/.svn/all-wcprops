@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo/getorderinfotypes/v1/impl
+END
+ProductListTypeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo/getorderinfotypes/v1/impl/ProductListTypeImpl.java
+END
+GetOrderInfoResponseElementDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo/getorderinfotypes/v1/impl/GetOrderInfoResponseElementDocumentImpl.java
+END
+FaultTypeElementDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo/getorderinfotypes/v1/impl/FaultTypeElementDocumentImpl.java
+END
+GetOrderInfoRequestElementDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/backbone/!svn/ver/701/web_services/trunk/src/main/java/com/nhcsys/webservices/getorderinfo/getorderinfotypes/v1/impl/GetOrderInfoRequestElementDocumentImpl.java
+END

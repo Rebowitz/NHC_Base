@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Manifest xmlns="http://tempuri.org/XMLSchema1.xsd">
+  <FileDescriptor>
+    <Name>KcsSetup.exe</Name>
+    <Version>4.7.0.0</Version>
+  </FileDescriptor>
+</Manifest>

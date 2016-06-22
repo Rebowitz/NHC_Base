@@ -1,0 +1,104 @@
+##
+## File Name: webservicesresponses.properties
+## Date Created: October 2nd, 2007
+## Author : Mahadevan Raju - mahadevan.raju@nhcsys.com, 703-270-3038
+##
+
+
+## Common Properties. PLEASE CHANGE THE FOLLOWING TAG TO MATCH YOUR ENVIRONMENT. 
+## For example: In Linux this can be /opt/webservices/responsexml
+
+webservices.responsexml.folder=<TAG_FOR_RESPONSE_FILE_FOLDER>
+
+####
+####Login Web Service parameters
+####
+webservices.nasticlient.userididentification=NASTCPU
+webservices.nasticlient.machineid=0
+webServices.login.service.CPUNumber.maxchratacters.allowed=99
+
+##Encryption scheme is set as DESEDE_ENCRYPTION_SCHEME.
+webservices.encryption.scheme=DESede
+
+##Response XML File names that can be modified by PC team for each services.--DO NOT EDIT THE FOLLOWING PROPERTIES.
+##The properties follow the standard: webservices.webservicename.operationname.responsexmlfilename.
+##
+webservices.CompatCheck.CompatCheck.ResponseXMLFileName=CompatCheckResponse.xml
+webservices.GetFiles.GetFiles.ResponseXMLFileName=GetFilesResponse.xml
+webservices.GetManifest.GetManifest.ResponseXMLFileName=GetManifestResponse.xml
+webservices.GetMemberNetworkInfo.GetMemberNetworkInfo.ResponseXMLFileName=GetMemberNetworkInfoResponse.xml
+webservices.GetMessages.GetMessages.ResponseXMLFileName=GetMessagesResponse.xml
+webservices.UpdateNetworkEnvironment.UpdateNetworkEnvironment.ResponseXMLFileName=UpdateNetworkEnvironmentResponse.xml
+webservices.Login.GetToken.ResponseXMLFileName=LoginGetTokenResponse.xml
+webservices.Login.LoginAuthenticate.ResponseXMLFileName=LoginAuthenticateResponse.xml
+webservices.UpdateStatus.UpdateStatus.ResponseXMLFileName=UpdateStatusResponse.xml
+webservices.StoreInstalledSoftware.StoreInstalledSoftware.ResponseXMLFileName=StoreInstalledSoftware.xml
+webservices.GetOrderInfo.GetOrderInfo.ResponseXMLFileName=GetOrderInfoResponse.xml
+
+##
+## Description: The following properties specifies current 
+## handler type for each web services: Either Zen or ResponseXML or Oracle.
+##
+## DO NOT EDIT THE FOLLOWING Without JIIRA TICKET
+
+webservices.current.handlertype.getfiles=webservices.handlertype.getfiles
+webservices.current.handlertype.getmanifest=webservices.handlertype.getmanifest
+webservices.current.handlertype.getmembernetworkinfo=webservices.handlertype.responseXML.getmembernetworkinfo
+webservices.current.handlertype.getmessages=webservices.handlertype.responseXML.getmessages
+webservices.current.handlertype.updatenetworkenvironment=webservices.handlertype.responseXML.updatenetworkenvironment
+webservices.current.handlertype.login=webservices.handlertype.responseXML.login
+webservices.current.handlertype.updatestatus=webservices.handlertype.updatestatus
+webservices.current.handlertype.storeinstalledsoftware=webservices.handlertype.storeinstalledsoftware
+webservices.current.handlertype.getorderinfo=webservices.handlertype.responseXML.getorderinfo
+
+##
+## Description: ResponseXML Handler classes that will be created dynamically during 
+## run time for each web services.
+## DO NOT EDIT THE FOLLOWING Without JIIRA TICKET
+webservices.handlertype.responseXML.getfiles=com.nhcsys.webservices.getfiles.ResponseXMLHandlerGetFilesService
+webservices.handlertype.responseXML.getmanifest=com.nhcsys.webservices.getmanifest.ResponseXMLHandlerGetManifestService
+webservices.handlertype.responseXML.getmembernetworkinfo=com.nhcsys.webservices.getmembernetworkinfo.ResponseXMLHanderGetMemberNetworkInfo
+webservices.handlertype.responseXML.getmessages=com.nhcsys.webservices.getmessages.ResponseXMLHandlerGetMessages
+webservices.handlertype.responseXML.updatenetworkenvironment=com.nhcsys.webservices.updatenetworkenvironment.ResponseXMLHandlerUpdateNetworkEnvironment
+webservices.handlertype.responseXML.login=com.nhcsys.webservices.login.ResponseXMLHandlerLoginService
+webservices.handlertype.responseXML.updatestatus=com.nhcsys.webservices.updatestatus.ResponseXMLHandlerUpdateStatusService
+webservices.handlertype.responseXML.storeinstalledsoftware=com.nhcsys.webservices.storeinstalledsoftware.ResponseXMLStoreInstalledSoftwareService
+webservices.handlertype.responseXML.getorderinfo=com.nhcsys.webservices.getorderinfo.ResponseXMLGetOrderInfoHandler
+
+##
+## Description: Zen Handler classes that will be created dynamically during 
+## run time for each web services.
+## DO NOT EDIT THE FOLLOWING Without JIIRA TICKET
+webservices.handlertype.zen.getfiles=com.nhcsys.webservices.getfiles.ZenHandlerGetFilesService
+webservices.handlertype.zen.getmanifest=com.nhcsys.webservices.getmanifest.ZenHandlerGetManifestService
+webservices.handlertype.zen.getmembernetworkinfo=com.nhcsys.webservices.getmembernetworkinfo.ZenHandlerGetMemberNetworkInfo
+webservices.handlertype.zen.getmessages=com.nhcsys.webservices.getmessages.ZenHandlerGetMessages
+webservices.handlertype.zen.updatenetworkenvironment=com.nhcsys.webservices.updatenetworkenvironment.ZenHandlerUpdateNetworkEnvironment
+webservices.handlertype.zen.login=com.nhcsys.webservices.login.ZenHandlerLoginService
+webservices.handlertype.zen.getorderinfo=com.nhcsys.webservices.getorderinfo.ZenGetOrderInfoHandler
+
+##
+## Description: Oracle Handler classes that will be created dynamically during 
+## run time for each web services.
+## DO NOT EDIT THE FOLLOWING Without JIIRA TICKET
+webservices.handlertype.oracle.getfiles=com.nhcsys.webservices.getfiles.OracleHandlerGetFilesService
+webservices.handlertype.oracle.getmanifest=com.nhcsys.webservices.getmanifest.OracleHandlerGetManifestService
+webservices.handlertype.oracle.getmembernetworkinfo=com.nhcsys.webservices.getmembernetworkinfo.OracleHandlerGetMemberNetworkInfo
+webservices.handlertype.oracle.getmessages=com.nhcsys.webservices.getmessages.OracleHandlerGetMessages
+webservices.handlertype.oracle.updatenetworkenvironment=com.nhcsys.webservices.updatenetworkenvironment.OracleHandlerUpdateNetworkEnvironment
+webservices.handlertype.oracle.login=com.nhcsys.webservices.login.OracleHandlerLoginService
+webservices.handlertype.oracle.updatestatus=com.nhcsys.webservices.updatestatus.OracleHandlerUpdateStatusService
+webservices.handlertype.oracle.getorderinfo=com.nhcsys.webservices.getorderinfo.OracleGetOrderInfoHandler
+
+##
+## Description: Common Handler classes that will be created dynamically during 
+## run time for each web services.
+## DO NOT EDIT THE FOLLOWING Without JIIRA TICKET
+webservices.handlertype.storeinstalledsoftware=com.nhcsys.webservices.storeinstalledsoftware.StoreInstalledSoftwareHandlerService
+webservices.handlertype.updatestatus=com.nhcsys.webservices.updatestatus.UpdateStatusHandlerService
+webservices.handlertype.getfiles=com.nhcsys.webservices.getfiles.GetFilesHandlerService
+webservices.handlertype.getmanifest=com.nhcsys.webservices.getmanifest.GetManifestHandlerService
+
+
+getmanifest.manifest.filepath=C:/work/backbone/web_services/trunk/src/test/resources/vivedrive/manifest.xml
+getfiles.files.dir=C:/work/backbone/web_services/trunk/src/test/resources/vivedrive

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/689/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/UpdateStatusService
+END
+UpdateStatusServiceStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/689/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/UpdateStatusService/UpdateStatusServiceStub.java
+END
+UpdateStatusTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/689/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/UpdateStatusService/UpdateStatusTest.java
+END
+UpdateStatusFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/406/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/UpdateStatusService/UpdateStatusFailure.java
+END

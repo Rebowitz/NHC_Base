@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java-wsdl-mapping xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+  http://www.ibm.com/webservices/xsd/j2ee_jaxrpc_mapping_1_1.xsd"
+  version="1.1">
+
+    <package-mapping>
+        <package-type>com.nhcsys.webservices.faulttypes.v1</package-type>
+        <namespaceURI>http://www.nhcsys.com/webservices/faulttypes/v1</namespaceURI>
+    </package-mapping>
+    <package-mapping>
+        <package-type>com.nhcsys.webservices.login.logintypes.v1</package-type>
+        <namespaceURI>http://www.nhcsys.com/webservices/login/logintypes/v1</namespaceURI>
+    </package-mapping>
+    <package-mapping>
+        <package-type>com.nhcsys.webservices.login</package-type>
+        <namespaceURI>http://www.nhcsys.com/webservices/login/v1</namespaceURI>
+    </package-mapping>
+    <java-xml-type-mapping>
+        <java-type>com.nhcsys.webservices.login.logintypes.v1.NHCLoginResponseType</java-type>
+        <anonymous-type-qname>{http://www.nhcsys.com/webservices/login/logintypes/v1}>NHCLoginResponseType</anonymous-type-qname>
+        <qname-scope>complexType</qname-scope>
+        <variable-mapping>
+            <java-variable-name>sessionIDType</java-variable-name>
+            <xml-element-name>SessionIDType</xml-element-name>
+        </variable-mapping>
+    </java-xml-type-mapping>
+    <java-xml-type-mapping>
+        <java-type>com.nhcsys.webservices.faulttypes.v1.FaultType</java-type>
+        <root-type-qname xmlns:typeNS="http://www.nhcsys.com/webservices/faulttypes/v1">typeNS:FaultType</root-type-qname>
+        <qname-scope>complexType</qname-scope>
+        <variable-mapping>
+            <java-variable-name>description</java-variable-name>
+            <xml-element-name>description</xml-element-name>
+        </variable-mapping>
+        <variable-mapping>
+            <java-variable-name>code</java-variable-name>
+            <xml-element-name>code</xml-element-name>
+        </variable-mapping>
+        <variable-mapping>
+            <java-variable-name>cause</java-variable-name>
+            <xml-element-name>cause</xml-element-name>
+        </variable-mapping>
+    </java-xml-type-mapping>
+    <java-xml-type-mapping>
+        <java-type>java.lang.String[]</java-type>
+        <anonymous-type-qname>{http://www.nhcsys.com/webservices/faulttypes/v1}FaultType>description[0,unbounded]</anonymous-type-qname>
+        <qname-scope>complexType</qname-scope>
+    </java-xml-type-mapping>
+    <java-xml-type-mapping>
+        <java-type>java.lang.String[]</java-type>
+        <anonymous-type-qname>{http://www.nhcsys.com/webservices/faulttypes/v1}FaultType>code[0,unbounded]</anonymous-type-qname>
+        <qname-scope>complexType</qname-scope>
+    </java-xml-type-mapping>
+    <java-xml-type-mapping>
+        <java-type>java.lang.String[]</java-type>
+        <anonymous-type-qname>{http://www.nhcsys.com/webservices/faulttypes/v1}FaultType>cause[0,unbounded]</anonymous-type-qname>
+        <qname-scope>complexType</qname-scope>
+    </java-xml-type-mapping>
+    <java-xml-type-mapping>
+        <java-type>com.nhcsys.webservices.faulttypes.v1.FaultType</java-type>
+        <root-type-qname xmlns:typeNS="http://www.nhcsys.com/webservices/faulttypes/v1">typeNS:FaultType</root-type-qname>
+        <qname-scope>complexType</qname-scope>
+        <variable-mapping>
+            <java-variable-name>description</java-variable-name>
+            <xml-element-name>description</xml-element-name>
+        </variable-mapping>
+        <variable-mapping>
+            <java-variable-name>code</java-variable-name>
+            <xml-element-name>code</xml-element-name>
+        </variable-mapping>
+        <variable-mapping>
+            <java-variable-name>cause</java-variable-name>
+            <xml-element-name>cause</xml-element-name>
+        </variable-mapping>
+    </java-xml-type-mapping>
+
+    <java-xml-type-mapping>
+        <java-type>javax.xml.soap.SOAPElement</java-type>
+        <anonymous-type-qname>{http://www.nhcsys.com/webservices/login/logintypes/v1}>NHCLoginInputType</anonymous-type-qname>
+        <qname-scope>complexType</qname-scope>
+    </java-xml-type-mapping>
+
+    <java-xml-type-mapping>
+        <java-type>java.lang.String[]</java-type>
+        <anonymous-type-qname>{http://www.nhcsys.com/webservices/faulttypes/v1}FaultType>description[0,unbounded]</anonymous-type-qname>
+        <qname-scope>complexType</qname-scope>
+    </java-xml-type-mapping>
+
+    <java-xml-type-mapping>
+        <java-type>java.lang.String[]</java-type>
+        <anonymous-type-qname>{http://www.nhcsys.com/webservices/faulttypes/v1}FaultType>code[0,unbounded]</anonymous-type-qname>
+        <qname-scope>complexType</qname-scope>
+    </java-xml-type-mapping>
+
+    <java-xml-type-mapping>
+        <java-type>java.lang.String[]</java-type>
+        <anonymous-type-qname>{http://www.nhcsys.com/webservices/faulttypes/v1}FaultType>cause[0,unbounded]</anonymous-type-qname>
+        <qname-scope>complexType</qname-scope>
+    </java-xml-type-mapping>
+
+    <service-interface-mapping>
+        <service-interface>com.nhcsys.webservices.login.NHCLoginService</service-interface>
+        <wsdl-service-name xmlns:serviceNS="http://www.nhcsys.com/webservices/login/v1">serviceNS:NHCLoginService</wsdl-service-name>
+        <port-mapping>
+            <port-name>NHCLoginPortType</port-name>
+            <java-port-name>NHCLoginPortType</java-port-name>
+        </port-mapping>
+    </service-interface-mapping>
+    <service-endpoint-interface-mapping>
+        <service-endpoint-interface>com.nhcsys.webservices.login.NHCLoginPortType</service-endpoint-interface>
+        <wsdl-port-type xmlns:portTypeNS="http://www.nhcsys.com/webservices/login/v1">portTypeNS:NHCLoginPortType</wsdl-port-type>
+        <wsdl-binding xmlns:bindingNS="http://www.nhcsys.com/webservices/login/v1">bindingNS:NHCLoginRequest</wsdl-binding>
+        <service-endpoint-method-mapping>
+            <java-method-name>NHCLogin</java-method-name>
+            <wsdl-operation>NHCLogin</wsdl-operation>
+            <method-param-parts-mapping>
+                <param-position>0</param-position>
+                <param-type>javax.xml.soap.SOAPElement</param-type>
+                <wsdl-message-mapping>
+                    <wsdl-message xmlns:wsdlMsgNS="http://www.nhcsys.com/webservices/login/v1">wsdlMsgNS:NHCLoginInputMessage</wsdl-message>
+                    <wsdl-message-part-name>NHCLoginInput</wsdl-message-part-name>
+                    <parameter-mode>IN</parameter-mode>
+                </wsdl-message-mapping>
+            </method-param-parts-mapping>
+            <wsdl-return-value-mapping>
+                <method-return-value>com.nhcsys.webservices.login.logintypes.v1.NHCLoginResponseType</method-return-value>
+                <wsdl-message xmlns:wsdlMsgNS="http://www.nhcsys.com/webservices/login/v1">wsdlMsgNS:NHCLoginResponseMessage</wsdl-message>
+                <wsdl-message-part-name>NHCLoginResponse</wsdl-message-part-name>
+            </wsdl-return-value-mapping>
+        </service-endpoint-method-mapping>
+    </service-endpoint-interface-mapping>
+</java-wsdl-mapping>
+

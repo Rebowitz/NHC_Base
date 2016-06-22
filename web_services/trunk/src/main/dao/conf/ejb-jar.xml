@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ejb-jar PUBLIC "-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 2.0//EN" "http://java.sun.com/dtd/ejb-jar_2_0.dtd">
+
+<ejb-jar>
+  <enterprise-beans>
+    <session>
+      <ejb-name>InstalledSoftwareSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.InstalledSoftwareSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.InstalledSoftwareSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.InstalledSoftwareSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>MachinesSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.MachinesSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.MachinesSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.MachinesSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>MessagesSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.MessagesSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.MessagesSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.MessagesSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>ServerRuntimeConfigSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.ServerRuntimeConfigSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.ServerRuntimeConfigSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.ServerRuntimeConfigSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>WsSessionsSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.WsSessionsSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.WsSessionsSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.WsSessionsSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>ClqinfoSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.ClqinfoSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.ClqinfoSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.ClqinfoSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>NetworkinfoSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.NetworkinfoSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.NetworkinfoSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.NetworkinfoSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>SnmpqinfoSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.SnmpqinfoSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.SnmpqinfoSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.SnmpqinfoSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>WmiqinfoSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.WmiqinfoSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.WmiqinfoSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.WmiqinfoSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>UpdateStatusSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.UpdateStatusSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.UpdateStatusSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.UpdateStatusSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>WnqinfoSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.WnqinfoSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.WnqinfoSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.WnqinfoSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>ModifiedDataSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.ModifiedDataSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.ModifiedDataSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.ModifiedDataSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>TelesalesCallSourceSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.TelesalesCallSourceSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.TelesalesCallSourceSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.TelesalesCallSourceSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>TelesalesOrgsSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.TelesalesOrgsSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.TelesalesOrgsSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.TelesalesOrgsSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+    <session>
+      <ejb-name>TelesalesRepsSession</ejb-name>
+      <home>com.nhcsys.dataaccess.j2ee.session.TelesalesRepsSessionHome</home>
+      <remote>com.nhcsys.dataaccess.j2ee.session.TelesalesRepsSession</remote>
+      <ejb-class>com.nhcsys.dataaccess.j2ee.session.TelesalesRepsSessionBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+      <resource-ref>
+        <description>Description goes here</description>
+        <res-ref-name>jdbc:NHC_DS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+      </resource-ref>
+    </session>
+  </enterprise-beans>
+  <assembly-descriptor />
+</ejb-jar>
+

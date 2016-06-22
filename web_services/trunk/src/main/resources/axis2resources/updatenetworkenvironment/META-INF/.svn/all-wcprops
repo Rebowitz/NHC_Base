@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/resources/axis2resources/updatenetworkenvironment/META-INF
+END
+services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/resources/axis2resources/updatenetworkenvironment/META-INF/services.xml
+END
+UpdateNetworkEnvironmentService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/resources/axis2resources/updatenetworkenvironment/META-INF/UpdateNetworkEnvironmentService.wsdl
+END
+xsd0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/668/web_services/trunk/src/main/resources/axis2resources/updatenetworkenvironment/META-INF/xsd0.xsd
+END

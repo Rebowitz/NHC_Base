@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetMemberNetworkInfoService
+END
+GetMemberNetworkInfoFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetMemberNetworkInfoService/GetMemberNetworkInfoFailure.java
+END
+UnknownFault.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetMemberNetworkInfoService/UnknownFault.java
+END
+GetMemberNetworkInfoServiceStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetMemberNetworkInfoService/GetMemberNetworkInfoServiceStub.java
+END
+GetMemberNetworkInfoServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/backbone/!svn/ver/397/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetMemberNetworkInfoService/GetMemberNetworkInfoServiceTest.java
+END

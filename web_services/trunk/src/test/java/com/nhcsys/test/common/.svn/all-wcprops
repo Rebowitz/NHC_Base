@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/backbone/!svn/ver/708/web_services/trunk/src/test/java/com/nhcsys/test/common
+END
+WebServicesTestConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/backbone/!svn/ver/448/web_services/trunk/src/test/java/com/nhcsys/test/common/WebServicesTestConfig.java
+END
+TestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/backbone/!svn/ver/708/web_services/trunk/src/test/java/com/nhcsys/test/common/TestBase.java
+END
+TestConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/backbone/!svn/ver/674/web_services/trunk/src/test/java/com/nhcsys/test/common/TestConstants.java
+END

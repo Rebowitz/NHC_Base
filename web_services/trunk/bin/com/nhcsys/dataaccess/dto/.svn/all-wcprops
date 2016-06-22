@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto
+END
+NetworkinfoPk.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/NetworkinfoPk.java
+END
+ServerRuntimeConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/ServerRuntimeConfig.java
+END
+MessagesPk.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/MessagesPk.java
+END
+Networkinfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/Networkinfo.java
+END
+SnmpqinfoPk.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/SnmpqinfoPk.java
+END
+Messages.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/Messages.java
+END
+Snmpqinfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/Snmpqinfo.java
+END
+WsSessionsPk.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/WsSessionsPk.java
+END
+WnqinfoPk.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/WnqinfoPk.java
+END
+WsSessions.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/WsSessions.java
+END
+Wnqinfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/Wnqinfo.java
+END
+UpdateStatusPk.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/UpdateStatusPk.java
+END
+MachinesPk.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/MachinesPk.java
+END
+WmiqinfoPk.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/WmiqinfoPk.java
+END
+InstalledSoftwarePk.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/InstalledSoftwarePk.java
+END
+UpdateStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/UpdateStatus.java
+END
+ClqinfoPk.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/ClqinfoPk.java
+END
+Machines.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/Machines.java
+END
+Wmiqinfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/Wmiqinfo.java
+END
+InstalledSoftware.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/InstalledSoftware.java
+END
+ServerRuntimeConfigPk.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/ServerRuntimeConfigPk.java
+END
+Clqinfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/dto/Clqinfo.java
+END

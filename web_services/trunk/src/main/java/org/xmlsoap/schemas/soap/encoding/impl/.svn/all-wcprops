@@ -1,0 +1,599 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl
+END
+DateImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/DateImpl.java
+END
+GYearMonthImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/GYearMonthImpl.java
+END
+NegativeIntegerDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NegativeIntegerDocumentImpl.java
+END
+BooleanImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/BooleanImpl.java
+END
+StructDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/StructDocumentImpl.java
+END
+ArrayCoordinateImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/ArrayCoordinateImpl.java
+END
+NonNegativeIntegerDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NonNegativeIntegerDocumentImpl.java
+END
+IntImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/IntImpl.java
+END
+UnsignedLongDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/UnsignedLongDocumentImpl.java
+END
+GMonthDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/GMonthDocumentImpl.java
+END
+NOTATIONImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NOTATIONImpl.java
+END
+UnsignedShortImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/UnsignedShortImpl.java
+END
+DecimalDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/DecimalDocumentImpl.java
+END
+NMTOKENSDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NMTOKENSDocumentImpl.java
+END
+ShortImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/ShortImpl.java
+END
+LongImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/LongImpl.java
+END
+UnsignedByteDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/UnsignedByteDocumentImpl.java
+END
+ByteImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/ByteImpl.java
+END
+FloatImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/FloatImpl.java
+END
+StringDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/StringDocumentImpl.java
+END
+GYearImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/GYearImpl.java
+END
+AnyURIImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/AnyURIImpl.java
+END
+DoubleImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/DoubleImpl.java
+END
+OffsetAttributeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/OffsetAttributeImpl.java
+END
+GYearMonthDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/GYearMonthDocumentImpl.java
+END
+DateDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/DateDocumentImpl.java
+END
+BooleanDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/BooleanDocumentImpl.java
+END
+TokenImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/TokenImpl.java
+END
+LanguageImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/LanguageImpl.java
+END
+DurationImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/DurationImpl.java
+END
+IntDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/IntDocumentImpl.java
+END
+HexBinaryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/HexBinaryImpl.java
+END
+Base64BinaryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/Base64BinaryImpl.java
+END
+NOTATIONDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NOTATIONDocumentImpl.java
+END
+UnsignedShortDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/UnsignedShortDocumentImpl.java
+END
+ShortDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/ShortDocumentImpl.java
+END
+LongDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/LongDocumentImpl.java
+END
+QNameImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/QNameImpl.java
+END
+NCNameImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NCNameImpl.java
+END
+ByteDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/ByteDocumentImpl.java
+END
+FloatDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/FloatDocumentImpl.java
+END
+AnyURIDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/AnyURIDocumentImpl.java
+END
+GYearDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/GYearDocumentImpl.java
+END
+DoubleDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/DoubleDocumentImpl.java
+END
+NMTOKENImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NMTOKENImpl.java
+END
+IDREFSImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/IDREFSImpl.java
+END
+ArrayImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/ArrayImpl.java
+END
+TokenDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/TokenDocumentImpl.java
+END
+PositiveIntegerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/PositiveIntegerImpl.java
+END
+NameImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NameImpl.java
+END
+LanguageDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/LanguageDocumentImpl.java
+END
+GDayImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/GDayImpl.java
+END
+ENTITIESImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/ENTITIESImpl.java
+END
+DurationDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/DurationDocumentImpl.java
+END
+UnsignedIntImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/UnsignedIntImpl.java
+END
+PositionAttributeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/PositionAttributeImpl.java
+END
+Base64BinaryDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/Base64BinaryDocumentImpl.java
+END
+HexBinaryDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/HexBinaryDocumentImpl.java
+END
+IDREFImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/IDREFImpl.java
+END
+GMonthDayImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/GMonthDayImpl.java
+END
+NormalizedStringImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NormalizedStringImpl.java
+END
+NonPositiveIntegerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NonPositiveIntegerImpl.java
+END
+DateTimeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/DateTimeImpl.java
+END
+IDImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/IDImpl.java
+END
+IntegerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/IntegerImpl.java
+END
+TimeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/TimeImpl.java
+END
+NCNameDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NCNameDocumentImpl.java
+END
+QNameDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/QNameDocumentImpl.java
+END
+NMTOKENDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NMTOKENDocumentImpl.java
+END
+IDREFSDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/IDREFSDocumentImpl.java
+END
+ENTITYImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/ENTITYImpl.java
+END
+ArrayDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/ArrayDocumentImpl.java
+END
+NameDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NameDocumentImpl.java
+END
+PositiveIntegerDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/PositiveIntegerDocumentImpl.java
+END
+NegativeIntegerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NegativeIntegerImpl.java
+END
+ENTITIESDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/ENTITIESDocumentImpl.java
+END
+GDayDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/GDayDocumentImpl.java
+END
+Base64Impl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/Base64Impl.java
+END
+StructImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/StructImpl.java
+END
+UnsignedIntDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/UnsignedIntDocumentImpl.java
+END
+IDREFDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/IDREFDocumentImpl.java
+END
+AnyTypeDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/AnyTypeDocumentImpl.java
+END
+GMonthDayDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/GMonthDayDocumentImpl.java
+END
+NonPositiveIntegerDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NonPositiveIntegerDocumentImpl.java
+END
+NormalizedStringDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NormalizedStringDocumentImpl.java
+END
+IDDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/IDDocumentImpl.java
+END
+DateTimeDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/DateTimeDocumentImpl.java
+END
+NonNegativeIntegerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NonNegativeIntegerImpl.java
+END
+IntegerDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/IntegerDocumentImpl.java
+END
+GMonthImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/GMonthImpl.java
+END
+UnsignedLongImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/UnsignedLongImpl.java
+END
+TimeDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/TimeDocumentImpl.java
+END
+NMTOKENSImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/NMTOKENSImpl.java
+END
+DecimalImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/DecimalImpl.java
+END
+UnsignedByteImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/UnsignedByteImpl.java
+END
+ArrayTypeAttributeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/ArrayTypeAttributeImpl.java
+END
+StringImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/StringImpl.java
+END
+RootAttributeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/RootAttributeImpl.java
+END
+ENTITYDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/147/web_services/trunk/src/main/java/org/xmlsoap/schemas/soap/encoding/impl/ENTITYDocumentImpl.java
+END

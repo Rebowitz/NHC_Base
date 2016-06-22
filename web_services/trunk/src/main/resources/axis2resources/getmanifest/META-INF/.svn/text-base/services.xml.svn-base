@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.3  Built on : Aug 10, 2007 (04:45:47 LKT) -->
+<serviceGroup>
+    <service name="GetManifestService">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="com.nhcsys.webservices.getmanifest.GetManifestServiceMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">com.nhcsys.webservices.getmanifest.GetManifestServiceSkeleton</parameter>
+        <operation name="GetManifest" mep="http://www.w3.org/ns/wsdl/in-out">
+            <actionMapping>\"\"</actionMapping>
+            <outputActionMapping>http://nhcsys.com/webservices/getmanifest/v1/GetManifestPort/GetManifestResponse</outputActionMapping>
+            <faultActionMapping faultName="GetManifestFailure">urn:GetManifestGetManifestFailure</faultActionMapping>
+            <faultActionMapping faultName="GetManifestFault">http://nhcsys.com/webservices/getmanifest/v1/GetManifestPort/GetManifest/Fault/GetManifestFault</faultActionMapping>
+        </operation>
+    </service>
+</serviceGroup>

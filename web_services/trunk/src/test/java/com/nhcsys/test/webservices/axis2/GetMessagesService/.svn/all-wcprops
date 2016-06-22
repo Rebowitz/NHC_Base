@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/681/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetMessagesService
+END
+GetMessagesFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/661/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetMessagesService/GetMessagesFailure.java
+END
+GetMessagesServiceStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/661/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetMessagesService/GetMessagesServiceStub.java
+END
+GetMessagesServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/681/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetMessagesService/GetMessagesServiceTest.java
+END
+UnknownFault.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/backbone/!svn/ver/661/web_services/trunk/src/test/java/com/nhcsys/test/webservices/axis2/GetMessagesService/UnknownFault.java
+END

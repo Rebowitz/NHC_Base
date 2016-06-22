@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:LoginResponseElement xmlns:tns="http://nhcsys.com/webservices/login/logintypes/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nhcsys.com/webservices/login/logintypes/v1 LoginTypes.xsd ">
+  <tns:Token>tns:Token</tns:Token>
+  <tns:viveID>tns:viveID</tns:viveID>
+  <tns:SessionID>tns:SessionID</tns:SessionID>
+</tns:LoginResponseElement>

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jboss/!svn/ver/29/trunk/jboss-4.2.0.GA/server/all/farm/axis2.war/WEB-INF/classes
+END
+commons-logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/jboss/!svn/ver/29/trunk/jboss-4.2.0.GA/server/all/farm/axis2.war/WEB-INF/classes/commons-logging.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/jboss/!svn/ver/29/trunk/jboss-4.2.0.GA/server/all/farm/axis2.war/WEB-INF/classes/log4j.properties
+END

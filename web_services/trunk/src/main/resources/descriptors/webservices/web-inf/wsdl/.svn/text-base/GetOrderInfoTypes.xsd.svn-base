@@ -1,0 +1,45 @@
+<xs:schema targetNamespace="http://nhcsys.com/webservices/getorderinfo/getorderinfotypes/v1"
+        xmlns:tns="http://nhcsys.com/webservices/getorderinfo/getorderinfotypes/v1"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+        <xs:element name="GetOrderInfoRequestElement">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="SessionID" type="xs:string"></xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>    
+
+        <xs:element name="GetOrderInfoResponseElement">
+            <xs:complexType>
+                <xs:sequence>
+                     <xs:element name="ProductList" type="tns:ProductListType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element> 
+
+	<xs:complexType name="ProductListType">
+		<xs:sequence>
+ 			<xs:element name="ProductID" type="xs:string"></xs:element> - segment1
+ 			<xs:element name="Description" type="xs:string"></xs:element>- description
+                        <xs:element name="LicenseKey" type="xs:string" nillable="true"></xs:element>
+                </xs:sequence>
+	</xs:complexType>
+
+
+ <xs:element name="FaultTypeElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="description" type="xs:string"/>
+                <xs:element name="code" type="xs:long"/>
+                <xs:element name="cause" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+       
+</xs:schema>
+
+    

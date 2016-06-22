@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/resources/axis2resources/getmembernetworkinfo/META-INF
+END
+services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/resources/axis2resources/getmembernetworkinfo/META-INF/services.xml
+END
+GetMemberNetworkInfoService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/resources/axis2resources/getmembernetworkinfo/META-INF/GetMemberNetworkInfoService.wsdl
+END
+xsd0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/507/web_services/trunk/src/main/resources/axis2resources/getmembernetworkinfo/META-INF/xsd0.xsd
+END

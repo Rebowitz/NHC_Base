@@ -1,0 +1,67 @@
+8
+
+dir
+718
+http://nhc-cm/svn/backbone/web_services/trunk/src/main/java/com/nhcsys/webservices/getmanifest/getmanifesttypes/v1
+http://nhc-cm/svn/backbone
+
+
+
+2007-11-06T16:50:57.584269Z
+566
+mouad.zouitni
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+79667155-c31b-2b4d-a52a-7940208c3f8b
+
+GetManifestInputElementDocument.java
+file
+
+
+
+
+2007-11-14T17:49:22.361250Z
+1d9b8d43cb39841c1c3c2733430e5b52
+2007-11-06T16:50:57.584269Z
+566
+mouad.zouitni
+
+impl
+dir
+
+FaultTypeElementDocument.java
+file
+
+
+
+
+2007-11-14T17:49:22.376875Z
+0e04213eeb3d2bdfd80c3de22c1865da
+2007-11-06T16:50:57.584269Z
+566
+mouad.zouitni
+
+GetManifestResponseElementDocument.java
+file
+
+
+
+
+2007-11-14T17:49:22.376875Z
+c72f8f837672835494aff351b3061ada
+2007-11-06T16:50:57.584269Z
+566
+mouad.zouitni
+

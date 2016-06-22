@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles
+END
+GetFilesHandlerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/GetFilesHandlerService.java
+END
+ResponseXMLHandlerGetFilesService.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/ResponseXMLHandlerGetFilesService.java
+END
+GetFilesServiceSkeleton.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/GetFilesServiceSkeleton.java
+END
+GetFilesServiceSkeletonInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/GetFilesServiceSkeletonInterface.java
+END
+GetFilesFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/GetFilesFailure.java
+END
+GetFilesServiceMessageReceiverInOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/backbone/!svn/ver/586/web_services/trunk/src/main/java/com/nhcsys/webservices/getfiles/GetFilesServiceMessageReceiverInOut.java
+END

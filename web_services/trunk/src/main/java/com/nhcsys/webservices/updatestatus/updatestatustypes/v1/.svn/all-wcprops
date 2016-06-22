@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/647/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus/updatestatustypes/v1
+END
+UpdateStatusElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/backbone/!svn/ver/647/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus/updatestatustypes/v1/UpdateStatusElementDocument.java
+END
+TaskExecutationStatusType.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/backbone/!svn/ver/647/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus/updatestatustypes/v1/TaskExecutationStatusType.java
+END
+FaultTypeElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/backbone/!svn/ver/647/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus/updatestatustypes/v1/FaultTypeElementDocument.java
+END
+ProcessCompletedStatusElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/backbone/!svn/ver/647/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus/updatestatustypes/v1/ProcessCompletedStatusElementDocument.java
+END
+UpdateStatusType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/647/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus/updatestatustypes/v1/UpdateStatusType.java
+END

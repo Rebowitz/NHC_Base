@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.3  Built on : Aug 10, 2007 (04:45:47 LKT) -->
+<serviceGroup>
+    <service name="LoginService">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="com.nhcsys.webservices.login.LoginServiceMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">com.nhcsys.webservices.login.LoginServiceSkeleton</parameter>
+        <operation name="GetToken" mep="http://www.w3.org/ns/wsdl/in-out">
+            <actionMapping>\"\"</actionMapping>
+            <outputActionMapping>http://nhcsys.com/webservices/login/v1/LoginPortType/GetTokenResponse</outputActionMapping>
+            <faultActionMapping faultName="LoginFailure">urn:GetTokenLoginFailure</faultActionMapping>
+            <faultActionMapping faultName="LoginFailureFault">http://nhcsys.com/webservices/login/v1/LoginPortType/GetToken/Fault/LoginFailureFault</faultActionMapping>
+        </operation>
+        <operation name="LoginAuthenticate" mep="http://www.w3.org/ns/wsdl/in-out">
+            <actionMapping>\"\"</actionMapping>
+            <outputActionMapping>http://nhcsys.com/webservices/login/v1/LoginPortType/LoginAuthenticateResponse</outputActionMapping>
+            <faultActionMapping faultName="LoginFailure">urn:LoginAuthenticateLoginFailure</faultActionMapping>
+            <faultActionMapping faultName="LoginFailureFault">http://nhcsys.com/webservices/login/v1/LoginPortType/LoginAuthenticate/Fault/LoginFailureFault</faultActionMapping>
+        </operation>
+    </service>
+</serviceGroup>

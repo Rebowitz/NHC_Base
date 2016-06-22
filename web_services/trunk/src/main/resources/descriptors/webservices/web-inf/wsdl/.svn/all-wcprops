@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/backbone/!svn/ver/702/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl
+END
+StoreInstalledSoftware.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/backbone/!svn/ver/508/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/StoreInstalledSoftware.wsdl
+END
+GetMessages.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/563/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/GetMessages.wsdl
+END
+GetMemberNetworkInfoTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/508/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/GetMemberNetworkInfoTypes.xsd
+END
+Login.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/Login.wsdl
+END
+GetFilesTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/588/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/GetFilesTypes.xsd
+END
+GetManifestTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/567/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/GetManifestTypes.xsd
+END
+GetMessagesTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/560/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/GetMessagesTypes.xsd
+END
+StoreInstalledSoftwareTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/backbone/!svn/ver/606/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/StoreInstalledSoftwareTypes.xsd
+END
+UpdateNetworkEnvironment.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/693/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/UpdateNetworkEnvironment.wsdl
+END
+LoginTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/558/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/LoginTypes.xsd
+END
+FaultTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/backbone/!svn/ver/367/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/FaultTypes.xsd
+END
+UpdateStatus.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/652/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/UpdateStatus.wsdl
+END
+GetOrderInfo.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/backbone/!svn/ver/702/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/GetOrderInfo.wsdl
+END
+NetworkEnvironmentTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/backbone/!svn/ver/367/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/NetworkEnvironmentTypes.xsd
+END
+UpdateNetworkEnvironmentTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/693/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/UpdateNetworkEnvironmentTypes.xsd
+END
+GetMemberNetworkInfo.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/508/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/GetMemberNetworkInfo.wsdl
+END
+UpdateStatusTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/652/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/UpdateStatusTypes.xsd
+END
+GetOrderInfoTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/702/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/GetOrderInfoTypes.xsd
+END
+GetFiles.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/backbone/!svn/ver/588/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/GetFiles.wsdl
+END
+FaultMessages.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/408/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/FaultMessages.wsdl
+END
+GetManifest.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/567/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/wsdl/GetManifest.wsdl
+END

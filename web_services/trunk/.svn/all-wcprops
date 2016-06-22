@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/backbone/!svn/ver/714/web_services/trunk
+END
+build.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/backbone/!svn/ver/38/web_services/trunk/build.cmd
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/backbone/!svn/ver/625/web_services/trunk/build.properties
+END
+WebServices-Release-Instruction.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/backbone/!svn/ver/612/web_services/trunk/WebServices-Release-Instruction.txt
+END
+filesets.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/backbone/!svn/ver/10/web_services/trunk/filesets.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/backbone/!svn/ver/714/web_services/trunk/build.xml
+END
+cmpostbuild.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/backbone/!svn/ver/159/web_services/trunk/cmpostbuild.sh
+END

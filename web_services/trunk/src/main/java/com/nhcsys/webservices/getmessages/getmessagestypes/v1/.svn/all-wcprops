@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/backbone/!svn/ver/683/web_services/trunk/src/main/java/com/nhcsys/webservices/getmessages/getmessagestypes/v1
+END
+MessageListType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/642/web_services/trunk/src/main/java/com/nhcsys/webservices/getmessages/getmessagestypes/v1/MessageListType.java
+END
+DestinationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/642/web_services/trunk/src/main/java/com/nhcsys/webservices/getmessages/getmessagestypes/v1/DestinationType.java
+END
+PriorityType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/backbone/!svn/ver/642/web_services/trunk/src/main/java/com/nhcsys/webservices/getmessages/getmessagestypes/v1/PriorityType.java
+END
+SupportMessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/642/web_services/trunk/src/main/java/com/nhcsys/webservices/getmessages/getmessagestypes/v1/SupportMessageType.java
+END
+FaultTypeElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/642/web_services/trunk/src/main/java/com/nhcsys/webservices/getmessages/getmessagestypes/v1/FaultTypeElementDocument.java
+END
+MessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/backbone/!svn/ver/642/web_services/trunk/src/main/java/com/nhcsys/webservices/getmessages/getmessagestypes/v1/MessageType.java
+END
+SupportMessagesRequestElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/backbone/!svn/ver/642/web_services/trunk/src/main/java/com/nhcsys/webservices/getmessages/getmessagestypes/v1/SupportMessagesRequestElementDocument.java
+END
+MessageDestinationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/642/web_services/trunk/src/main/java/com/nhcsys/webservices/getmessages/getmessagestypes/v1/MessageDestinationType.java
+END
+SupportMessagesResponseElementDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/backbone/!svn/ver/642/web_services/trunk/src/main/java/com/nhcsys/webservices/getmessages/getmessagestypes/v1/SupportMessagesResponseElementDocument.java
+END

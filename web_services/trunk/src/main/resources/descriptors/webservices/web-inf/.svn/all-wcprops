@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/backbone/!svn/ver/702/web_services/trunk/src/main/resources/descriptors/webservices/web-inf
+END
+NHCLoginService-java-wsdl-mapping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/backbone/!svn/ver/40/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/NHCLoginService-java-wsdl-mapping.xml
+END
+webservices.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/backbone/!svn/ver/21/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/webservices.xml
+END
+oracle-webservices.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/backbone/!svn/ver/40/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/oracle-webservices.xml
+END
+jboss-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/backbone/!svn/ver/10/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/jboss-web.xml
+END
+deploy.wsdd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/backbone/!svn/ver/120/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/deploy.wsdd
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/backbone/!svn/ver/21/web_services/trunk/src/main/resources/descriptors/webservices/web-inf/web.xml
+END

@@ -1,0 +1,26 @@
+<project default="build">
+  <target name="build">
+    <delete dir="classes" />
+    <mkdir dir="classes" />
+    <javac destdir="classes">
+      <src path="src" />
+      <classpath>
+        <pathelement location="C:\FireStormDAO-3.2\jars\hibernate3.jar" />
+        <pathelement location="C:\Server\jboss-4.0.5.GA-1\client\jboss-j2ee.jar" />
+        <pathelement location="C:\FireStormDAO-3.2\jars\log4j-1.2.8.jar" />
+        <pathelement location="webapp/WEB-INF/lib/struts.jar" />
+      </classpath>
+    </javac>
+    <jar jarfile="admin.jar" baseDir="classes">
+      <metainf dir="conf" />
+    </jar>
+    <war destfile="admin.war" baseDir="webapp" webxml="webapp/WEB-INF/web.xml">
+      <webinf file="webapp/conf/jboss-web.xml" />
+      <lib file="admin.jar" />
+      <lib file="C:\FireStormDAO-3.2\jars\log4j-1.2.8.jar" />
+    </war>
+    <ear destfile="admin.ear" appxml="application.xml">
+      <fileset dir="." includes="admin*.jar,admin*.war" />
+    </ear>
+  </target>
+</project>

@@ -1,0 +1,57 @@
+package com.nhcsys.common;
+
+
+/**
+ * This Enum will hold the error codes and code descriptions
+ * IMPORTANT: whenever we update this file by adding new errors
+ * 			  Please don't forget to update resources\descriptors\webservices\config\webservicesfaultcodedescriptions.properties
+ * 			  You also need to communicate the changes to the PC team.
+ * @author mouad.zouitni
+ * @since Nov. 2nd 2007 
+ *
+ */    
+public enum WebServicesFaultTypesEnum {
+	
+	INVALID_SESSION_ID(1000L),
+	INVALID_STOREINSTALLEDSOFTWARE_LIST(1001L),
+	INVALID_PRODUCT_KEY(1002L),
+	INVALID_STOREINSTALLEDSOFTWARE_ELEMENT(1003L),
+	UNKNOWN_PROBLEM(1004L),
+	INVALID_INPUT_LOGIN_SERVICE(1005L),
+	ENCRYPT_ERROR_LOGIN_SERVICE(1006L),
+	DATABASE_ERROR_LOGIN_SERVICE(1007L),
+	INVALID_FILE_NAME(1008L),
+	INVALID_FILE_VERSION(1009L),
+	LOGIN_SERVICE_MACHINE_RECORDS_ERROR(1010L),
+	LOGIN_SERVICE_AUTHENTICATE_FAILED_REASON_INVALID_TOKEN(1011L),
+	LOGIN_SERVICE_AUTHENTICATE_FAILED_REASON_VIVEID_TOKEN_DOES_NOT_MATCH(1012L),
+	LOGIN_SERVICE_NO_CUSTOMER_FOR_USERID(1013L),
+	LOGIN_SERVICE_INVALID_LOGIN(1014L),
+	INVALID_UPDATE_STATUS_ELEMENT(1015L),
+	INVALID_UPDATE_STATUS_LIST(1016L),
+	UNABLE_TO_RETRIEVE_SESSION_RECORD(1017L),
+	UNABLE_TO_RETRIEVE_MACHINE_RECORD(1018L),
+	MESSAGEID_LESS_THAN_ONE(1019L),
+	INVALID_UPDATE_STATUS_PRODUCT_ID(1020L),
+	INVALID_UPDATE_STATUS_DESCRIPTION(1021L),
+	INVALID_UPDATE_STATUS_REPORT(1022L),
+	INVALID_UPDATE_STATUS_STATUS(1023L),
+
+	DATABASE_CONNECTION_CREATION_ERROR(1024L),
+	DATABASE_CONNECTION_COMMIT_ERROR(1025L),
+	UPDATE_NETWORK_INFO_SERVICE_DATABASE_ERROR(1026L),
+	
+	DATABASE_SQL_EXECUTION_ERROR(1027L);
+	
+	private Long code;
+	
+	private WebServicesFaultTypesEnum(Long code) {
+		this.code = code;
+	}
+	
+	public Long getCode() { return code; }
+	
+	public String getDescription (String... arrayList) {
+		return WebServicesFaultResourceBundle.getMessage(code, arrayList);
+	}
+}

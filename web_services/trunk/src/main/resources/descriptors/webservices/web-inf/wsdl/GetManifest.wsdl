@@ -1,0 +1,56 @@
+<definitions   targetNamespace="http://nhcsys.com/webservices/getmanifest/v1" 
+               xmlns:tns="http://nhcsys.com/webservices/getmanifest/v1" 
+               xmlns:nhcgmft="http://nhcsys.com/webservices/getmanifest/getmanifesttypes/v1" 
+               xmlns="http://schemas.xmlsoap.org/wsdl/"  
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"  
+               xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+    
+    <types> 
+        <xs:schema targetNamespace="http://nhcsys.com/webservices/getmanifest/getmanifesttypes/v1">
+            <xs:include schemaLocation="GetManifestTypes.xsd"/>
+        </xs:schema>
+    </types>  
+    
+    <message name="GetManifestRequest">
+        <part name="manifestservicerequest" element="nhcgmft:GetManifestInputElement"/>
+    </message>   
+    
+    <message name="GetManifestResponse">
+        <part name="manifestserviceresponse" element="nhcgmft:GetManifestResponseElement"/>
+    </message>
+    <message name="GetManifestFailure"> 
+        <documentation>The service implementation has determined that no other
+                       declared fault is appropriate for a failure condition.</documentation>
+        <part name="FaultPart" element="nhcgmft:FaultTypeElement"/>
+    </message>
+
+    <portType name="GetManifestPort">
+        <operation name="GetManifest">                                                          
+            <input message="tns:GetManifestRequest"/>
+            <output message="tns:GetManifestResponse"/>                
+            <fault name="GetManifestFault" message="tns:GetManifestFailure"/>                
+        </operation>
+    </portType>
+    
+    <binding name="GetManifestSoapHttp" type="tns:GetManifestPort">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="GetManifest">
+            <soap:operation soapAction=""/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+            <fault name="GetManifestFault">
+                <soap:fault name="GetManifestFault" use="literal"/>
+            </fault>
+        </operation>
+    </binding>
+    <service name="GetManifestService">
+        <port name="GetManifestPort" binding="tns:GetManifestSoapHttp">
+            <soap:address location="http://localhost:8080/GetManifestService"/>
+        </port>
+    </service>
+</definitions>
+    

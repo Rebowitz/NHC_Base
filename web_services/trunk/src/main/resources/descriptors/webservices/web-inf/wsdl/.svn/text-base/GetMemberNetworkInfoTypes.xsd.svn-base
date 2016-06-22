@@ -1,0 +1,44 @@
+<xs:schema targetNamespace="http://nhcsys.com/webservices/getmembernetworkinfo/getmembernetworkinfotypes/v1"
+        xmlns:tns="http://nhcsys.com/webservices/getmembernetworkinfo/getmembernetworkinfotypes/v1"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+         <xs:element name="GetMemberNetworkInputElement">
+	<xs:complexType>
+		<xs:sequence>
+                        <xs:element name="SessionID" type="xs:string"></xs:element>                 
+                </xs:sequence>
+	</xs:complexType>
+        </xs:element>
+
+         <xs:element name="GetMemberNetworkInfoElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="WirelessNetworkInfo" type="tns:WirelessNetworkInfoType"/>
+                <xs:element name="SSID" type="xs:string"/>
+                <xs:element name="Passphrase" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>        
+        </xs:element>
+        
+        <xs:simpleType name="WirelessNetworkInfoType">
+         <xs:restriction base="xs:string">   
+            <xs:enumeration value="HasSSID"/>
+            <xs:enumeration value="HasSSID+PassPhrase"/>
+            <xs:enumeration value="NoInfo"/>
+         </xs:restriction>   
+        </xs:simpleType>
+        
+     <xs:element name="GetMemberNetworkInfoFaultElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="description" type="xs:string"/>
+                <xs:element name="code" type="xs:string"/>
+                <xs:element name="cause" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
+
+    

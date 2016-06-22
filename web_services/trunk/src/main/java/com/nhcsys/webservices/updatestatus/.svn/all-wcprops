@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/backbone/!svn/ver/687/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus
+END
+UpdateStatusServiceMessageReceiverInOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/647/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus/UpdateStatusServiceMessageReceiverInOut.java
+END
+ResponseXMLHandlerUpdateStatusService.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/663/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus/ResponseXMLHandlerUpdateStatusService.java
+END
+UpdateStatusHandlerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/686/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus/UpdateStatusHandlerService.java
+END
+UpdateStatusServiceSkeleton.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/backbone/!svn/ver/663/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus/UpdateStatusServiceSkeleton.java
+END
+UpdateStatusServiceSkeletonInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/647/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus/UpdateStatusServiceSkeletonInterface.java
+END
+UpdateStatusFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/backbone/!svn/ver/647/web_services/trunk/src/main/java/com/nhcsys/webservices/updatestatus/UpdateStatusFailure.java
+END

@@ -1,0 +1,869 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions
+END
+ServerRuntimeConfigUpdateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ServerRuntimeConfigUpdateAction.java
+END
+ClqinfoFindByPrimaryKeyAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ClqinfoFindByPrimaryKeyAction.java
+END
+WsSessionsFindAllAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WsSessionsFindAllAction.java
+END
+WnqinfoFindWhereWnqtypeEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindWhereWnqtypeEqualsAction.java
+END
+WsSessionsUpdateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WsSessionsUpdateAction.java
+END
+WmiqinfoFindWhereWmiqinfoIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WmiqinfoFindWhereWmiqinfoIdEqualsAction.java
+END
+WsSessionsFindWhereAppNameEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WsSessionsFindWhereAppNameEqualsAction.java
+END
+MessagesFindWhereContentsEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWhereContentsEqualsAction.java
+END
+MessagesFindWhereModTimeEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWhereModTimeEqualsAction.java
+END
+NetworkinfoFindAllAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoFindAllAction.java
+END
+NetworkinfoFindWhereTimestampEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoFindWhereTimestampEqualsAction.java
+END
+InstalledSoftwareFindWhereCustomerIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareFindWhereCustomerIdEqualsAction.java
+END
+MachinesFindWhereMachineIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesFindWhereMachineIdEqualsAction.java
+END
+WnqinfoFindWhereWnqcommentEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindWhereWnqcommentEqualsAction.java
+END
+MachinesFindWhereTerminateFlagEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesFindWhereTerminateFlagEqualsAction.java
+END
+MachinesFindWhereCpuSerialNoEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesFindWhereCpuSerialNoEqualsAction.java
+END
+WnqinfoFindWhereProviderEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindWhereProviderEqualsAction.java
+END
+NetworkinfoFindWherePassphraseEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoFindWherePassphraseEqualsAction.java
+END
+MessagesFindWhereClickDestinationUrlEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWhereClickDestinationUrlEqualsAction.java
+END
+ServerRuntimeConfigFindWhereConfigIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ServerRuntimeConfigFindWhereConfigIdEqualsAction.java
+END
+MessagesFindWhereStartTimeEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWhereStartTimeEqualsAction.java
+END
+UpdateStatusFindWhereProductIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusFindWhereProductIdEqualsAction.java
+END
+NetworkinfoFindWhereMachineIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoFindWhereMachineIdEqualsAction.java
+END
+WmiqinfoInsertAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WmiqinfoInsertAction.java
+END
+ServerRuntimeConfigSaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ServerRuntimeConfigSaveAction.java
+END
+MessagesFindWhereTypeEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWhereTypeEqualsAction.java
+END
+MessagesFindWhereTitleEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWhereTitleEqualsAction.java
+END
+ClqinfoInsertAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ClqinfoInsertAction.java
+END
+InstalledSoftwareFindAllAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareFindAllAction.java
+END
+SnmpqinfoFindWhereNetworkinfoIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/SnmpqinfoFindWhereNetworkinfoIdEqualsAction.java
+END
+MessagesSaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesSaveAction.java
+END
+UpdateStatusFindWhereReportEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusFindWhereReportEqualsAction.java
+END
+SnmpqinfoSaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/SnmpqinfoSaveAction.java
+END
+NetworkinfoInsertAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoInsertAction.java
+END
+SnmpqinfoInsertAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/SnmpqinfoInsertAction.java
+END
+WsSessionsSaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WsSessionsSaveAction.java
+END
+WmiqinfoFindWhereNameEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WmiqinfoFindWhereNameEqualsAction.java
+END
+InstalledSoftwareFindByPrimaryKeyAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareFindByPrimaryKeyAction.java
+END
+WnqinfoFindWhereWnqusageEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindWhereWnqusageEqualsAction.java
+END
+UpdateStatusSaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusSaveAction.java
+END
+WnqinfoInsertAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoInsertAction.java
+END
+UpdateStatusInsertAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusInsertAction.java
+END
+WsSessionsFindWhereTimeStampEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WsSessionsFindWhereTimeStampEqualsAction.java
+END
+WmiqinfoDeleteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WmiqinfoDeleteAction.java
+END
+ClqinfoDeleteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ClqinfoDeleteAction.java
+END
+UpdateStatusFindAllAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusFindAllAction.java
+END
+MessagesFindByPrimaryKeyAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindByPrimaryKeyAction.java
+END
+MessagesFindWherePriorityEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWherePriorityEqualsAction.java
+END
+MessagesFindWhereEndTimeEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWhereEndTimeEqualsAction.java
+END
+NetworkinfoDeleteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoDeleteAction.java
+END
+MachinesFindWhereKeyTimestampEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesFindWhereKeyTimestampEqualsAction.java
+END
+ClqinfoFindWhereClqinfoIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ClqinfoFindWhereClqinfoIdEqualsAction.java
+END
+SnmpqinfoDeleteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/SnmpqinfoDeleteAction.java
+END
+UpdateStatusFindWhereStatusEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusFindWhereStatusEqualsAction.java
+END
+UpdateStatusFindWhereDescriptionEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusFindWhereDescriptionEqualsAction.java
+END
+SnmpqinfoFindWhereTreeEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/SnmpqinfoFindWhereTreeEqualsAction.java
+END
+MachinesFindWhereKeyDataEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesFindWhereKeyDataEqualsAction.java
+END
+WmiqinfoFindWhereNetworkinfoIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WmiqinfoFindWhereNetworkinfoIdEqualsAction.java
+END
+WnqinfoDeleteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoDeleteAction.java
+END
+MachinesSaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesSaveAction.java
+END
+WmiqinfoSaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WmiqinfoSaveAction.java
+END
+NetworkinfoFindWhereWirelessinfotypeEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoFindWhereWirelessinfotypeEqualsAction.java
+END
+UpdateStatusDeleteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusDeleteAction.java
+END
+NetworkinfoFindWhereNetworkinfoIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoFindWhereNetworkinfoIdEqualsAction.java
+END
+WnqinfoFindWhereDisplaytypeEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindWhereDisplaytypeEqualsAction.java
+END
+NetworkinfoSaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoSaveAction.java
+END
+WnqinfoFindWhereIpaddressEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindWhereIpaddressEqualsAction.java
+END
+WsSessionsFindWhereMachineIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WsSessionsFindWhereMachineIdEqualsAction.java
+END
+InstalledSoftwareFindWhereSoftwareIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareFindWhereSoftwareIdEqualsAction.java
+END
+ServerRuntimeConfigFindWhereConfigValueEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ServerRuntimeConfigFindWhereConfigValueEqualsAction.java
+END
+WnqinfoFindWhereNetworkinfoIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindWhereNetworkinfoIdEqualsAction.java
+END
+MessagesInsertAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesInsertAction.java
+END
+WmiqinfoUpdateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WmiqinfoUpdateAction.java
+END
+ClqinfoUpdateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ClqinfoUpdateAction.java
+END
+UpdateStatusFindWhereMachineIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusFindWhereMachineIdEqualsAction.java
+END
+WnqinfoSaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoSaveAction.java
+END
+MachinesFindByPrimaryKeyAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesFindByPrimaryKeyAction.java
+END
+WmiqinfoFindByPrimaryKeyAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WmiqinfoFindByPrimaryKeyAction.java
+END
+ClqinfoFindWhereNameEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ClqinfoFindWhereNameEqualsAction.java
+END
+WnqinfoFindWhereLocalnameEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindWhereLocalnameEqualsAction.java
+END
+WnqinfoFindWhereWnqinfoIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindWhereWnqinfoIdEqualsAction.java
+END
+WsSessionsFindWhereSessionIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WsSessionsFindWhereSessionIdEqualsAction.java
+END
+MessagesFindWherePopupDurationEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWherePopupDurationEqualsAction.java
+END
+NetworkinfoUpdateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoUpdateAction.java
+END
+WnqinfoFindWhereWnqscopeEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindWhereWnqscopeEqualsAction.java
+END
+MachinesFindWhereStolenFlagEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesFindWhereStolenFlagEqualsAction.java
+END
+SnmpqinfoUpdateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/SnmpqinfoUpdateAction.java
+END
+NetworkinfoFindByPrimaryKeyAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoFindByPrimaryKeyAction.java
+END
+UpdateStatusFindWhereSessionIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusFindWhereSessionIdEqualsAction.java
+END
+MessagesFindWhereDestinationEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWhereDestinationEqualsAction.java
+END
+WmiqinfoFindAllAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WmiqinfoFindAllAction.java
+END
+WnqinfoUpdateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoUpdateAction.java
+END
+MessagesFindWhereViveIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWhereViveIdEqualsAction.java
+END
+UpdateStatusUpdateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusUpdateAction.java
+END
+MessagesDeleteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesDeleteAction.java
+END
+WnqinfoFindByPrimaryKeyAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindByPrimaryKeyAction.java
+END
+MessagesFindWhereGroupNameEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWhereGroupNameEqualsAction.java
+END
+MessagesFindAllAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindAllAction.java
+END
+MachinesFindWhereRegisteredFlagEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesFindWhereRegisteredFlagEqualsAction.java
+END
+InstalledSoftwareFindWhereProductVersionEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareFindWhereProductVersionEqualsAction.java
+END
+InstalledSoftwareSaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareSaveAction.java
+END
+WnqinfoFindAllAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindAllAction.java
+END
+MachinesInsertAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesInsertAction.java
+END
+InstalledSoftwareInsertAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareInsertAction.java
+END
+ServerRuntimeConfigInsertAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ServerRuntimeConfigInsertAction.java
+END
+SnmpqinfoFindWhereSnmpqinfoIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/SnmpqinfoFindWhereSnmpqinfoIdEqualsAction.java
+END
+MessagesFindWhereMessageIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWhereMessageIdEqualsAction.java
+END
+ClqinfoFindWhereResultEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ClqinfoFindWhereResultEqualsAction.java
+END
+SnmpqinfoFindAllAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/SnmpqinfoFindAllAction.java
+END
+WsSessionsInsertAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WsSessionsInsertAction.java
+END
+MachinesFindWhereViveIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesFindWhereViveIdEqualsAction.java
+END
+WnqinfoFindWhereRemotenameEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WnqinfoFindWhereRemotenameEqualsAction.java
+END
+ServerRuntimeConfigFindWhereConfigKeyEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ServerRuntimeConfigFindWhereConfigKeyEqualsAction.java
+END
+ServerRuntimeConfigFindByPrimaryKeyAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ServerRuntimeConfigFindByPrimaryKeyAction.java
+END
+MessagesUpdateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesUpdateAction.java
+END
+MachinesDeleteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesDeleteAction.java
+END
+NetworkinfoFindWhereCustomerIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoFindWhereCustomerIdEqualsAction.java
+END
+InstalledSoftwareFindWhereProductKeyEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareFindWhereProductKeyEqualsAction.java
+END
+InstalledSoftwareDeleteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareDeleteAction.java
+END
+MachinesFindAllAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesFindAllAction.java
+END
+ServerRuntimeConfigDeleteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ServerRuntimeConfigDeleteAction.java
+END
+SnmpqinfoFindByPrimaryKeyAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/SnmpqinfoFindByPrimaryKeyAction.java
+END
+ClqinfoFindAllAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ClqinfoFindAllAction.java
+END
+WsSessionsFindByPrimaryKeyAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WsSessionsFindByPrimaryKeyAction.java
+END
+InstalledSoftwareFindWhereCompanyNameEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareFindWhereCompanyNameEqualsAction.java
+END
+ClqinfoFindWhereCmdlineEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ClqinfoFindWhereCmdlineEqualsAction.java
+END
+UpdateStatusFindByPrimaryKeyAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusFindByPrimaryKeyAction.java
+END
+InstalledSoftwareFindWhereProductNameEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareFindWhereProductNameEqualsAction.java
+END
+InstalledSoftwareFindWhereMachineIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareFindWhereMachineIdEqualsAction.java
+END
+WsSessionsDeleteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WsSessionsDeleteAction.java
+END
+ClqinfoFindWhereNetworkinfoIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ClqinfoFindWhereNetworkinfoIdEqualsAction.java
+END
+ClqinfoSaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ClqinfoSaveAction.java
+END
+UpdateStatusFindWhereUpdateStatusIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/UpdateStatusFindWhereUpdateStatusIdEqualsAction.java
+END
+SnmpqinfoFindWhereNameEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/SnmpqinfoFindWhereNameEqualsAction.java
+END
+InstalledSoftwareFindWhereSessionIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareFindWhereSessionIdEqualsAction.java
+END
+WsSessionsFindWhereWsSessionIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WsSessionsFindWhereWsSessionIdEqualsAction.java
+END
+WmiqinfoFindWhereQueryEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WmiqinfoFindWhereQueryEqualsAction.java
+END
+ServerRuntimeConfigFindAllAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/ServerRuntimeConfigFindAllAction.java
+END
+MachinesUpdateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesUpdateAction.java
+END
+MessagesFindWhereSummaryEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MessagesFindWhereSummaryEqualsAction.java
+END
+MachinesFindWhereCustomerIdEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/MachinesFindWhereCustomerIdEqualsAction.java
+END
+InstalledSoftwareUpdateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/InstalledSoftwareUpdateAction.java
+END
+WmiqinfoFindWhereResultEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/WmiqinfoFindWhereResultEqualsAction.java
+END
+NetworkinfoFindWhereSsidEqualsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/backbone/!svn/ver/696/web_services/trunk/src/main/dao/src/com/nhcsys/dataaccess/struts/actions/NetworkinfoFindWhereSsidEqualsAction.java
+END
